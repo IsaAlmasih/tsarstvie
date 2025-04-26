@@ -1,14 +1,52 @@
-.wrapper {
-    background-color: black;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    width: 100%;
-    z-index: -10;
+.app {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  flex-direction: column;
 }
 
-.text {
-    color: #fefffe;
-    font-size: 50px;
+
+.Applogo {
+    background-color: aquamarine;
+    width: 350px;
+    height: 250px;
+    z-index: 10;
 }
+
+
+.title {
+  display: flex;
+  justify-content: center;
+  vertical-align: center;
+  font-size: 48px;
+}
+
+
+.subtitle {
+    color: #000000;
+  display: flex;
+  justify-content: center;
+  vertical-align: center;
+  font-size: 48px;
+}
+
+
+.link {
+  display: flex;
+}
+
+
+.button {
+  display: inline-block;
+  padding: 10px;
+  border-radius: 50px;
+  background-color: #fff;
+  color: #333;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.button:hover {
+  transform: translateY(-2px);
+}
+
