@@ -31,13 +31,13 @@
   animation: clouds-loop-3 68s infinite linear;
 }
 
-html,
+/* html,
 body {
   font-family: "Oswald", sans-serif;
   height: 100%;
   padding: 0;
   margin: 0;
-}
+} */
 
 body {
   background: linear-gradient(#333, #000);
