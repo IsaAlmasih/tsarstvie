@@ -8,8 +8,6 @@
 
 
 .Applogo {
-    background-color: aquamarine;
-    width: 350px;
     height: 250px;
     z-index: 10;
 }
@@ -24,11 +22,8 @@
 
 
 .subtitle {
-    color: #000000;
-  display: flex;
-  justify-content: center;
-  vertical-align: center;
-  font-size: 48px;
+  color: #000000;
+  font-size: 58px;
 }
 
 

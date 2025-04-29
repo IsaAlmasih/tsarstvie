@@ -13,13 +13,13 @@ const page = () => {
       <Clouds></Clouds>
       {/* Clouds from "./Clouds/Clouds"; */}
       {/* Название класса.className */}
-      {/* <img src={logo} className={styles.Applogo} alt="logo" /> */}
+      <img src={logo.src} className={styles.Applogo} alt="logo" />
       {/* <div className={styles.title}>כס דוד</div> */}
-      <div className={styles.subtitle}>Царствие.</div>
       {/* Кнопка и её стили.  */}
       <Link href="/" className={styles.link}>
         {/* <button className={styles.button}>كتب الأقدار</button> */}
       </Link>
+      <Link href="/tsarstvie" className={styles.subtitle}>Царствие.</Link>
     </div>
   );
 };

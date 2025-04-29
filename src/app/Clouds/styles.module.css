@@ -16,6 +16,15 @@
   }
 }
 
+.clouds {
+  background: linear-gradient(#333, #000);
+  background: #ffffff;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 .clouds1 {
   background-image: url(https://s.cdpn.io/15514/clouds_2.png);
   animation: clouds-loop-1 60s infinite linear;
@@ -31,22 +40,6 @@
   animation: clouds-loop-3 68s infinite linear;
 }
 
-/* html,
-body {
-  font-family: "Oswald", sans-serif;
-  height: 100%;
-  padding: 0;
-  margin: 0;
-} */
-
-body {
-  background: linear-gradient(#333, #000);
-  background: #ffffff;
-  text-align: center;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
 
 .clouds {
   opacity: 0.4;
