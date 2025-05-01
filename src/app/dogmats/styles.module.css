@@ -1,5 +1,5 @@
 .wrapper {
-    background-color: rgb(2, 2, 57);
+    background-color: rgb(6, 6, 54);
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -17,8 +17,8 @@
     justify-content: center;
     text-align: center;
     margin-top: -260px;
-    font-size: 50px;
-    gap: 270px;
+    font-size: 40px;
+    gap: 70px;
     color: #ffffff;
 }
 
@@ -43,18 +43,3 @@
     font-size: 26px;
     } 
 }
-
-
-/* @media (max-width: 992px) {
-    .blok {
-    font-size: 28px;
-    } 
-}
-
-
-@media (max-width: 1200px) {
-    .blok {
-    font-size: 35px;
-    } 
-}
- */

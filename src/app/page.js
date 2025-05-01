@@ -16,7 +16,7 @@ const page = () => {
       <img src={logo.src} className={styles.Applogo} alt="logo" />
       {/* <div className={styles.title}>כס דוד</div> */}
       {/* Кнопка и её стили.  */}
-      <Link href="/" className={styles.link}>
+      <Link href="/page" className={styles.link}>
         {/* <button className={styles.button}>كتب الأقدار</button> */}
       </Link>
       <Link href="/tsarstvie" className={styles.subtitle}>Царствие.</Link>
@@ -26,7 +26,7 @@ const page = () => {
 
 export default page;
 
-// import { MatrixRain } from "./../components/MatrixRain/MatrixRain";
+// .app .Applogo .link .subtitle        import { MatrixRain } from "./../components/MatrixRain/MatrixRain";
 
 // const page = () => {
 //   return (

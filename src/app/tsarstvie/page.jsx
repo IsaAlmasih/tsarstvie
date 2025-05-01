@@ -1,16 +1,20 @@
-"use client";
-import React from "react";
+import React from 'react'
 
-import styles from "./styles.module.css";
-
-import Link from "next/link";
+import styles from "./styles.module.css"
+import Link from 'next/link'
 
 const page = () => {
   return (
     <div className={styles.wrapper}>
-      <Link href="/">page</Link>
+      <div className={styles.blok}>
+        <Link href="/">Наступает Царствие на землю.</Link>
+        <Link href="/dogmats">
+          Настоятельно прошу ознакомиться с фундаментальными догматами
+          Христианской церкви!
+        </Link>
+      </div>
     </div>
   );
-};
+}
 
-export default page;
+export default page
