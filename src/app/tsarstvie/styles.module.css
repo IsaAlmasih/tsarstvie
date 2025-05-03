@@ -6,6 +6,7 @@
     justify-content: center;
     width: 100%;
     height: 100vh;
+        font-size: 30px;
 }
 
 
@@ -17,44 +18,57 @@
     justify-content: center;
     text-align: center;
     margin-top: -260px;
-    font-size: 50px;
+    font-size: 30px;
     gap: 270px;
     color: #ffffff;
 }
 
 
-
-@media (max-width: 380px) {
+@media (min-width: 380px) {
     .blok {
     font-size: 20px;
     } 
 }
 
-
-@media (max-width: 480px) {
+@media (min-width: 480px) {
     .blok {
     font-size: 24px;
     } 
 }
 
-
-@media (max-width: 768px) {
+@media (min-width: 768px) {
     .blok {
-    font-size: 26px;
+    font-size: 36px;
     } 
 }
 
-
-/* @media (max-width: 992px) {
+@media (min-width: 962px) {
     .blok {
-    font-size: 28px;
+    font-size: 44px;
     } 
 }
 
-
-@media (max-width: 1200px) {
+@media (min-width: 1024px) {
     .blok {
-    font-size: 35px;
+    font-size: 56px;
     } 
 }
- */
+
+@media (min-width: 1280px) {
+    .blok {
+    font-size: 66px;
+    } 
+}
+
+@media (min-width: 1536px) {
+    .blok {
+    font-size: 76px;
+    } 
+}
+
+@media (min-width: 1920px) {
+    .blok {
+    font-size: 108px;
+    } 
+}
+

@@ -19,9 +19,87 @@
 }
 
 
-.link {
-  display: flex;
+
+@media (min-width: 380px) {
+    .Applogo {
+    height: 150px;
+    }
+
+    .subtitle {
+    font-size: 25px;
+    }
 }
 
 
-/* .app .Applogo .link .subtitle  */
+@media (min-width: 480px) {
+    .Applogo {
+    height: 200px;
+    }
+
+    .subtitle {
+    font-size: 35px;
+    }
+}
+
+
+@media (min-width: 768px) {
+    .Applogo {
+    height: 250px;
+    }
+
+    .subtitle {
+    font-size: 55px;
+    }
+}
+
+
+@media (min-width: 962px) {
+    .Applogo {
+    height: 250px;
+    }
+
+    .subtitle {
+    font-size: 65px;
+    }
+}
+
+
+@media (min-width: 1024px) {
+    .Applogo {
+    height: 250px;
+    }
+
+    .subtitle {
+    font-size: 65px;
+    }
+}
+
+@media (min-width: 1280px) {
+    .Applogo {
+    height: 300px;
+    }
+
+    .subtitle {
+    font-size: 75px;
+    }
+}
+
+@media (min-width: 1536px) {
+    .Applogo {
+    height: 300px;
+    }
+
+    .subtitle {
+    font-size: 75px;
+    }
+}
+
+@media (min-width: 1920px) {
+    .Applogo {
+    height: 300px;
+    }
+
+    .subtitle {
+    font-size: 75px;
+    } 
+}
