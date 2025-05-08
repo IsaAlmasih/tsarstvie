@@ -4,26 +4,14 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    width: 100%;
     height: 100vh;
     font-size: 30px;
-    gap: 270px;
+    gap: 170px;
     color: #ffffff;
+    padding-left: 80px;
+    padding-right: 80px;
 }
 
-
-/* .blok {
-    background-color: rgb(2, 2, 57);
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    margin-top: -260px;
-    font-size: 30px;
-    gap: 270px;
-    color: #ffffff;
-} */
 
 
 @media (min-width: 380px) {

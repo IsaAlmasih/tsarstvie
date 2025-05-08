@@ -7,15 +7,20 @@ const page = () => {
   return (
     <div className={styles.wrapper}>
       <div className={styles.blok}>
-        <div className={styles.footerGroup}>
-          <p className={styles.footerText}>1. Любой кто убил или послал убить, поподает в АД</p>
-          <p className={styles.footerText}>2. Разведённые без вины прелюбодеяния как и те кто связал с ними узы браком, в ад. </p>
-          <p className={styles.footerText}>3. </p>
-          <p className={styles.footerText}>4. </p>
-          <p className={styles.footerText}>5. </p>
-          <p className={styles.footerText}>6. </p>
-        </div>
+        <div className={styles.footerText}>
+          <p>
+            1. Любой кто убил или послал убить, попадает в АД
+          </p>
+          <p>
+            2. Разведённые без вины прелюбодеяния как и те кто связал с ними узы
+            браком, в ад.
+          </p>
+          <p>3. Не питайте себя иллюзиями и сопративляйтесь фону которым вас напитывают</p>
+          <p>4. </p>
+          <p>5. </p>
+          <p>6. </p>
         <Link href="/">Вернуться на главную.</Link>
+        </div>
       </div>
     </div>
   );

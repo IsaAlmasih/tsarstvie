@@ -19,6 +19,16 @@
 }
 
 
+@media (min-width: 370px) {
+    .Applogo {
+    height: 100px;
+    }
+
+    .subtitle {
+    font-size: 25px;
+    }
+}
+
 
 @media (min-width: 380px) {
     .Applogo {
