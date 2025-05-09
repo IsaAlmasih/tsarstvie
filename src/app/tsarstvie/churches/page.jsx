@@ -8,13 +8,7 @@ const page = () => {
     <div className={styles.wrapper}>
       <div className={styles.blok}>
         <div className={styles.footerText}>
-          <Link href="/tsarstvie/churches" className={styles.text}>
-            Церкви.
-          </Link>
-          <Link href="/" className={styles.text}>
-            Светильники.
-          </Link>
-          {/* <Link href="/sentence" className={styles.text}>
+          <Link href="/sentence" className={styles.text}>
             Ефесская церковь.
           </Link>
           <Link href="/sentence" className={styles.text}>
@@ -34,7 +28,7 @@ const page = () => {
           </Link>
           <Link href="/sentence" className={styles.text}>
             Лаодикийская церковь.
-          </Link> */}
+          </Link>
           <Link href="/" className={styles.textTsar}>
             Вернуться на главную.
           </Link>

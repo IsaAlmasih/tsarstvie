@@ -32,7 +32,7 @@ const Page = () => {
       <div className={styles.wrappe}>
         <a href="112.pdf">Книга Вечный Завет.</a>
         <a href="1001.pdf">Книга Ключи.</a>
-        <a href="/">Вернутся на главную.</a>
+        <a href="/tsarstvie">Вернутся на главную.</a>
       </div>
     </div>
   );
