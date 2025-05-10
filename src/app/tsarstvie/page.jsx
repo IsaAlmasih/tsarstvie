@@ -7,34 +7,14 @@ const page = () => {
   return (
     <div className={styles.wrapper}>
       <div className={styles.blok}>
-        <div className={styles.footerText}>
-          <Link href="/tsarstvie/churches" className={styles.text}>
-            Церкви.
-          </Link>
-          <Link href="/" className={styles.text}>
+        <div className={styles.text}>
+          <Link href="/tsarstvie/churches">Церкви.</Link>
+          <Link href="/">
             Светильники.
           </Link>
-          {/* <Link href="/sentence" className={styles.text}>
-            Ефесская церковь.
+          <Link href="/">
+            Закон Всевышнего Иисуса Христа.
           </Link>
-          <Link href="/sentence" className={styles.text}>
-            Смирнская церковь.
-          </Link>
-          <Link href="/sentence" className={styles.text}>
-            Пергамская церковь.
-          </Link>
-          <Link href="/sentence" className={styles.text}>
-            Фиатирская церковь.
-          </Link>
-          <Link href="/sentence" className={styles.text}>
-            Сардийская церковь.
-          </Link>
-          <Link href="/sentence" className={styles.text}>
-            Филадельфийская церковь.
-          </Link>
-          <Link href="/sentence" className={styles.text}>
-            Лаодикийская церковь.
-          </Link> */}
           <Link href="/" className={styles.textTsar}>
             Вернуться на главную.
           </Link>

@@ -25,6 +25,7 @@
 
 .textTsar {
     color: #7e7676;
+    font-size: 35px;
 }
 
 .text {
@@ -40,7 +41,7 @@
 
 @media (min-width: 360px) {
     .text {
-    font-size: 20px;
+    font-size: 35px;
     }
 }
 

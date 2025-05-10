@@ -15,8 +15,8 @@
     flex-direction: column;
     justify-content: center;
     text-align: center;
-    width: 70%;
-    height: 70%;
+    width: 80%;
+    height: 80%;
     -webkit-box-shadow: 20px 21px 10px -11px rgba(0, 142, 251, 0.33);
     -moz-box-shadow: 20px 21px 10px -11px rgba(0, 145, 255, 0.33);
     box-shadow: 20px 21px 10px -11px rgba(0, 144, 255, 0.33);
@@ -29,42 +29,39 @@
 
 .text {
     color: #7b2f2f;
-    font-size: 40px;
-}
-
-.footerText {
     display: flex;
     flex-direction: column;
     gap: 20px;
 }
 
+
 @media (min-width: 360px) {
     .text {
-    font-size: 20px;
+    font-size: 30px;
     }
 }
 
 @media (min-width: 480px) {
-    .footerText {
-    font-size: 20px;
+    .text {
+    font-size: 30px;
     } 
 }
 
 @media (min-width: 768px) {
-    .footerText {
-    font-size: 26px;
+    .text {
+    font-size: 36px;
     } 
 }
 
 @media (min-width: 962px) {
-    .footerText {
-    font-size: 28px;
+    .text {
+    font-size: 38px;
     } 
 }
 
 @media (min-width: 1024px) {
-    .footerText {
-    font-size: 36px;
+    .text {
+    font-size: 38px;
     } 
 }
 
