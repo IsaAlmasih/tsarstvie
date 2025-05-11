@@ -10,6 +10,7 @@ const page = () => {
         <div className={styles.text}>
           <Link href="/">Закон Всевышнего Иисуса Христа.</Link>
           <Link href="/tsarstvie/churches">Церкви.</Link>
+          <Link href="https://www.supremesanhedrin.ru/">Синедрион.</Link>
           <Link href="/">Светильники.</Link>
           <Link href="/">12 колен Израиля</Link>
           <Link href="/">Вердикты.</Link>
