@@ -13,7 +13,7 @@ const page = () => {
           <Link href="https://www.supremesanhedrin.ru/">Синедрион.</Link>
           <Link href="/">Светильники.</Link>
           <Link href="/">12 колен Израиля</Link>
-          <Link href="/">Вердикты.</Link>
+          <Link href="/verdict">Вердикты.</Link>
           <Link href="/" className={styles.textTsar}>
             Вернуться на главную.
           </Link>
