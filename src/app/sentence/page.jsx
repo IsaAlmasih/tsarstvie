@@ -30,8 +30,9 @@ const Page = () => {
         />
       </div>
       <div className={styles.wrappe}>
-        <a href="112.pdf">Книга Вечный Завет.</a>
+        <a href="112.pdf">Послание.</a>
         <a href="112.pdf">Книга Ключи.</a>
+        <a href="https://000000000000.ru/keys">По ссылке книги которые помогут избавиться от иллюзий.</a>
         <a href="/tsarstvie">Вернутся на главную.</a>
       </div>
     </div>
