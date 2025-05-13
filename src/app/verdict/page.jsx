@@ -18,6 +18,7 @@ const page = () => {
           <Link href="/verdict/textVerdictEight">Вердикт 8.</Link>
           <Link href="/verdict/textVerdictNine">Вердикт 9.</Link>
           <Link href="/verdict/textVerdictTen">Вердикт 10.</Link>
+          <Link href="/tsarstvie">Вернуться назад.</Link>
         </div>
       </div>
     </div>
