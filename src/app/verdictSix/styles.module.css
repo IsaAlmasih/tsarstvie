@@ -39,13 +39,13 @@ font-size: 35px;
 
 @media (min-width: 480px) {
 .footerText {
-  font-size: 30px;
+  font-size: 20px;
 }
 }
 
 @media (min-width: 768px) {
 .footerText {
-  font-size: 36px;
+  font-size: 26px;
 }
 }
 
