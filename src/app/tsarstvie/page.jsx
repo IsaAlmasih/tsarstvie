@@ -8,7 +8,7 @@ const page = () => {
     <div className={styles.wrapper}>
       <div className={styles.blok}>
         <div className={styles.text}>
-          <Link href="/">Закон Всевышнего Иисуса Христа.</Link>
+          <Link href="/tsarstvie/law">Закон Всевышнего Иисуса Христа.</Link>
           <Link href="/tsarstvie/churches">Церкви.</Link>
           <Link href="https://www.supremesanhedrin.ru/">Синедрион.</Link>
           <Link href="/lights">Светильники.</Link>

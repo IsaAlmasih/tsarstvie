@@ -16,6 +16,7 @@ const page = () => {
             победить.
           </div>
           <Link href="/lights">Первая печать.</Link>
+          <Link href="/blagosds">Благотворительный Фонд СДС и ОУ.</Link>
           <Link href="/lights" className={styles.textTsar}>
             Вернуться на главную.
           </Link>
