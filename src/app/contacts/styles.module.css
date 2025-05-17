@@ -10,28 +10,27 @@
 
 
 .blok {
-    background-color: rgb(13, 13, 83);
+    background-color: rgb(3, 3, 64);
     display: flex;
     flex-direction: column;
     justify-content: center;
     text-align: center;
-    width: 80%;
-    height: 80%;
-    -webkit-box-shadow: 20px 21px 10px -11px rgba(0, 142, 251, 0.33);
-    -moz-box-shadow: 20px 21px 10px -11px rgba(0, 145, 255, 0.33);
-    box-shadow: 20px 21px 10px -11px rgba(0, 144, 255, 0.33);
+    width: 60%;
+    height: 60%;
+    -webkit-box-shadow: 20px 31px 40px -11px rgba(0, 142, 251, 0.59);
+    -moz-box-shadow: 20px 31px 40px -11px rgba(0, 145, 255, 0.33);
+    box-shadow: 20px 21px 40px -11px rgba(0, 144, 255, 0.33);
 }
 
 
 .textTsar {
-    color: #7e7676;
+    color: #5a5454;
 }
 
 .text {
-    color: #7b2f2f;
     display: flex;
     flex-direction: column;
-    gap: 10px;
+    gap: 20px;
 }
 
 
