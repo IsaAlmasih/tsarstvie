@@ -1,0 +1,130 @@
+.wrapper {
+  background-color: #0b0733;
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: start;
+}
+
+.footer {
+  display: flex;
+  font-size: 30px;
+  justify-content: center;
+  align-items: center;
+  height: 80px;
+  width: 100%;
+  background-color: #bc0000;
+  margin-top: 100px;
+}
+
+.navigator {
+  background-color: #0c064e;
+  border-bottom: 1px solid blue;
+  display: flex;
+  flex-direction: row !important;
+  padding: 20px;
+  gap: 20px;
+  justify-content: space-around;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.navigator a {
+  text-decoration: none;
+  color: #fff;
+  line-height: 22px;
+  font-size: 36px !important;
+}
+
+.button {
+  background-color: rgb(253, 0, 0);
+  font-size: 20px;
+  position: absolute;
+  top: 80px;
+  left: calc((100% - 1140px) / 2);
+  color: rgb(51, 51, 51);
+  background-color: transparent;
+  z-index: 10;
+}
+
+.wrappe {
+  width: 100%;
+  height: calc(100vh - 360px);
+  padding: 0 !important;
+  margin: 0 auto;
+  font-size: 20px;
+}
+
+.wrappe textarea {
+  background-color: transparent;
+  font-size: 30px;
+  color: rgb(4, 255, 0) !important;
+  border: 1px solid rgb(8, 0, 255);
+  max-width: 70vw;
+  width: 100%;
+  font-size: 18px;
+  min-width: unset;
+  padding: 20px;
+  line-height: 145%;
+  margin: 0 auto;
+  min-height: 200px;
+  max-height: 500px;
+  height: 100%;
+}
+
+.list {
+  flex-direction: column;
+  margin-top: 100px;
+  padding-left: 0;
+  gap: 10px;
+  margin-left: 0px;
+}
+
+@media (max-width: 1200px) {
+  .wrappe {
+    padding-left: 60px;
+  }
+}
+
+@media (max-width: 1180px) {
+  .navigator a {
+    font-size: 30px !important;
+  }
+
+  .button {
+    left: 20px;
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 768px) {
+  .navigator a {
+    font-size: 14px !important;
+  }
+
+  .wrappe textarea {
+    width: calc(100% - 40px);
+  }
+
+  .button {
+    font-size: 16px;
+  }
+
+  .list {
+    margin-top: 70px;
+  }
+
+  .footer {
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 576px) {
+  .navigator a {
+    font-size: 13px !important;
+  }
+}

@@ -71,6 +71,7 @@ const Header = () => {
           {/* <h2 className={styles.introText}>Избири жизнь!</h2> */}
         </div>
         <Link href="/tsarstvie">Вернутся назад.</Link>
+        <Link href="/Traces/Book">Книги</Link>
       </div>
     </div>
   );
