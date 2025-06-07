@@ -17,7 +17,7 @@
 }
 
 .clouds {
-  background: linear-gradient(#b0afaf, #000);
+  background: linear-gradient(#ececec, #e3e3e3);
   background: #ffffff;
   text-align: center;
   display: flex;
