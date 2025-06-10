@@ -25,7 +25,7 @@
 color: #4f4d4d;
 display: flex;
 flex-direction: column;
-gap: 25px;
+gap: 10px;
 font-size: 35px;
 }
 
@@ -39,19 +39,19 @@ font-size: 35px;
 
 @media (min-width: 480px) {
 .footerText {
-  font-size: 20px;
+  font-size: 30px;
 }
 }
 
 @media (min-width: 768px) {
 .footerText {
-  font-size: 25px;
+  font-size: 36px;
 }
 }
 
 @media (min-width: 962px) {
 .footerText {
-  font-size: 25px;
+  font-size: 38px;
 }
 }
 

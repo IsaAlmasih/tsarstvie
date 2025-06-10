@@ -10,7 +10,7 @@ const page = () => {
       <div className={styles.blok}>
         <div className={styles.footerText}>
           {verdicts.map((verdict) => (
-            <Link href={`/verdict/${verdict.id.toString()}`}>{verdict.title}</Link>
+            <Link key={verdict.id} href={`/verdict/${verdict.id.toString()}`}>{verdict.title}</Link>
           ))}
           <Link href="/tsarstvie">Вернуться назад.</Link>
         </div>

@@ -4,6 +4,7 @@ import React from "react";
 import styles from "./styles.module.css";
 import Link from "next/link";
 import { useParams } from "next/navigation";
+import { verdicts } from "@/data/verdicts";
 
 const page = () => {
 const {id}=useParams()
@@ -11,11 +12,9 @@ const {id}=useParams()
     <div className={styles.wrapper}>
       <div className={styles.blok}>
         <div className={styles.footerText}>
-          <Link href="/sentence">
-            5. Пятая книга. Вердикт пять. Фараоны. Цари. Князья. Прочие
-            главенствующие. Президенты. Главы земель (Страны).
-          </Link>
+          <h1>{verdicts.find((verdict) => verdict.id == id).text}</h1>
           <Link href={`/verdict/${id}`}>Вернуться назад.</Link>
+                        {/* Конкатенация строк. */}
         </div>
       </div>
     </div>

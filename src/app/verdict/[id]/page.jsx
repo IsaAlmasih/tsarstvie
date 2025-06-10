@@ -12,9 +12,9 @@ const page = () => {
     <div className={styles.wrapper}>
       <div className={styles.blok}>
         <div className={styles.footerText}>
-          <h1>{verdicts.find((verdict) => verdict.id == id).title}</h1>
-          <Link href={`/verdict/${id}/text`}>Текст вердикта.</Link>
-          <Link href="/sentence">.</Link>
+          {/* Тут обращаемся к масиву вердикта. Вызываем метод фаинд. В аргументы этого метода передаём функцию которой мы указывает по какому пораметру мы хотим найти результат. */}
+          <h5>{verdicts.find((verdict) => verdict.id == id).text}</h5>
+          <Link href="/sentence">Послание.</Link>
           <Link href={`/verdict/${id}/books`}>Книги вердикта.</Link>
           <Link href="/verdict">Вернуться назад.</Link>
         </div>
