@@ -13,7 +13,7 @@ const page = () => {
   return (
     <div className={styles.wrapper}>
       <div className={styles.blok}>
-        <h1>Книги вердикта:{verdict.title}</h1>
+        {/* <h1>Книги вердикта:{verdict.title}</h1> */}
         <div className={styles.footerText}>
           {books.filter((book) => verdict.books.includes(book.id)).map((book) => (
               <Link key={book.id} href={`/verdict/${id}/books/${book.id.toString()}`}>

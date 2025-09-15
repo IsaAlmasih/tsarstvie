@@ -1,5 +1,5 @@
 .wrapper {
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(19, 7, 69);
     background-repeat: no-repeat;
     display: flex;
     flex-direction: column;   
@@ -21,6 +21,7 @@
 
 .book {
     background-repeat: no-repeat;
+    background-color: rgb(160, 168, 168);
 }
 
 .button {
@@ -35,10 +36,11 @@
 }
 
 .firstPage {
-    background-color: blueviolet;
+    background-color: rgb(20, 222, 169);
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
+    color: #b10c0c;
 }
 
 .secondPage {
@@ -65,7 +67,8 @@
         width: calc(100% - 30px) !important;
     }
 
-    .book {
+    /* .book {
         min-width: 100% !important;
-    }
+    } */
 }
+

@@ -22,11 +22,11 @@
 }
 
 .footerText {
-color: #4f4d4d;
+color: #ffffff;
 display: flex;
 flex-direction: column;
 gap: 10px;
-font-size: 35px;
+font-size: 30x;
 }
 
 @media (min-width: 360px) {

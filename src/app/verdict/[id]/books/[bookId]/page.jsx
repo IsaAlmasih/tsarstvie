@@ -13,10 +13,13 @@ const Book = () => {
   const book=books.find((book)=> book.id == bookId)
   return (
     <div className={styles.wrapper}>
-      <HTMLFlipBook width={430} height={600} className={styles.book}>
-        {book.text.map((page) => (
-          <div key={page}>{page}</div>
-        ))}
+      <HTMLFlipBook width={430} height={600} className={styles.firstPage}>
+        {book.text.map((page) => (<div key={page}>{page}</div>))}
+        {/* <div className={styles.firstPage}>
+          <textarea name="" defaultValue="Привет привет привет привет"></textarea></div>
+        <div className={styles.secondPage}></div>
+        <div className={styles.thirdPage}></div>
+        <div className={styles.secondPage}></div> */}
       </HTMLFlipBook>
       <Link href={`/verdict/${id}/books`}>Вернуться назад.</Link>
     </div>
