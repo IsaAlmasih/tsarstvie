@@ -1,0 +1,61 @@
+"use client";
+import React from "react";
+import styles from "../verdictTwo/stules.module.css";
+import HTMLFlipBook from "react-pageflip";
+
+const page = () => {
+  return (
+    <div>
+      <div>
+        <div className={styles.wrapper}>
+          <h4 className={styles.isava}>
+            2. Вторая книга. Вердикт два. Разводящиеся без вины прелюбодеяния.
+            Разведённые, без вины прелюбодеяния в ад. Обручающиеся с
+            разведёнными по вине прелюбодеяния, запрещено! Рукоблудники, всяк
+            извращённый, извращенец и сменивший пол, горите там же где и убийцы.
+            Священники освобождаются от прощений всяких грехов.
+          </h4>
+          <HTMLFlipBook width={900} height={700} className={styles.book}>
+            <div className={styles.firstPage}>
+              <table className={styles.iksweb}>
+                <tr>
+                  <td>Фамилия.</td>
+                  <td>Имя</td>
+                  <td>Отчество</td>
+                  <td>Досье</td>
+                </tr>
+                <tr>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                </tr>
+                <tr>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                </tr>
+              </table>
+            </div>
+            <div className={styles.secondPage}></div>
+            <div className={styles.thirdPage}></div>
+            <div className={styles.secondPage}></div>
+            <div className={styles.firstPage}></div>
+            <div className={styles.secondPage}></div>
+            <div className={styles.firstPage}></div>
+            <div className={styles.secondPage}>
+              <p>"Привет привет привет привет"</p>Page 8
+            </div>
+          </HTMLFlipBook>
+        </div>
+      </div>
+      <button className={styles.button}>
+        {" "}
+        <a href="/verdict">Назад</a>
+      </button>
+    </div>
+  );
+};
+
+export default page;
