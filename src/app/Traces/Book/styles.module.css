@@ -1,27 +1,19 @@
 .wrapper {
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(4, 4, 4);
     background-repeat: no-repeat;
     display: flex;    
     justify-content: center;
     align-items: center;
-    width: 60%;
     height: 100vh;
     margin-bottom: 10px;
-    margin: -200px;
+    /* margin: -200px; */
 }
 
-.wrappe {
-    font-size: 40px;
-    justify-content: center;
-    align-items: center;
-    display: flex;
-    flex-direction: column;
-    width: 300px;
-    height: 300px;
-}
 
 .book {
     background-repeat: no-repeat;
+     width: 400px;
+     height: 560px;
 }
 
 .button {
@@ -36,17 +28,19 @@
 }
 
 .firstPage {
-    background-color: blueviolet;
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
+    color: #ff0000;
+    text-align: center;
 }
 
 .secondPage {
-    background-color: aqua;
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
+    color: #2fff00;
+    text-align: center;
 }
 
 .thirdPage {

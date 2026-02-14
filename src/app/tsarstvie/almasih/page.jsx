@@ -73,6 +73,23 @@ const Header = () => {
         <Link href="/tsarstvie">Вернутся назад.</Link>
         <Link href="/Traces/Book">Книги</Link>
       </div>
+      <div className={styles.ilisFoter}>
+        <div className={styles.ilFoter}>
+          <Link href="/">Стройка</Link>
+        </div>
+        <div className={styles.ilFoter}>
+          <Link href="/">Связь</Link>
+        </div>
+        <div className={styles.ilFoter}>
+          <Link href="/">Проекты</Link>
+        </div>
+        <div className={styles.ilFoter}>
+          <Link href="/">Вакансии</Link>
+        </div>
+        <div className={styles.ilFoter}>
+          <Link href="/">Книги</Link>
+        </div>
+      </div>
     </div>
   );
 };

@@ -1,0 +1,72 @@
+.wrapper {
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Горизонтальное центрирование */
+    align-items: center;     /* Вертикальное центрирование */
+    height: 100vh;
+}
+
+
+.wrapp {
+    margin-top: 70px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 30px;
+    margin-right: 30px;
+    line-height: 1.5;
+    gap: 14px;
+}
+
+
+.wrappe {
+    background-color: rgb(12, 0, 59);
+    color: #ffffff;
+    text-align: center;
+    width: 90%;
+    height: 90%;
+    font-size: 17px;
+    justify-content: center;
+    -webkit-box-shadow: 0px 0px 59px 9px rgba(255, 0, 0, 0.56);
+    -moz-box-shadow: 0px 0px 59px 9px rgba(255, 0, 0, 0.56);
+    box-shadow: 0px 0px 59px 9px rgba(255, 0, 0, 0.56);
+}
+
+
+
+/* @media (max-width: 390px) {
+.wrapp {
+    font-size: 5px;
+    gap: 8px;
+  }
+}
+
+@media (max-width: 480px) {
+.wrapp {
+    font-size: 9px;
+    gap: 8px;
+  }
+} */
+
+
+/* @media (max-width: 650px) {
+.wrapp {
+    font-size: 11px;
+    margin-top: 30px;
+    gap: 8px;
+  }
+} */
+
+
+/* @media (max-width: 768px) {
+  .wrapp {
+    font-size: 19px;
+  }
+} */
+
+/* @media (max-width: 1200px) {
+  .wrapp {
+    font-size: 29px;
+  }
+} */
