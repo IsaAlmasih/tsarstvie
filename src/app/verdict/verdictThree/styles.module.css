@@ -1,0 +1,96 @@
+.wrapper {
+    background-color: rgb(19, 7, 69);
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;   
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    gap: 50px;
+}
+
+.wrappe {
+    font-size: 40px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    height: 300px;
+}
+
+.isava {
+    display: flex;
+    font-size: 20px;
+    color: #961b1b;
+    padding-left: 150px;
+    padding-right: 150px;
+    text-align: center;
+    gap: 30px;
+
+}
+
+.book {
+    background-repeat: no-repeat;
+}
+
+.button {
+    font-size: 20px;
+    position: absolute;
+    top: 50px;
+    left: 50px;
+    color: rgb(0, 255, 4);
+    background-color: transparent;
+    border: 30;
+    z-index: 100;
+}
+
+.firstPage {
+    background-color: black;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: #00ff26;
+}
+
+
+table.iksweb{
+	width: 100%;
+	border-collapse:collapse;
+	border-spacing:0;
+	height: auto;
+    text-align: center;
+}
+table.iksweb,table.iksweb td, table.iksweb th {
+	border: 1px solid #ff0000;
+}
+table.iksweb td,table.iksweb th {
+	padding: 3px;
+	width: 30px;
+	height: 35px;
+}
+table.iksweb th {
+	background: #ff0000;
+	color: #fff; 
+	font-weight: normal;
+}
+
+
+.secondPage {
+    background-color: rgb(31, 29, 29);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+
+
+.thirdPage {
+    background-color: rgb(200, 200, 217);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center; 
+}
+
+

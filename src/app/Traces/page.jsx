@@ -17,3 +17,5 @@ const Traces = () => {
     </div>
   );
 }
+
+export default Traces;

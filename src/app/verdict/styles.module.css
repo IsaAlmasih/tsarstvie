@@ -26,3 +26,56 @@
   margin: -150px;
   font-size: 17px;
 }
+
+
+
+
+@media (min-width: 380px) {
+  .wrappe {
+    font-size: 18px;
+    margin-top: -40px;
+  }
+  .wrappTen {
+    font-size: 13px;
+    text-align: center;
+  }
+}
+
+
+@media (min-width: 480px) {
+}
+
+
+@media (min-width: 768px) {
+}
+
+
+@media (min-width: 962px) {
+}
+
+
+@media (min-width: 1024px) {
+    .wrappe {
+    font-size: 22px;
+    margin-top: -40px;
+  }
+  .wrappTen {
+    font-size: 13px;
+    text-align: center;
+  }
+  .button {
+    margin-top: -60px;
+  }
+}
+
+
+@media (min-width: 1280px) {
+}
+
+
+@media (min-width: 1536px) {
+}
+
+
+@media (min-width: 1920px) {
+}

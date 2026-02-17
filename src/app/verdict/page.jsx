@@ -18,15 +18,32 @@ const page = () => {
         <div>
           <a href="/verdict/verdictTwo">Книга второго вердикта</a>
         </div>
-        <div>Книга третьего вердикта</div>
-        <div>Книга четвёртого вердикта</div>
-        <div>Книга пятого вердикта</div>
-        <div>Книга шестого вердикта</div>
-        <div>Книга седьмого вердикта</div>
-        <div>Книга восьмого вердикта</div>
-        <div>Книга девятого вердикта</div>
         <div>
-          Книга десятого вердикта Книга Жизни. Книга первого Воскрешения
+          <a href="/verdict/verdictThree">Книга третьего вердикта</a>
+        </div>
+        <div>
+          <a href="/verdict/verdictFour">Книга четвёртого вердикта</a>
+        </div>
+        <div>
+          <a href="/verdict/verdictFive">Книга пятого вердикта</a>
+        </div>
+        <div>
+          <a href="/verdict/verdicSix">Книга шестого вердикта</a>
+        </div>
+        <div>
+          <a href="/verdict/verdictSeven">Книга седьмого вердикта</a>
+        </div>
+        <div>
+          <a href="/verdict/verdictEight">Книга восьмого вердикта</a>
+        </div>
+        <div>
+          <a href="/verdict/verdictNine">Книга девятого вердикта</a>
+        </div>
+        <div className={styles.wrappTen}>
+          <a href="/verdict/verdictTen">
+            <h2>Книга десятого вердикта Книга Жизни. 
+            Кига первого Воскрешения</h2>
+          </a>
         </div>
       </div>
       <button className={styles.button}>
