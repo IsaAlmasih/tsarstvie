@@ -7,39 +7,26 @@ import { useNavigate } from 'react';
 const Book = () => {
   // const navigate = useNavigate();
   return (
-    <div>
-      <div>
-        <div className={styles.wrapper}>
-          <HTMLFlipBook width={900} height={700} className={styles.book}>
-            <div className={styles.firstPage}>
-              <p>"Привет привет привет привет"</p>
-            </div>
-            <div className={styles.secondPage}>
-              <p>"Привет привет привет привет"</p>
-            </div>
-            <div className={styles.thirdPage}>
-              <p>"Привет привет привет привет"</p>
-            </div>
-            <div className={styles.secondPage}>
-              <p>"Привет привет привет привет"</p>
-            </div>
-            <div className={styles.firstPage}>
-              <p>"Привет привет привет привет"</p>
-            </div>
-            <div className={styles.secondPage}>
-              <p>"Привет привет привет привет"</p>
-            </div>
-            <div className={styles.firstPage}>
-              <p>"Привет привет привет привет"</p>Page 7
-            </div>
-            <div className={styles.secondPage}>
-              <p>"Привет привет привет привет"</p>Page 8
-            </div>
-          </HTMLFlipBook>
+    <div className={styles.wrapper}>
+      <HTMLFlipBook width={430} height={600} className={styles.book}>
+        <div className={styles.firstPage}>
+          <h4>"Привет привет привет привет"</h4>
         </div>
-      </div>
+        <div className={styles.secondPage}>
+          <h4>"Сам Привет Сам привет Сам привет Сам привет"</h4>
+        </div>
+        <div className={styles.thirdPage}>
+          <h4>"Это это. И это. привет"</h4>
+        </div>
+        <div className={styles.secondPage}>
+          <h4>"Привет привет привет привет"</h4>
+        </div>
+        <div className={styles.firstPage}></div>
+        <div className={styles.secondPage}></div>
+        <div className={styles.firstPage}>Page 7</div>
+        <div className={styles.secondPage}>Page 8</div>
+      </HTMLFlipBook>
       <button className={styles.button}>
-        {" "}
         <a href="/tsarstvie/almasih">Назад</a>
       </button>
     </div>

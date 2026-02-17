@@ -1,6 +1,6 @@
 "use client";
 import React from "react";
-import styles from "./styles.module.css";
+import styles from "../dossier/styles.module.css";
 import HTMLFlipBook from "react-pageflip";
 import Link from "next/link";
 
@@ -33,13 +33,3 @@ const page = () => {
 };
 
 export default page;
-
-
-            /* <h4 className={styles.isava}>
-            1. Первая книга. Вердикт один. Убийству нет прощения. Противящийся
-            злу, дополняет зло. Убийство во имя защиты, правды, отечества, есть
-            нарушение. Убийство во Имя Моё, есть нарушение. Прощения за это нет
-            и не будет. Простил убийство, стал убийцей. Самоубийство - тоже
-            убийство. Пособничество в убийстве, убийство. Отправил убивать, стал
-            убийцей. На земле нет того, кто простит убийство!
-          </h4> */

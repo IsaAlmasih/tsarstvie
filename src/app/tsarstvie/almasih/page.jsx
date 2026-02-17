@@ -73,7 +73,7 @@ const Header = () => {
         <Link href="/tsarstvie">Вернутся назад.</Link>
         <Link href="/Traces/Book">Книги</Link>
       </div>
-      <div className={styles.ilisFoter}>
+      {/* <div className={styles.ilisFoter}>
         <div className={styles.ilFoter}>
           <Link href="/">Стройка</Link>
         </div>
@@ -89,7 +89,7 @@ const Header = () => {
         <div className={styles.ilFoter}>
           <Link href="/">Книги</Link>
         </div>
-      </div>
+      </div> */}
     </div>
   );
 };

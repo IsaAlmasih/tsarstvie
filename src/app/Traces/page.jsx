@@ -11,9 +11,6 @@ const Traces = () => {
           Книга.
         </div>
       </div>
-      {/* <button onClick={() => navigate(-1)} className={styles.button}>
-        {"<--"}Назад
-      </button> */}
     </div>
   );
 }

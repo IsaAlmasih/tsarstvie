@@ -30,7 +30,7 @@
 
 
 
-@media (min-width: 380px) {
+@media (min-width: 360px) {
   .wrappe {
     font-size: 18px;
     margin-top: -40px;
@@ -55,17 +55,6 @@
 
 
 @media (min-width: 1024px) {
-    .wrappe {
-    font-size: 22px;
-    margin-top: -40px;
-  }
-  .wrappTen {
-    font-size: 13px;
-    text-align: center;
-  }
-  .button {
-    margin-top: -60px;
-  }
 }
 
 
