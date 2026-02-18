@@ -85,28 +85,36 @@
     }
 
     .tex {
-        font-size: 14px;
+        font-size: 12px;
         gap: 0px;
         margin-block: 40px;
         margin: 3px;
         }
     .text {
-        font-size: 10px;
+        font-size: 7px;
         gap: 14px;
         padding-left: 10px;
         padding-right: 10px;
     }
-    .blok {
-        gap: 0px;
-    }
+
     .textTsar {
-        font-size: 10px;
-        gap: 13px;
-        margin-top: 60px;
+        font-size: 7px;
+        gap: 10px;
+        margin-top: -130px;
     }
     .textTsa {
-        font-size: 10px;
+        font-size: 8px;
         }
+    .buttonla {
+    margin-top: 20px;
+    font-size: 10px;
+    background-color: #000000;
+    border: 2px solid #3be502;
+    color: #000000;
+    border-radius: 8px;
+    height: 30px;
+    width: 100px;
+}
 }
 
 @media (min-width: 480px) {

@@ -62,36 +62,45 @@
     width: 80px;
 }
 
-/* @media (min-width: 360px) {
-    .blok {
-        width: 90%;
-        height: 90%;
+@media (min-width: 360px) {
+    .wrapper {
+        display: flex;
+        font-size: 10px;
+        text-align: center;
     }
-
     .tex {
-        font-size: 14px;
+        font-size: 10px;
         gap: 0px;
         margin-block: 40px;
         margin: 3px;
         }
     .text {
-        font-size: 10px;
-        gap: 14px;
+        font-size: 7px;
+        gap: 7px;
         padding-left: 10px;
         padding-right: 10px;
+        border: 1px solid #04ff69;
     }
-    .blok {
-        gap: 0px;
-    }
+
     .textTsar {
         font-size: 10px;
         gap: 13px;
         margin-top: 60px;
+        
     }
-    .textTsa {
-        font-size: 10px;
-        }
-} */
+
+    .textQuestion {
+        margin-bottom: 10px;
+        flex-direction: column;
+        text-align: center;
+        border-radius: 8px;
+        font-size: 6px;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        height: 50px;
+        gap: 10px;
+} 
+}
 
 /* @media (min-width: 480px) {
     .blok {
