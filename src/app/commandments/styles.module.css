@@ -34,39 +34,54 @@
 }
 
 
+.buttonComma {
+  background-color: black;
+  height: 30px;
+  border: 2px solid #3be502;
 
-/* @media (max-width: 390px) {
+}
+
+
+@media (min-width: 370px) {
 .wrapp {
-    font-size: 5px;
+  font-size: 8px;
+  margin-top: 40px;
+  }
+
+}
+
+
+
+@media (min-width: 410px) {
+.wrapp {
+    font-size: 8,9px;
     gap: 8px;
   }
 }
 
-@media (max-width: 480px) {
+
+@media (min-width: 550px) {
 .wrapp {
-    font-size: 9px;
-    gap: 8px;
+  font-size: 10px;
+  margin-top: 50px;
   }
-} */
+}
 
 
-/* @media (max-width: 650px) {
-.wrapp {
-    font-size: 11px;
-    margin-top: 30px;
-    gap: 8px;
-  }
-} */
-
-
-/* @media (max-width: 768px) {
+@media (min-width: 768px) {
   .wrapp {
-    font-size: 19px;
+    font-size: 12px;
   }
-} */
+} 
 
-/* @media (max-width: 1200px) {
+@media (min-width: 1200px) {
   .wrapp {
-    font-size: 29px;
+    font-size: 14px;
   }
-} */
+}
+
+@media (min-width: 1300px) {
+  .wrapp {
+    font-size: 15px;
+  }
+}
