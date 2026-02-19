@@ -28,7 +28,7 @@ const page = () => {
           <a href="/verdict/verdictFive">Книга пятого вердикта</a>
         </div>
         <div>
-          <a href="/verdict/verdicSix">Книга шестого вердикта</a>
+          <a href="/verdict/verdictSix">Книга шестого вердикта</a>
         </div>
         <div>
           <a href="/verdict/verdictSeven">Книга седьмого вердикта</a>
