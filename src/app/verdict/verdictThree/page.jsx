@@ -9,7 +9,7 @@ const page = () => {
       <h4 className={styles.isava}>
         3. Третья книга. Вердикт три. Нанесение рисунков под кожу (Татуировки или ещё, какое название выдумаете), запрещено. Пьющие спиртное, хоть самую малость, запрещено. Курящие, употребляющие всякое дурманящее, матершинники, сквернословящие, пререкающиеся, спорящие, туда-же, где и разведённые по вине прелюбодеяния.
       </h4>
-      <HTMLFlipBook width={430} height={600} className={styles.book}>
+      <HTMLFlipBook width={400} height={500} className={styles.book}>
         <div className={styles.firstPage}>
           <table className={styles.iksweb}>
             <tr>

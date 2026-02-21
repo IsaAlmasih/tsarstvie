@@ -22,10 +22,9 @@
 
 .isava {
     display: flex;
-    font-size: 20px;
+    margin-top: 130px;
+    font-size: 13px;
     color: #961b1b;
-    padding-left: 150px;
-    padding-right: 150px;
     text-align: center;
     gap: 30px;
 
@@ -59,6 +58,7 @@
 
 
 table.iksweb{
+    margin-block: 50px;
 	width: 100%;
 	border-collapse:collapse;
 	border-spacing:0;
@@ -97,3 +97,21 @@ table.iksweb th {
 }
 
 
+@media (min-width: 360px) {
+  .wrappe {
+    font-size: 18px;
+    margin-top: -40px;
+  }
+  .wrappTen {
+    font-size: 13px;
+    text-align: center;
+  }
+}
+
+
+@media (min-width: 480px) {
+}
+
+
+@media (min-width: 768px) {
+}

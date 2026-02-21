@@ -10,22 +10,14 @@
     gap: 50px;
 }
 
-.wrappe {
-    font-size: 40px;
-    justify-content: center;
-    align-items: center;
-    display: flex;
-    flex-direction: column;
-    width: 300px;
-    height: 300px;
-}
 
 .isava {
     display: flex;
-    font-size: 20px;
-    color: #961b1b;
-    padding-left: 150px;
-    padding-right: 150px;
+    font-size: 12px;
+    margin-top: 50px;
+    color: #ff0000;
+    padding-left: 30px;
+    padding-right: 30px;
     text-align: center;
     gap: 30px;
 
@@ -38,10 +30,9 @@
 .button {
     font-size: 20px;
     position: absolute;
-    top: 50px;
-    left: 50px;
     color: rgb(0, 255, 4);
     background-color: transparent;
+    margin-top: 500px;
     border: 30;
     z-index: 100;
 }

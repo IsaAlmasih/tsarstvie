@@ -11,7 +11,7 @@ const page = () => {
         Праведники. Сто сорок четыре тысячи девственников мужского пола, тех,
         кто согласились идти за Мной. Запечатлённые. Помилованные.
       </h4>
-      <HTMLFlipBook width={430} height={600} className={styles.book}>
+      <HTMLFlipBook width={400} height={500} className={styles.book}>
         <div className={styles.firstPage}>
           <table className={styles.iksweb}>
             <tr>

@@ -6,16 +6,16 @@ import HTMLFlipBook from "react-pageflip";
 const page = () => {
   return (
     <div className={styles.wrapper}>
-      <div>
-        <HTMLFlipBook width={830} height={600} className={styles.book}>
+      <div className={styles.wrappe}>
+        <HTMLFlipBook width={1000} height={700} className={styles.book}>
           <div className={styles.firstPage}>
-            <h4>
+            {/* <h4>
               6. Шестая книга. Вердикт шесть. Лжепророки. Иконы, ложные боги
               (Материальное). Лжеотцы: Опекунов и кровных отцов, можно называть
               отцами, отец. Лжеучителя: Дающие советы как жить людям.
               Лжесвященники: Патриархи, их замы, все нарушители в длинных
               одеждах. Раскольники: Все те, кто виновен в расколе.
-            </h4>
+            </h4> */}
             <table className={styles.iksweb}>
               <tr>
                 <td>Фамилия.</td>
@@ -24,28 +24,28 @@ const page = () => {
                 <td>Досье</td>
               </tr>
               <tr>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
+                <td>Петров</td>
+                <td>Андрей</td>
+                <td>Владимирович</td>
+                <td> Досье</td>
               </tr>
               <tr>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
+                <td>Маркевич</td>
+                <td>Адам</td>
+                <td>Иванович</td>
+                <td>Досье</td>
               </tr>
               <tr>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
+                <td>Бевцик</td>
+                <td>Иван Васильевич</td>
+                <td>Васильевич</td>
+                <td>Досье</td>
               </tr>
               <tr>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
+                <td>Дайнеко</td>
+                <td>Андрей</td>
+                <td>Михайлович</td>
+                <td>Досье</td>
               </tr>
               <tr>
                 <td></td>
