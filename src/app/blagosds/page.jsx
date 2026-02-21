@@ -23,7 +23,7 @@ const Header = () => {
           БФ "СДС и ОУ".
         </Link>
         <div className={styles.navigation}>
-          <Link href={"/"}>Главная страница</Link>
+          <Link href={"/tsarstvie"}>Главная страница</Link>
           <Link href={"/"}>О нас</Link>
           <Link href={"/"}>Контакты</Link>
         </div>
@@ -58,7 +58,7 @@ const Header = () => {
                 </button>
               </div>
               <div className={styles.navigation}>
-                <Link href={"/"}>Главная страница</Link>
+                <Link href={"/tsarstvie"}>Главная страница</Link>
                 <Link href={"/"}>О нас</Link>
                 <Link href={"/"}>Контакты</Link>
               </div>
@@ -67,8 +67,24 @@ const Header = () => {
         )}
       </header>
       <div className={styles.blok}>
-        <div> Привет Савва. Поздравляю, ты на шаг ближе к победе.</div>
-        <Link href="/lights">Вернутся назад.</Link>
+        <div className={styles.svwxy}>
+          <div className={styles.suxyzGrid}>
+            <Link href="/lights" className={styles.svwxz}>
+              Проекты
+            </Link>
+            <div>2</div>
+            <div className={styles.svwyz}>Документы</div>
+            <div>4</div>
+            <div>5</div>
+            <div>Контакты</div>
+            <div>7</div>
+            <div>Вакансии</div>
+            <div>9</div>
+            <div>10</div>
+            <div>11</div>
+            <div>12</div>
+          </div>
+        </div>
       </div>
     </div>
   );

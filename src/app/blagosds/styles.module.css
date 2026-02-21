@@ -35,14 +35,60 @@
     background-color: rgb(13, 13, 83);
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    text-align: center;
     width: 70%;
     height: 70%;
     -webkit-box-shadow: 20px 21px 10px -11px rgba(0, 142, 251, 0.33);
     -moz-box-shadow: 20px 21px 10px -11px rgba(0, 145, 255, 0.33);
     box-shadow: 20px 21px 10px -11px rgba(0, 144, 255, 0.33);
 }
+
+
+.svwxy {
+  display: flex;
+  justify-content: center; /* По горизонтали */
+  align-items: center;     /* По вертикали (если нужна) */
+  height: 100vh;           /* Высота контейнера (для примера) */
+}
+
+.suxyzGrid * {
+  padding: 10px 15px;
+  background-color: rgb(4, 5, 61);
+  border: 1px solid red;
+  text-align: center;
+  font-size: 22px;
+  font-family: 'Times New Roman', Times, serif;
+  color: #fff;
+}
+
+/* Сетка */
+
+.suxyzGrid {
+  margin-top: 35px;
+  display: grid;
+  grid-template-columns: 200px 200px 200px 200px;
+  grid-template-rows: 200px 200px 200px 200px;
+  grid-gap: 30px
+}
+
+
+.svwxz {
+  background-color: rgb(38, 43, 43);
+  display: flex;
+  justify-content: center; /* По горизонтали */
+  align-items: center;     /* По вертикали (если нужна) */
+  font-size: 35px;
+}
+
+
+.svwyz {
+  display: flex;
+  justify-content: center; /* По горизонтали */
+  align-items: center;     /* По вертикали (если нужна) */
+  font-size: 33px;
+}
+
+
+
 
 
   .isVisible {
