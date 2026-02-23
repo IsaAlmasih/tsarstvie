@@ -50,6 +50,7 @@
   height: 100vh;           /* Высота контейнера (для примера) */
 }
 
+
 .suxyzGrid * {
   padding: 10px 15px;
   background-color: rgb(4, 5, 61);
@@ -60,7 +61,6 @@
   color: #fff;
 }
 
-/* Сетка */
 
 .suxyzGrid {
   margin-top: 35px;
@@ -88,17 +88,17 @@
 }
 
 
-
 .isVisible {
   transform: translate(-50%, 0);
-}
-  
+} 
+
+
 .navigation {
   font-size: 20px;
   display: flex;
   gap: 12px;
 }
-  
+
 
 .logo {
   font-size: 30px;
@@ -106,12 +106,14 @@
   justify-content: center;
   align-items: center;
   gap: 10px;
-}
-  
+}  
+
+
 .openPopup {
   display: none;
 }
   
+
   
 @media (max-width: 360px) {
   .header {
@@ -121,7 +123,6 @@
       width: 100px;
       height: 60px;
   }
-
 .blok {
     background-color: rgb(13, 13, 83);
     display: flex;
@@ -132,7 +133,6 @@
     -moz-box-shadow: 20px 21px 10px -11px rgba(0, 145, 255, 0.33);
     box-shadow: 20px 21px 10px -11px rgba(0, 144, 255, 0.33);
 }
-
 .suxyzGrid {
   margin-top: 10px;
   display: grid;
@@ -140,7 +140,6 @@
   grid-template-rows: 70px 70px 70px 70px;
   grid-gap: 20px
 }
-
 .svwxz {
   background-color: rgb(38, 43, 43);
   display: flex;
@@ -148,7 +147,6 @@
   align-items: center;     /* По вертикали (если нужна) */
   font-size: 9px;
 }
-
 .svwyz {
   display: flex;
   justify-content: center; /* По горизонтали */
@@ -156,6 +154,7 @@
   font-size: 8px;
 }
 }
+
 
 @media (max-width: 470px) {
   .header {
@@ -166,6 +165,7 @@
 .logo {
   font-size: 20px;
 }
+
 
 .navigation {
   display: none;
@@ -187,7 +187,8 @@
   background-color: black;
   height: 1px;
 }
-  
+
+
 .popup {
   position: absolute;
   top: 0;
@@ -197,7 +198,7 @@
   background-color: rgba(0, 0, 0, 0.264);
 }
 
-    .content {
+.content {
   width: 100%;
   height: auto;
   min-height: 80%;
@@ -266,12 +267,12 @@
   padding: 12px;
 }
   
-    .headContent {
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      padding: 12px;
-      font-size: 24px;
-    }
+.headContent {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px;
+  font-size: 24px;
   }
+}
   

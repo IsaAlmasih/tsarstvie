@@ -1,0 +1,171 @@
+.wrapper {
+    background-color: rgb(2, 1, 0);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+}
+
+
+.blok {
+  background-color: rgb(15, 6, 49);
+  color: #ffffff;
+  text-align: center;
+  width: 80%;
+  height: 80%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  -webkit-box-shadow: 0px 0px 59px 9px rgba(255, 0, 0, 0.56);
+  -moz-box-shadow: 0px 0px 59px 9px rgba(255, 0, 0, 0.56);
+  box-shadow: 0px 0px 59px 9px rgba(255, 0, 0, 0.56);
+}
+
+
+.gridSuxyz {
+  margin-top: 35px;
+  display: grid;
+  grid-template-columns: 150px 150px 150px 150px;
+  grid-template-rows: 150px 150px 150px 150px;
+  grid-gap: 30px
+}
+
+
+
+.progect {
+    background-image: url('../../../assets/tron.jpg');
+    background-size: cover; /* Заполняет весь блок, [1, 8] */
+    background-position: center; /* Центрирует картинку */
+    background-repeat: no-repeat; /* Убирает дублирование */
+}
+
+
+.progecLmpuy {
+  display: flex;
+  color: #050456;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;
+}
+
+
+
+.tabernacle {
+    background-image: url('../../../assets/tabernacle/000.jpg');
+    background-size: cover; /* Заполняет весь блок, [1, 8] */
+    background-position: center; /* Центрирует картинку */
+    background-repeat: no-repeat; /* Убирает дублирование */
+}
+
+
+
+.tabernacleLmpuy {
+  display: flex;
+  color: #050456;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+.cityCmorw {
+    background-image: url('../../../assets/city/222.png');
+    background-size: cover; /* Заполняет весь блок, [1, 8] */
+    background-position: center; /* Центрирует картинку */
+    background-repeat: no-repeat; /* Убирает дублирование */
+}
+
+
+
+.cityLmpuy {
+  display: flex;
+  color: #050456;
+  justify-content: center;
+  align-items: center;
+}
+
+
+@media (min-width: 360px) {
+  .suxyzGrid {
+    display: grid;
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+    grid-template-columns: 70px 70px 70px;
+    grid-template-rows: 70px 70px 70px 70px;
+    grid-gap: 10px;
+}
+}
+
+@media (min-width: 480px) {
+  .suxyzGrid {
+    display: grid;
+    justify-content: center;
+    grid-template-columns: 100px 100px 100px;
+    grid-template-rows: 100px 100px 100px 100px;
+    grid-gap: 10px;
+}
+}
+
+@media (min-width: 540px) {
+  .suxyzGrid {
+    display: grid;
+    justify-content: center;
+    grid-template-columns: 70px 70px 70px;
+    grid-template-rows: 70px 70px 70px 70px;
+    grid-gap: 10px;
+}
+}
+
+
+@media (min-width: 768px) {
+  .suxyzGrid {
+    display: grid;
+    justify-content: center;
+    grid-template-columns: 90px 90px 90px;
+    grid-template-rows: 90px 90px 90px 90px;
+    grid-gap: 10px;
+} 
+}
+
+@media (min-width: 902px) {
+  .suxyzGrid {
+    display: grid;
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+    grid-template-columns: 120px 120px 120px;
+    grid-template-rows: 120px 120px 120px 120px;
+    grid-gap: 10px;
+} 
+}
+
+@media (min-width: 1024px) {
+  .suxyzGrid {
+    display: grid;
+    justify-content: center;
+    grid-template-columns: 170px 170px 170px;
+    grid-template-rows: 170px 170px 170px 170px;
+    grid-gap: 10px;
+} 
+}
+
+/* @media (min-width: 1280px) {
+    .blok {
+    font-size: 66px;
+    } 
+} */
+
+/* @media (min-width: 1536px) {
+    .blok {
+    font-size: 76px;
+    } 
+} */
+
+/* @media (min-width: 1920px) {
+    .blok {
+    font-size: 108px;
+    } 
+} */
