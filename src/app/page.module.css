@@ -1,4 +1,4 @@
-.app {
+.apffgp {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -14,8 +14,18 @@
 
 
 .subtitle {
-  color: #000000;
-  font-size: 25px;
+    background-color:transparent;
+    color: #000000;
+    font-size: 25px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 8px;
+}
+
+
+.afgp {
+    font-size: 39px;
 }
 
 
@@ -60,6 +70,10 @@
     .subtitle {
     font-size: 55px;
     }
+
+    .afgp {
+        font-size: 55px;
+    }
 }
 
 
@@ -69,6 +83,10 @@
     }
 
     .subtitle {
+    font-size: 65px;
+    }
+
+    .afgp {
     font-size: 65px;
     }
 }
@@ -82,6 +100,10 @@
     .subtitle {
     font-size: 65px;
     }
+
+    .afgp {
+    font-size: 75px;
+    }
 }
 
 @media (min-width: 1280px) {
@@ -91,6 +113,10 @@
 
     .subtitle {
     font-size: 75px;
+    }
+
+    .afgp {
+    font-size: 85px;
     }
 }
 

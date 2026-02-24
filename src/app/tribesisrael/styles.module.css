@@ -23,6 +23,20 @@
 }
 
 
+.Gridtext {
+    display: grid;
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    grid-template-columns: 350px 350px 350px;
+    grid-template-rows: 250px 250px 250px;
+    grid-gap: 30px
+}
+
+
+
 .textTsar {
     color: #7e7676;
 }
@@ -31,12 +45,12 @@
     color: #7b2f2f;
     display: flex;
     flex-direction: column;
-    gap: 10px;
+    gap: 5px;
     font-size: 20px;
 }
 
 
-@media (min-width: 360px) {
+/* @media (min-width: 360px) {
     .text {
     font-size: 20px;
     }
@@ -64,7 +78,7 @@
     .text {
     font-size: 35px;
     } 
-}
+} */
 
 /* @media (min-width: 1280px) {
     .blok {

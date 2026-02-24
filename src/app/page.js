@@ -9,11 +9,13 @@ import logo from "./assets/kingdom.png";
 
 const page = () => {
   return (
-    <div className={styles.app}>
+    <div className={styles.apffgp}>
       <Clouds></Clouds>
       <img src={logo.src} className={styles.Applogo} alt="logo" />
       <Link href="/tsarstvie" className={styles.subtitle}>
-        Царствие.
+        <h3 className={styles.afgp}>مملكة عيسو.</h3>
+        <h3>Царство Исава.</h3>
+        <h3>The Kingdom of Esau.</h3>
       </Link>
     </div>
   );
