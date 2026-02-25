@@ -10,7 +10,7 @@ const page = () => {
       <div className={styles.blok}>
         <div className={styles.textGrid}>
           <div className={styles.text}>
-            <Link href="/commandments">Заповеди Иисуса Христа.</Link>
+            <Link href="/commandments/1">Заповеди Иисуса Христа.</Link>
             <Link href="/tsarstvie/law">Закон Всевышнего Иисуса Христа.</Link>
             <Link href="/tsarstvie/almasih">Престол Давида.</Link>
             <Link href="/tsarstvie/churches">Церкви.</Link>
@@ -23,7 +23,7 @@ const page = () => {
             </Link>
           </div>
           <div className={styles.text}>
-            <Link href="/commandments">The Commandments of Jesus Christ.</Link>
+            <Link href="/commandments/3">The Commandments of Jesus Christ.</Link>
             <Link href="/tsarstvie/law">
               The Law of the Most High Jesus Christ.
             </Link>
@@ -38,7 +38,7 @@ const page = () => {
             </Link>
           </div>
           <div className={styles.text}>
-            <Link href="/commandments">وصايا يسوع المسيح.</Link>
+            <Link href="/commandments/2">وصايا يسوع المسيح.</Link>
             <Link href="/tsarstvie/law">شريعة يسوع المسيح العليّ.</Link>
             <Link href="/tsarstvie/isaAlmasih">عرش داود.</Link>
             <Link href="/tsarstvie/churches">الكنائس.</Link>
