@@ -10,20 +10,9 @@ const page = () => {
       <div className={styles.blok}>
         <div className={styles.textGrid}>
           <div className={styles.text}>
-            <Link href="/commandments/1">Заповеди Иисуса Христа.</Link>
-            <Link href="/tsarstvie/law">Закон Всевышнего Иисуса Христа.</Link>
-            <Link href="/tsarstvie/almasih">Престол Давида.</Link>
-            <Link href="/tsarstvie/churches">Церкви.</Link>
-            <Link href="https://www.supremesanhedrin.ru/">Синедрион.</Link>
-            <Link href="/lights">Светильники.</Link>
-            <Link href="/tribesisrael">12 колен Израиля</Link>
-            <Link href="/verdict">Вердикты.</Link>
-            <Link href="/" className={styles.textTsar}>
-              Вернуться на главную.
+            <Link href="/commandments/3">
+              The Commandments of Jesus Christ.
             </Link>
-          </div>
-          <div className={styles.text}>
-            <Link href="/commandments/3">The Commandments of Jesus Christ.</Link>
             <Link href="/tsarstvie/law">
               The Law of the Most High Jesus Christ.
             </Link>
@@ -35,6 +24,19 @@ const page = () => {
             <Link href="/verdict">Verdicts.</Link>
             <Link href="/" className={styles.textTsar}>
               Return to the main page.
+            </Link>
+          </div>
+          <div className={styles.text}>
+            <Link href="/commandments/1">Заповеди Иисуса Христа.</Link>
+            <Link href="/tsarstvie/law">Закон Всевышнего Иисуса Христа.</Link>
+            <Link href="/tsarstvie/almasih">Престол Давида.</Link>
+            <Link href="/tsarstvie/churches">Церкви.</Link>
+            <Link href="https://www.supremesanhedrin.ru/">Синедрион.</Link>
+            <Link href="/lights">Светильники.</Link>
+            <Link href="/tribesisrael">12 колен Израиля</Link>
+            <Link href="/verdict">Вердикты.</Link>
+            <Link href="/" className={styles.textTsar}>
+              Вернуться на главную.
             </Link>
           </div>
           <div className={styles.text}>

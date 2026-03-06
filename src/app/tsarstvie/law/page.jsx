@@ -8,14 +8,12 @@ import Link from "next/link";
 const page = () => {
   return (
     <div className={styles.wrapper}>
+      <p className={styles.tex}>
+        Как носитель престола и Его доверенное лицо, хочу развеять ваши иллюзии,
+        которыми вас питают те, кто не сильно дальнозорок.
+      </p>
       <div className={styles.blok}>
         <div className={styles.text}>
-          {/* <Link href="/">Закон Всевышнего Иисуса Христа.</Link> */}
-          <p className={styles.tex}>
-            Как носитель престола и Его доверенное лицо, хочу развеять ваши
-            иллюзии, которыми вас питают те, кто не сильно дальнозорок.
-          </p>
-          <p>Хочу чтобы вы понимали. В мире кесаря Божьи дикорации.</p>
           <p>
             1) Определитесь прежде за кем и куда вы идёте. Если идёте за
             Христом, то исполняйте его закон. Если вы выбрали идти за кесарем,
@@ -68,15 +66,10 @@ const page = () => {
             мои с Иисусом ценности жду в городе Орск., ул. Живописная, дом 21.
             Напишите на почту. imperiya66.ru@gmail.com
           </p>
-          <Link href="/tsarstvie" className={styles.textTsa}>
-            Вернуться на главную.
-          </Link>
         </div>
       </div>
       <button className={styles.buttonla}>
-        <div>
-          <a href="/tsarstvie/law/lawOne">Страница следующая</a>
-        </div>
+        <a href="/tsarstvie/law/lawOne">Страница следующая</a>
       </button>
     </div>
   );

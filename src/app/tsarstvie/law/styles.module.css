@@ -10,47 +10,40 @@
 
 
 .blok {
-    background-color: rgb(13, 13, 83);
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    width: 80%;
-    height: 80%;
-    gap: 90px;
-    -webkit-box-shadow: 20px 21px 10px -11px rgba(0, 142, 251, 0.33);
-    -moz-box-shadow: 20px 21px 10px -11px rgba(0, 145, 255, 0.33);
-    box-shadow: 20px 21px 10px -11px rgba(0, 144, 255, 0.33);
+  background-color: rgb(12, 0, 59);
+  color: #ffffff;
+  text-align: center;
+  margin-top: 20px;
+  width: 70%;
+  height: 80%;
+  padding-block: 40px;
+  justify-content: center;
+  -webkit-box-shadow: 0px 0px 59px 9px rgba(255, 0, 0, 0.56);
+  -moz-box-shadow: 0px 0px 59px 9px rgba(255, 0, 0, 0.56);
+  box-shadow: 0px 0px 59px 9px rgba(255, 0, 0, 0.56);
 }
 
 
 .textTsar {
     color: #7e7676;
     display: flex;
+    justify-content: center;
+    align-items: center;
     flex-direction: column;
-    font-size: 25px;
+    font-size: 23px;
     padding-left: 40px;
     padding-right: 40px;
-    margin-block: 20px;
+    margin-top: 120px;
 }
 
 .tex {
-    font-size: 25px;
-    color: #a5c5a2;
+    font-size: 23px;
+    color: #15ff00;
     text-align: center;
     gap: 30px;
-    margin-block: 20px;
+    margin-top: 30px;
 }
 
-
-.textTsa {
-    color: #bab8b8;
-    display: flex;
-    flex-direction: column;
-    font-size: 30px;
-    padding-left: 40px;
-    padding-right: 40px;
-    margin: 50px;
-}
 
 
 .text {
@@ -64,253 +57,9 @@
 
 
 .buttonla {
-    display: flex;
-    margin-top: -50px;
-    justify-content: center;
-    align-items: center;
-    background-color: #000000;
-    border: 3px solid #3be502;
-    color: #11ff00;
-    border-radius: 8px;
-    height: 50px;
-    width: 110px;
+    font-size: 25px;
+    color: rgb(0, 255, 4);
+    background-color: transparent;
+    border: 30;
 }
 
-
-
-@media (min-width: 360px) {
-    .blok {
-        width: 90%;
-        height: 90%;
-    }
-
-    .tex {
-        font-size: 12px;
-        gap: 0px;
-        margin-block: 40px;
-        margin: 3px;
-        }
-    .text {
-        font-size: 7px;
-        gap: 14px;
-        padding-left: 10px;
-        padding-right: 10px;
-    }
-
-    .textTsar {
-        font-size: 7px;
-        gap: 10px;
-        margin-top: -130px;
-    }
-    .textTsa {
-        font-size: 8px;
-        }
-    .buttonla {
-    margin-top: 20px;
-    font-size: 10px;
-    background-color: #ffffff;
-    border: 2px solid #3be502;
-    color: #000000;
-    border-radius: 8px;
-    height: 30px;
-    width: 100px;
-}
-}
-
-@media (min-width: 480px) {
-    .blok {
-        width: 90%;
-        height: 90%;
-    }
-    .text {
-        font-size: 11px;
-        margin-top: 90px;
-        gap: 5px;
-        padding-left: 10px;
-        padding-right: 10px;
-    }
-    .blok {
-        gap: 0px;
-    }
-    .textTsar {
-        font-size: 10px;
-    }
-    .textTsa {
-        font-size: 10px;
-        text-align: center;
-        } 
-}
-
-
-@media (min-width: 580px) {
-    .blok {
-        width: 90%;
-        height: 90%;
-    }
-
-    .tex {
-        font-size: 14px;
-        gap: 0px;
-        margin-top: -50px;
-        }
-    .text {
-        font-size: 10px;
-        gap: 14px;
-        padding-left: 10px;
-        padding-right: 10px;
-    }
-    .blok {
-        gap: 0px;
-    }
-    .textTsar {
-        font-size: 15px;
-        gap: 13px;
-        margin-top: 60px;
-    }
-    .textTsa {
-        font-size: 20px;
-        text-align: center;
-        } 
-}
-
-
-
-@media (min-width: 768px) {
-    .blok {
-        width: 90%;
-        height: 90%;
-    }
-
-    .tex {
-        font-size: 15px;
-        gap: 0px;
-        margin-block: 40px;
-        margin: 3px;
-        }
-    .text {
-        font-size: 13px;
-        gap: 14px;
-        padding-left: 10px;
-        padding-right: 10px;
-    }
-    .blok {
-        gap: 0px;
-    }
-    .textTsar {
-        font-size: 14px;
-        gap: 13px;
-        margin-top: 60px;
-    }
-    .textTsa {
-        font-size: 20px;
-        text-align: center;
-        } 
-}
-
-@media (min-width: 962px) {
-    .blok {
-        width: 90%;
-        height: 90%;
-    }
-
-    .tex {
-        font-size: 17px;
-        gap: 0px;
-        margin-block: 40px;
-        margin: 3px;
-        }
-    .text {
-        font-size: 15px;
-        gap: 14px;
-        padding-left: 10px;
-        padding-right: 10px;
-    }
-    .blok {
-        gap: 0px;
-    }
-    .textTsar {
-        font-size: 16px;
-        gap: 13px;
-        margin-top: 60px;
-    }
-    .textTsa {
-        font-size: 20px;
-        text-align: center;
-        } 
-}
-
-@media (min-width: 1024px) {
-    .blok {
-        width: 90%;
-        height: 90%;
-    }
-
-    .tex {
-        font-size: 27px;
-        gap: 0px;
-        margin-block: 40px;
-        margin: 3px;
-        }
-    .text {
-        font-size: 20px;
-        gap: 14px;
-        padding-left: 10px;
-        padding-right: 10px;
-    }
-    .blok {
-        gap: 0px;
-    }
-    .textTsar {
-        font-size: 16px;
-        gap: 13px;
-        margin-top: 60px;
-    }
-    .textTsa {
-        font-size: 20px;
-        text-align: center;
-        } 
-}
-
-@media (min-width: 1280px) {
-    .blok {
-        width: 90%;
-        height: 90%;
-    }
-
-    .tex {
-        font-size: 27px;
-        gap: 0px;
-        margin-block: 40px;
-        margin: 3px;
-        }
-    .text {
-        font-size: 20px;
-        gap: 14px;
-        padding-left: 10px;
-        padding-right: 10px;
-    }
-    .blok {
-        gap: 0px;
-    }
-    .textTsar {
-        font-size: 16px;
-        gap: 13px;
-        margin-top: 60px;
-    }
-    .textTsa {
-        font-size: 20px;
-        text-align: center;
-        } 
-}
-
-/* @media (min-width: 1536px) {
-    .blok {
-    font-size: 40px;
-    } 
-} */
-
-/* @media (min-width: 1920px) {
-    .blok {
-    font-size: 55px;
-    } 
-} */

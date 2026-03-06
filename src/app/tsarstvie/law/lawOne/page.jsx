@@ -12,80 +12,109 @@ const page = () => {
         Страница с вопросами которая поможет понимать причины ваших трудностей.
       </h1>
       <div className={styles.blok}>
-        <div className={styles.text}>
-          <h2>
-            Вопрос первый. Понимаете ли, вы, что патриотизм и вера как Дьявол и
-            Христос. Два противоречия.
-          </h2>
-          <div className={styles.textQuestion}>
-            <p>1) Да.</p>
-            <p>1) Нет.</p>
-            <p>1) Незнаю.</p>
+        <div className={styles.blo}>
+          <div className={styles.text}>
+            <p2>
+              Вопрос первый. Понимаете ли, вы, что патриотизм и вера как Дьявол
+              и Христос. Два противоречия.
+            </p2>
+            <div className={styles.textQuestion}>
+              <p>1) Да.</p>
+              <p>2) Нет.</p>
+              <p>3) Незнаю.</p>
+            </div>
+          </div>
+          <div className={styles.text}>
+            <p2>
+              Вопрос второй. Понимаете ли, вы, что патриотизм и вера как Дьявол
+              и Христос. Два противоречия.
+            </p2>
+            <div className={styles.textQuestion}>
+              <p>1) Да.</p>
+              <p>2) Нет.</p>
+              <p>3) Незнаю.</p>
+            </div>
+          </div>
+          <div className={styles.text}>
+            <p2>Вопрос третий. Есть ли причина убивать людей?.</p2>
+            <div className={styles.textQuestion}>
+              <p>1) Да есть.</p>
+              <p>2) Нет причин.</p>
+              <p>3) Незнаю.</p>
+            </div>
+          </div>
+          <div className={styles.text}>
+            <p2>Вопрос четвёртый. Иисус Сын божий или сам Всевышний и есть?</p2>
+            <div className={styles.textQuestion}>
+              <p>1) Да Иисус Сын.</p>
+              <p>2) Иисус Всевышний</p>
+              <p>3) Незнаю.</p>
+            </div>
+          </div>
+          <div className={styles.text}>
+            <p2>
+              Вопрос пятый. Богородица родила естественным путём или описанным в
+              Новом Завете?.
+            </p2>
+            <div className={styles.textQuestion}>
+              <p>1) Естественным.</p>
+              <p>2) Описаным.</p>
+              <p>3) Незнаю.</p>
+            </div>
+          </div>
+          <div className={styles.text}>
+            <p2>
+              Вопрос шестой. История Адама и Евы буквальная история или
+              завуалированная история миллионов лет эволюции?
+            </p2>
+            <div className={styles.textQuestion}>
+              <p>1) Буквальная.</p>
+              <p>2) Эволюция.</p>
+              <p>3) Незнаю.</p>
+            </div>
+          </div>
+          <div className={styles.text}>
+            <p2>
+              Вопрос седьмой. Понимаете ли, вы, что у обручившиеся с виновными
+              по вине прелюбодеяния нет шансов на спасение?
+            </p2>
+            <div className={styles.textQuestion}>
+              <p>1) Понимаю.</p>
+              <p>2) Не согласен.</p>
+              <p>3) Незнаю.</p>
+            </div>
+          </div>
+          <div className={styles.text}>
+            <p2>
+              Вопрос восьмой. Понимаете ли, вы, что у разведённых без вины
+              прелюбодеяния нет шансов на спасение?
+            </p2>
+            <div className={styles.textQuestion}>
+              <p>1) Понимаю.</p>
+              <p>2) Не согласен.</p>
+              <p>3) Незнаю.</p>
+            </div>
+          </div>
+          <div className={styles.text}>
+            <p2>
+              Вопрос 9. Понимаете ли, вы, что тот, кто соблазнил мужа или
+              жену на изменy разделит награду с осуждёнными по вине
+              прелюбодеяния?
+            </p2>
+            <div className={styles.textQuestion}>
+              <p>1) Понимаю.</p>
+              <p>2) Не согласен.</p>
+              <p>3) Незнаю.</p>
+            </div>
           </div>
         </div>
-        <div className={styles.text}>
-          <h3>Вопрос второй. Понимаете ли вы, что матершинные слова, сигареты, наркотики, спиртное, дорога в плохое место?</h3>
-          <div className={styles.textQuestion}>
-            <p>1) Ии</p>
-            <p>1) еи</p>
-            <p>1) 8и</p>
-            <p>4) Ии</p>
-            <p>5) еи</p>
-            <p>6) 8и</p>
-            <p>7) Ии</p>
-            <p>8) еи</p>
-            <p>9) 8и</p>
-          </div>
-        </div>
-        <div className={styles.text}>
-          <h3>Вопрос третий. Выберите верный вариант.</h3>
-          <div className={styles.textQuestion}>
-            <p>1) Ии</p>
-            <p>1) еи</p>
-            <p>1) 8и</p>
-            <p>4) Ии</p>
-            <p>5) еи</p>
-            <p>6) 8и</p>
-            <p>7) Ии</p>
-            <p>8) еи</p>
-            <p>9) 8и</p>
-          </div>
-        </div>
-        <div className={styles.text}>
-          <h3>Вопрос четвёртый. Выберите верный вариант.</h3>
-          <div className={styles.textQuestion}>
-            <p>1) Ии</p>
-            <p>1) еи</p>
-            <p>1) 8и</p>
-            <p>4) Ии</p>
-            <p>5) еи</p>
-            <p>6) 8и</p>
-            <p>7) Ии</p>
-            <p>8) еи</p>
-            <p>9) 8и</p>
-          </div>
-        </div>
-        <div className={styles.text}>
-          <h3>Вопрос первый. Выберите верный вариант.</h3>
-          <div className={styles.textQuestion}>
-            <p>1) Ии</p>
-            <p>1) еи</p>
-            <p>1) 8и</p>
-            <p>4) Ии</p>
-            <p>5) еи</p>
-            <p>6) 8и</p>
-            <p>7) Ии</p>
-            <p>8) еи</p>
-            <p>9) 8и</p>
-          </div>
-        </div>
+        {/* <button onClick={() => useNavigate(-1)} className={styles.button}>
+        {"<--"}Назад
+      </button> */}
       </div>
       <button className={styles.buttonLaw}>
         <a href="/tsarstvie/law">Назад</a>
       </button>
-      {/* <button onClick={() => useNavigate(-1)} className={styles.button}>
-        {"<--"}Назад
-      </button> */}
     </div>
   );
 };

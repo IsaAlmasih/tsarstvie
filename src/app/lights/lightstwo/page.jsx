@@ -14,7 +14,8 @@ const page = () => {
             нём дано взять мир с земли, и чтобы убивали друг друга; и дан ему
             большой меч.
           </div>
-          <Link href={"/lights"}>Вторая печать.</Link>
+          <Link href={"/lights"}>Данная печать на этапе 21 века не снята.</Link>
+          <Link href={"/lights"}>Вернуться назад.</Link>
           <Link href="/lights" className={styles.textTsar}>
             Вернуться на главную.
           </Link>
