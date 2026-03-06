@@ -77,6 +77,8 @@
     color: rgb(0, 255, 4);
     background-color: transparent;
     border: 30;
+    gap: 30px;
+    padding-inline: 70px;
 }
 
 

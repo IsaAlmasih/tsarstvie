@@ -118,16 +118,23 @@ const page = () => {
           </div>
         </div>
         <p3 className={styles.textQues}>
-          На все представление вопросы ответ под номером один. И если вы не
-          согласны, Христа вам не видать!
+          На все представление вопросы ответ под номером один!
         </p3>
         {/* <button onClick={() => useNavigate(-1)} className={styles.button}>
         {"<--"}Назад
       </button> */}
       </div>
-      <button className={styles.buttonLaw}>
-        <a href="/tsarstvie/law">Назад</a>
-      </button>
+      <div className={styles.buttonLaw}>
+        <button className={styles.buttonLaw}>
+          <a href="/tsarstvie/law">Назад.</a>
+        </button>
+        <button className={styles.buttonLaw}>
+          <a href="/tsarstvie/law/lawTwo">Следующая.</a>
+        </button>
+        <button className={styles.buttonLaw}>
+          <a href="/tsarstvie">На главную.</a>
+        </button>
+      </div>
     </div>
   );
 };
