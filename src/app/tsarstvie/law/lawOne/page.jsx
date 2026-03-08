@@ -3,6 +3,7 @@ import { useState } from "react";
 import { useRouter } from "next/navigation";
 
 import styles from "../lawOne/styles.module.css";
+import Link from "next/link";
 
 export default function law() {
   const router = useRouter();
@@ -50,332 +51,54 @@ export default function law() {
         <div className={styles.blok}>
           <div className={styles.blo}>
             <div className={styles.text}>
-              <label>Тама с вопросами первой Заповеди</label>
-              <input
-                name="q1"
-                value={answers.q1}
-                onChange={handleChange}
-                placeholder="Ответьте на вопрос 1"
-              />
-              <div className={styles.optuv}>
-                <label>
-                  <input
-                    type="radio"
-                    name="q1"
-                    value="вариант 1"
-                    checked={answers.q1 === "вариант 1"}
-                    onChange={handleChange}
-                  />
-                  Да нажмите 1
-                </label>
-                <label>
-                  <input
-                    type="radio"
-                    name="q1"
-                    value="вариант 2"
-                    checked={answers.q1 === "вариант 2"}
-                    onChange={handleChange}
-                  />
-                  Нет нажмите 2
-                </label>
-              </div>
+              <Link href="/additional/questions">
+                Тама с вопросами первой Заповеди.
+              </Link>
             </div>
             <div className={styles.text}>
-              <label>Тама с вопросами второй Заповеди</label>
-              <input
-                name="q2"
-                value={answers.q2}
-                onChange={handleChange}
-                placeholder="Ответьте на вопрос 2"
-              />
-              <div className={styles.optuv}>
-                <label>
-                  <input
-                    type="radio"
-                    name="q1"
-                    value="вариант 1"
-                    checked={answers.q1 === "вариант 1"}
-                    onChange={handleChange}
-                  />
-                  Да нажмите 1
-                </label>
-                <label>
-                  <input
-                    type="radio"
-                    name="q1"
-                    value="вариант 2"
-                    checked={answers.q1 === "вариант 2"}
-                    onChange={handleChange}
-                  />
-                  Нет нажмите 2
-                </label>
-              </div>
+              <Link href="/additional/questions">
+                Тама с вопросами второй Заповеди.
+              </Link>
             </div>
             <div className={styles.text}>
-              <label>Тама с вопросами третей Заповеди</label>
-              <input
-                name="q3"
-                value={answers.q3}
-                onChange={handleChange}
-                placeholder="Ответьте на вопрос 3"
-              />
-              <div className={styles.optuv}>
-                <label>
-                  <input
-                    type="radio"
-                    name="q1"
-                    value="вариант 1"
-                    checked={answers.q1 === "вариант 1"}
-                    onChange={handleChange}
-                  />
-                  Да нажмите 1
-                </label>
-                <label>
-                  <input
-                    type="radio"
-                    name="q1"
-                    value="вариант 2"
-                    checked={answers.q1 === "вариант 2"}
-                    onChange={handleChange}
-                  />
-                  Нет нажмите 2
-                </label>
-              </div>
+              <Link href="/additional/questions">
+                Тама с вопросами третей Заповеди.
+              </Link>
             </div>
             <div className={styles.text}>
-              <label>Тама с вопросами четвёртой Заповеди</label>
-              <input
-                name="q4"
-                value={answers.q4}
-                onChange={handleChange}
-                placeholder="Ответьте на вопрос 4"
-              />
-              <div className={styles.optuv}>
-                <label>
-                  <input
-                    type="radio"
-                    name="q1"
-                    value="вариант 1"
-                    checked={answers.q1 === "вариант 1"}
-                    onChange={handleChange}
-                  />
-                  Да нажмите 1
-                </label>
-                <label>
-                  <input
-                    type="radio"
-                    name="q1"
-                    value="вариант 2"
-                    checked={answers.q1 === "вариант 2"}
-                    onChange={handleChange}
-                  />
-                  Нет нажмите 2
-                </label>
-              </div>
+              <Link href="/additional/questions">
+                Тама с вопросами четвётрой Заповеди.
+              </Link>
             </div>
             <div className={styles.text}>
-              <label>
-                Вопрос 5. Богородица родила естественным путём или описанным в
-                Новом Завете?
-              </label>
-              <input
-                name="q5"
-                value={answers.q5}
-                onChange={handleChange}
-                placeholder="Ответьте на вопрос 5"
-              />
-              <div className={styles.optuv}>
-                <label>
-                  <input
-                    type="radio"
-                    name="q1"
-                    value="вариант 1"
-                    checked={answers.q1 === "вариант 1"}
-                    onChange={handleChange}
-                  />
-                  Да нажмите 1
-                </label>
-                <label>
-                  <input
-                    type="radio"
-                    name="q1"
-                    value="вариант 2"
-                    checked={answers.q1 === "вариант 2"}
-                    onChange={handleChange}
-                  />
-                  Нет нажмите 2
-                </label>
-              </div>
+              <Link href="/additional/questions">
+                Тама с вопросами пятой Заповеди.
+              </Link>
             </div>
             <div className={styles.text}>
-              <label>
-                Вопрос 6. История Адама и Евы буквальная история или
-                завуалированная история миллионов лет эволюции?
-              </label>
-              <input
-                name="q6"
-                value={answers.q6}
-                onChange={handleChange}
-                placeholder="Ответьте на вопрос 6"
-              />
-              <div className={styles.optuv}>
-                <label>
-                  <input
-                    type="radio"
-                    name="q1"
-                    value="вариант 1"
-                    checked={answers.q1 === "вариант 1"}
-                    onChange={handleChange}
-                  />
-                  Да нажмите 1
-                </label>
-                <label>
-                  <input
-                    type="radio"
-                    name="q1"
-                    value="вариант 2"
-                    checked={answers.q1 === "вариант 2"}
-                    onChange={handleChange}
-                  />
-                  Нет нажмите 2
-                </label>
-              </div>
+              <Link href="/additional/questions">
+                Тама с вопросами шестой Заповеди.
+              </Link>
             </div>
             <div className={styles.text}>
-              <label>
-                Вопрос 7. Понимаете ли, вы, что у обручившиеся с виновными по
-                вине прелюбодеяния нет шансов на спасение?
-              </label>
-              <input
-                name="q7"
-                value={answers.q7}
-                onChange={handleChange}
-                placeholder="Ответьте на вопрос 7"
-              />
-              <div className={styles.optuv}>
-                <label>
-                  <input
-                    type="radio"
-                    name="q1"
-                    value="вариант 1"
-                    checked={answers.q1 === "вариант 1"}
-                    onChange={handleChange}
-                  />
-                  Да нажмите 1
-                </label>
-                <label>
-                  <input
-                    type="radio"
-                    name="q1"
-                    value="вариант 2"
-                    checked={answers.q1 === "вариант 2"}
-                    onChange={handleChange}
-                  />
-                  Нет нажмите 2
-                </label>
-              </div>
+              <Link href="/additional/questions">
+                Тама с вопросами седьмой Заповеди.
+              </Link>
             </div>
             <div className={styles.text}>
-              <label>
-                Вопрос 8. Понимаете ли, вы, что у разведённых без вины
-                прелюбодеяния нет шансов на спасение?
-              </label>
-              <input
-                name="q8"
-                value={answers.q8}
-                onChange={handleChange}
-                placeholder="Ответьте на вопрос 8"
-              />
-              <div className={styles.optuv}>
-                <label>
-                  <input
-                    type="radio"
-                    name="q1"
-                    value="вариант 1"
-                    checked={answers.q1 === "вариант 1"}
-                    onChange={handleChange}
-                  />
-                  Да нажмите 1
-                </label>
-                <label>
-                  <input
-                    type="radio"
-                    name="q1"
-                    value="вариант 2"
-                    checked={answers.q1 === "вариант 2"}
-                    onChange={handleChange}
-                  />
-                  Нет нажмите 2
-                </label>
-              </div>
+              <Link href="/additional/questions">
+                Тама с вопросами восьмой Заповеди.
+              </Link>
             </div>
             <div className={styles.text}>
-              <label>
-                Вопрос 9. Понимаете ли, вы, что тот, кто соблазнил мужа или жену
-                на изменy разделит награду с осуждёнными по вине прелюбодеяния?
-              </label>
-              <input
-                name="q9"
-                value={answers.q9}
-                onChange={handleChange}
-                placeholder="Ответьте на вопрос 9"
-              />
-              <div className={styles.optuv}>
-                <label>
-                  <input
-                    type="radio"
-                    name="q1"
-                    value="вариант 1"
-                    checked={answers.q1 === "вариант 1"}
-                    onChange={handleChange}
-                  />
-                  Да нажмите 1
-                </label>
-                <label>
-                  <input
-                    type="radio"
-                    name="q1"
-                    value="вариант 2"
-                    checked={answers.q1 === "вариант 2"}
-                    onChange={handleChange}
-                  />
-                  Нет нажмите 2
-                </label>
-              </div>
+              <Link href="/additional/questions">
+                Тама с вопросами девятой Заповеди.
+              </Link>
             </div>
             <div className={styles.text}>
-              <label>
-                Вопрос 10. Понимаете ли, вы, что кесарь, патриарх, князь, царь,
-                в нашем времени = дьявол?
-              </label>
-              <input
-                name="q10"
-                value={answers.q10}
-                onChange={handleChange}
-                placeholder="Ответьте на вопрос 10"
-              />
-              <div className={styles.optuv}>
-                <label>
-                  <input
-                    type="radio"
-                    name="q1"
-                    value="вариант 1"
-                    checked={answers.q1 === "вариант 1"}
-                    onChange={handleChange}
-                  />
-                  Да нажмите 1
-                </label>
-                <label>
-                  <input
-                    type="radio"
-                    name="q1"
-                    value="вариант 2"
-                    checked={answers.q1 === "вариант 2"}
-                    onChange={handleChange}
-                  />
-                  Нет нажмите 2
-                </label>
-              </div>
+              <Link href="/additional/questions">
+                Тама с вопросами десятой Заповеди.
+              </Link>
             </div>
           </div>
         </div>

@@ -66,7 +66,10 @@ const page = () => {
             мои с Иисусом ценности прошу пройти список вопросов по итогу
             которого вы узнаете можете ли вы быть там где мы с Христом или вам
             ещё учиться и учиться.{" "}
-            <a href="/additional/questions" className={styles.optuw}>
+            <a
+              href="law/lawOne"
+              className={styles.optuw}
+            >
               Ответить.
             </a>
           </p>
