@@ -23,3 +23,21 @@ position:relative,position:absolute,position:fixed и position:sticky (толь�
 Свойство: z-index
 Управляет наложением друг на друга элементов с
 параметрами position:relative,position:absolute,position:fixed по оси Z
+
+
+
+
+
+
+      {/* <div className={styles.buttonLaw}>
+        <button className={styles.buttonLaw}>
+          <a href="/tsarstvie/law">Назад.</a>
+        </button>
+        <button className={styles.buttonLaw}>
+          <a href="/tsarstvie/law/lawTwo">Следующая.</a>
+        </button>
+        <button className={styles.buttonLaw}>
+          <a href="/tsarstvie">На главную.</a>
+        </button>
+      </div> */}
+    </div>

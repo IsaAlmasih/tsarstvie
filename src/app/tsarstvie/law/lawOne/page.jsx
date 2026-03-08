@@ -1,142 +1,397 @@
-
-import React from "react";
-
-import { useNavigate } from "react";
+"use client";
+import { useState } from "react";
+import { useRouter } from "next/navigation";
 
 import styles from "../lawOne/styles.module.css";
 
-const page = () => {
+export default function law() {
+  const router = useRouter();
+
+  const [answers, setAnswers] = useState({
+    q1: "1",
+    q2: "1",
+    q3: "1",
+    q4: "1",
+    q5: "1",
+    q6: "1",
+    q7: "1",
+    q8: "1",
+    q9: "1",
+    q10: "1",
+  });
+
+  const handleChange = (e) => {
+    setAnswers({ ...answers, [e.target.name]: e.target.value });
+  };
+
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    if (
+      (answers.q1 === "1",
+      answers.q2 === "1",
+      answers.q3 === "1",
+      answers.q4 === "1",
+      answers.q5 === "1",
+      answers.q6 === "1",
+      answers.q7 === "1",
+      answers.q8 === "1",
+      answers.q9 === "1",
+      answers.q10 === "1")
+    ) {
+      router.push("/additional");
+    } else {
+      alert("Некорректные ответы, попробуйте снова!");
+    }
+  };
+
   return (
-    <div className={styles.wrapper}>
-      <h1>
-        Страница с вопросами которая поможет понимать причины ваших трудностей.
-      </h1>
-      <div className={styles.blok}>
-        <div className={styles.blo}>
-          <div className={styles.text}>
-            <p2>
-              Вопрос 1. Понимаете ли, вы, что патриотизм и вера как Дьявол и
-              Христос. Два противоречия.
-            </p2>
-            <div className={styles.textQuestion}>
-              <p>1) Да.</p>
-              <p>2) Нет.</p>
-              <p>3) Незнаю.</p>
+    <form onSubmit={handleSubmit}>
+      <div className={styles.wrapper}>
+        <div className={styles.blok}>
+          <div className={styles.blo}>
+            <div className={styles.text}>
+              <label>
+                Вопрос 1. Понимаете ли, вы, что патриотизм и вера как Дьявол и
+                Христос. Два противоречия.
+              </label>
+              <input
+                name="q1"
+                value={answers.q1}
+                onChange={handleChange}
+                placeholder="Ответьте на вопрос 1"
+              />
+              <div className={styles.optuv}>
+                <label>
+                  <input
+                    type="radio"
+                    name="q1"
+                    value="вариант 1"
+                    checked={answers.q1 === "вариант 1"}
+                    onChange={handleChange}
+                  />
+                  Да нажмите 1
+                </label>
+                <label>
+                  <input
+                    type="radio"
+                    name="q1"
+                    value="вариант 2"
+                    checked={answers.q1 === "вариант 2"}
+                    onChange={handleChange}
+                  />
+                  Нет нажмите 2
+                </label>
+              </div>
             </div>
-          </div>
-          <div className={styles.text}>
-            <p2>
-              Вопрос 2. Понимаете ли, вы, что нельзя священников называть отец?
-            </p2>
-            <div className={styles.textQuestion}>
-              <p>1) Да.</p>
-              <p>2) Нет.</p>
-              <p>3) Незнаю.</p>
+            <div className={styles.text}>
+              <label>
+                Вопрос 2. Понимаете ли, вы, что нельзя священников называть
+                отец?
+              </label>
+              <input
+                name="q2"
+                value={answers.q2}
+                onChange={handleChange}
+                placeholder="Ответьте на вопрос 2"
+              />
+              <div className={styles.optuv}>
+                <label>
+                  <input
+                    type="radio"
+                    name="q1"
+                    value="вариант 1"
+                    checked={answers.q1 === "вариант 1"}
+                    onChange={handleChange}
+                  />
+                  Да нажмите 1
+                </label>
+                <label>
+                  <input
+                    type="radio"
+                    name="q1"
+                    value="вариант 2"
+                    checked={answers.q1 === "вариант 2"}
+                    onChange={handleChange}
+                  />
+                  Нет нажмите 2
+                </label>
+              </div>
             </div>
-          </div>
-          <div className={styles.text}>
-            <p2>Вопрос 3. Есть ли причина убивать людей?</p2>
-            <div className={styles.textQuestion}>
-              <p>1) Нет причин.</p>
-              <p>2) Да есть.</p>
-              <p>3) Незнаю.</p>
+            <div className={styles.text}>
+              <label>Вопрос 3. Есть ли причина убивать людей?</label>
+              <input
+                name="q3"
+                value={answers.q3}
+                onChange={handleChange}
+                placeholder="Ответьте на вопрос 3"
+              />
+              <div className={styles.optuv}>
+                <label>
+                  <input
+                    type="radio"
+                    name="q1"
+                    value="вариант 1"
+                    checked={answers.q1 === "вариант 1"}
+                    onChange={handleChange}
+                  />
+                  Да нажмите 1
+                </label>
+                <label>
+                  <input
+                    type="radio"
+                    name="q1"
+                    value="вариант 2"
+                    checked={answers.q1 === "вариант 2"}
+                    onChange={handleChange}
+                  />
+                  Нет нажмите 2
+                </label>
+              </div>
             </div>
-          </div>
-          <div className={styles.text}>
-            <p2>Вопрос 4. Иисус Сын божий или сам Всевышний и есть?</p2>
-            <div className={styles.textQuestion}>
-              <p>1) Иисус Всевышний.</p>
-              <p>2) Да Иисус Сын.</p>
-              <p>3) Незнаю.</p>
+            <div className={styles.text}>
+              <label>Вопрос 4. Иисус Сын божий или сам Всевышний и есть?</label>
+              <input
+                name="q4"
+                value={answers.q4}
+                onChange={handleChange}
+                placeholder="Ответьте на вопрос 4"
+              />
+              <div className={styles.optuv}>
+                <label>
+                  <input
+                    type="radio"
+                    name="q1"
+                    value="вариант 1"
+                    checked={answers.q1 === "вариант 1"}
+                    onChange={handleChange}
+                  />
+                  Да нажмите 1
+                </label>
+                <label>
+                  <input
+                    type="radio"
+                    name="q1"
+                    value="вариант 2"
+                    checked={answers.q1 === "вариант 2"}
+                    onChange={handleChange}
+                  />
+                  Нет нажмите 2
+                </label>
+              </div>
             </div>
-          </div>
-          <div className={styles.text}>
-            <p2>
-              Вопрос 5. Богородица родила естественным путём или описанным в
-              Новом Завете?
-            </p2>
-            <div className={styles.textQuestion}>
-              <p>1) Естественным.</p>
-              <p>2) Описаным.</p>
-              <p>3) Незнаю.</p>
+            <div className={styles.text}>
+              <label>
+                Вопрос 5. Богородица родила естественным путём или описанным в
+                Новом Завете?
+              </label>
+              <input
+                name="q5"
+                value={answers.q5}
+                onChange={handleChange}
+                placeholder="Ответьте на вопрос 5"
+              />
+              <div className={styles.optuv}>
+                <label>
+                  <input
+                    type="radio"
+                    name="q1"
+                    value="вариант 1"
+                    checked={answers.q1 === "вариант 1"}
+                    onChange={handleChange}
+                  />
+                  Да нажмите 1
+                </label>
+                <label>
+                  <input
+                    type="radio"
+                    name="q1"
+                    value="вариант 2"
+                    checked={answers.q1 === "вариант 2"}
+                    onChange={handleChange}
+                  />
+                  Нет нажмите 2
+                </label>
+              </div>
             </div>
-          </div>
-          <div className={styles.text}>
-            <p2>
-              Вопрос 6. История Адама и Евы буквальная история или
-              завуалированная история миллионов лет эволюции?
-            </p2>
-            <div className={styles.textQuestion}>
-              <p>1) Эволюция.</p>
-              <p>2) Буквальная.</p>
-              <p>3) Незнаю.</p>
+            <div className={styles.text}>
+              <label>
+                Вопрос 6. История Адама и Евы буквальная история или
+                завуалированная история миллионов лет эволюции?
+              </label>
+              <input
+                name="q6"
+                value={answers.q6}
+                onChange={handleChange}
+                placeholder="Ответьте на вопрос 6"
+              />
+              <div className={styles.optuv}>
+                <label>
+                  <input
+                    type="radio"
+                    name="q1"
+                    value="вариант 1"
+                    checked={answers.q1 === "вариант 1"}
+                    onChange={handleChange}
+                  />
+                  Да нажмите 1
+                </label>
+                <label>
+                  <input
+                    type="radio"
+                    name="q1"
+                    value="вариант 2"
+                    checked={answers.q1 === "вариант 2"}
+                    onChange={handleChange}
+                  />
+                  Нет нажмите 2
+                </label>
+              </div>
             </div>
-          </div>
-          <div className={styles.text}>
-            <p2>
-              Вопрос седьмой. Понимаете ли, вы, что у обручившиеся с виновными
-              по вине прелюбодеяния нет шансов на спасение?
-            </p2>
-            <div className={styles.textQuestion}>
-              <p>1) Понимаю.</p>
-              <p>2) Не согласен.</p>
-              <p>3) Незнаю.</p>
+            <div className={styles.text}>
+              <label>
+                Вопрос 7. Понимаете ли, вы, что у обручившиеся с виновными по
+                вине прелюбодеяния нет шансов на спасение?
+              </label>
+              <input
+                name="q7"
+                value={answers.q7}
+                onChange={handleChange}
+                placeholder="Ответьте на вопрос 7"
+              />
+              <div className={styles.optuv}>
+                <label>
+                  <input
+                    type="radio"
+                    name="q1"
+                    value="вариант 1"
+                    checked={answers.q1 === "вариант 1"}
+                    onChange={handleChange}
+                  />
+                  Да нажмите 1
+                </label>
+                <label>
+                  <input
+                    type="radio"
+                    name="q1"
+                    value="вариант 2"
+                    checked={answers.q1 === "вариант 2"}
+                    onChange={handleChange}
+                  />
+                  Нет нажмите 2
+                </label>
+              </div>
             </div>
-          </div>
-          <div className={styles.text}>
-            <p2>
-              Вопрос восьмой. Понимаете ли, вы, что у разведённых без вины
-              прелюбодеяния нет шансов на спасение?
-            </p2>
-            <div className={styles.textQuestion}>
-              <p>1) Понимаю.</p>
-              <p>2) Не согласен.</p>
-              <p>3) Незнаю.</p>
+            <div className={styles.text}>
+              <label>
+                Вопрос 8. Понимаете ли, вы, что у разведённых без вины
+                прелюбодеяния нет шансов на спасение?
+              </label>
+              <input
+                name="q8"
+                value={answers.q8}
+                onChange={handleChange}
+                placeholder="Ответьте на вопрос 8"
+              />
+              <div className={styles.optuv}>
+                <label>
+                  <input
+                    type="radio"
+                    name="q1"
+                    value="вариант 1"
+                    checked={answers.q1 === "вариант 1"}
+                    onChange={handleChange}
+                  />
+                  Да нажмите 1
+                </label>
+                <label>
+                  <input
+                    type="radio"
+                    name="q1"
+                    value="вариант 2"
+                    checked={answers.q1 === "вариант 2"}
+                    onChange={handleChange}
+                  />
+                  Нет нажмите 2
+                </label>
+              </div>
             </div>
-          </div>
-          <div className={styles.text}>
-            <p2>
-              Вопрос 9. Понимаете ли, вы, что тот, кто соблазнил мужа или жену
-              на изменy разделит награду с осуждёнными по вине прелюбодеяния?
-            </p2>
-            <div className={styles.textQuestion}>
-              <p>1) Понимаю.</p>
-              <p>2) Не согласен.</p>
-              <p>3) Незнаю.</p>
+            <div className={styles.text}>
+              <label>
+                Вопрос 9. Понимаете ли, вы, что тот, кто соблазнил мужа или жену
+                на изменy разделит награду с осуждёнными по вине прелюбодеяния?
+              </label>
+              <input
+                name="q9"
+                value={answers.q9}
+                onChange={handleChange}
+                placeholder="Ответьте на вопрос 9"
+              />
+              <div className={styles.optuv}>
+                <label>
+                  <input
+                    type="radio"
+                    name="q1"
+                    value="вариант 1"
+                    checked={answers.q1 === "вариант 1"}
+                    onChange={handleChange}
+                  />
+                  Да нажмите 1
+                </label>
+                <label>
+                  <input
+                    type="radio"
+                    name="q1"
+                    value="вариант 2"
+                    checked={answers.q1 === "вариант 2"}
+                    onChange={handleChange}
+                  />
+                  Нет нажмите 2
+                </label>
+              </div>
             </div>
-          </div>
-          <div className={styles.text}>
-            <p2>
-              Вопрос 10. Понимаете ли, вы, что кесарь, патриарх, князь, царь, в
-              нашем времени = дьявол?
-            </p2>
-            <div className={styles.textQuestion}>
-              <p>1) Понимаю.</p>
-              <p>2) Не согласен.</p>
-              <p>3) Незнаю.</p>
+            <div className={styles.text}>
+              <label>
+                Вопрос 10. Понимаете ли, вы, что кесарь, патриарх, князь, царь,
+                в нашем времени = дьявол?
+              </label>
+              <input
+                name="q10"
+                value={answers.q10}
+                onChange={handleChange}
+                placeholder="Ответьте на вопрос 10"
+              />
+              <div className={styles.optuv}>
+                <label>
+                  <input
+                    type="radio"
+                    name="q1"
+                    value="вариант 1"
+                    checked={answers.q1 === "вариант 1"}
+                    onChange={handleChange}
+                  />
+                  Да нажмите 1
+                </label>
+                <label>
+                  <input
+                    type="radio"
+                    name="q1"
+                    value="вариант 2"
+                    checked={answers.q1 === "вариант 2"}
+                    onChange={handleChange}
+                  />
+                  Нет нажмите 2
+                </label>
+              </div>
             </div>
           </div>
         </div>
-        <p3 className={styles.textQues}>
-          На все представление вопросы ответ под номером один!
-        </p3>
-        {/* <button onClick={() => useNavigate(-1)} className={styles.button}>
-        {"<--"}Назад
-      </button> */}
-      </div>
-      <div className={styles.buttonLaw}>
-        <button className={styles.buttonLaw}>
-          <a href="/tsarstvie/law">Назад.</a>
+        <button type="submit" className={styles.buttonLaw}>
+          Отправить
         </button>
-        <button className={styles.buttonLaw}>
-          <a href="/tsarstvie/law/lawTwo">Следующая.</a>
-        </button>
-        <button className={styles.buttonLaw}>
-          <a href="/tsarstvie">На главную.</a>
+        <button className={styles.buttonla}>
+          <a href="/tsarstvie">На главную. </a>
         </button>
       </div>
-    </div>
+    </form>
   );
-};
-
-export default page;
+}
