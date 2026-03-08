@@ -50,10 +50,7 @@ export default function law() {
         <div className={styles.blok}>
           <div className={styles.blo}>
             <div className={styles.text}>
-              <label>
-                Вопрос 1. Понимаете ли, вы, что патриотизм и вера как Дьявол и
-                Христос. Два противоречия.
-              </label>
+              <label>Тама с вопросами первой Заповеди</label>
               <input
                 name="q1"
                 value={answers.q1}
@@ -84,10 +81,7 @@ export default function law() {
               </div>
             </div>
             <div className={styles.text}>
-              <label>
-                Вопрос 2. Понимаете ли, вы, что нельзя священников называть
-                отец?
-              </label>
+              <label>Тама с вопросами второй Заповеди</label>
               <input
                 name="q2"
                 value={answers.q2}
@@ -118,7 +112,7 @@ export default function law() {
               </div>
             </div>
             <div className={styles.text}>
-              <label>Вопрос 3. Есть ли причина убивать людей?</label>
+              <label>Тама с вопросами третей Заповеди</label>
               <input
                 name="q3"
                 value={answers.q3}
@@ -149,7 +143,7 @@ export default function law() {
               </div>
             </div>
             <div className={styles.text}>
-              <label>Вопрос 4. Иисус Сын божий или сам Всевышний и есть?</label>
+              <label>Тама с вопросами четвёртой Заповеди</label>
               <input
                 name="q4"
                 value={answers.q4}
