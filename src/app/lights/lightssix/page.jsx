@@ -21,7 +21,7 @@ const page = () => {
             ибо пришёл Великий День Гнева Его, и кто может устоять?
           </div>
           <Link href="/lights">Шестая печать.</Link>
-          <Link href="/lights" className={styles.textTsar}>
+          <Link href="/tsarstvie/1" className={styles.textTsar}>
             Вернуться на главную.
           </Link>
         </div>

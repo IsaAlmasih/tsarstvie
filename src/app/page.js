@@ -12,11 +12,13 @@ const page = () => {
     <div className={styles.apffgp}>
       <Clouds></Clouds>
       <img src={logo.src} className={styles.Applogo} alt="logo" />
-      <Link href="/tsarstvie" className={styles.subtitle}>
-        <h3 className={styles.afgp}>مملكة عيسو.</h3>
-        <h3>Царство Исава.</h3>
-        <h3>The Kingdom of Esau.</h3>
-      </Link>
+      <div className={styles.subtitle}>
+        <Link href="/tsarstvie/3" className={styles.afgp}>
+          مملكة عيسو.
+        </Link>
+        <Link href="/tsarstvie/1">Царство Исава.</Link>
+        <Link href="/tsarstvie/2">The Kingdom of Esau.</Link>
+      </div>
     </div>
   );
 };

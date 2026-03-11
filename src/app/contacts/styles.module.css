@@ -33,6 +33,13 @@
     gap: 20px;
 }
 
+.textTsa {
+    font-size: 25px;
+    color: rgb(0, 255, 4);
+    background-color: transparent;
+    border: 30;
+}
+
 
 @media (min-width: 360px) {
     .text {

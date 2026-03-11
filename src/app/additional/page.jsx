@@ -11,12 +11,13 @@ export default function additional() {
       <div className={styles.blok}>
         <div className={styles.textTsa}>
           <h1>
-            Привет мастер. Как видишь я на шаг приблизился к твоему уровню.)))
+            Здравствуйте. Рад видеть людей, которые разделяют мои взгляды, как и
+            тех, кто стремиться прикоснутся к нашему миру.)))
           </h1>
         </div>
       </div>
-      <button className={styles.buttonla}>
-        <a href="/tsarstvie">На главную. </a>
+      <button className={styles.buеton}>
+        <a href="/tsarstvie/law/lawOne">На главную. </a>
       </button>
     </div>
   );

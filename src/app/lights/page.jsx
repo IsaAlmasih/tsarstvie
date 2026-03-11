@@ -18,7 +18,7 @@ const page = () => {
           <Link href="/lights/lightsfive">Пятая печать.</Link>
           <Link href="/lights/lightssix">Шестая печать.</Link>
           <Link href="/lights/lightsseven">Седьмая печать.</Link>
-          <Link href="/tsarstvie" className={styles.textTsar}>
+          <Link href="/tsarstvie/1" className={styles.textTsar}>
             Вернуться на главную.
           </Link>
         </div>

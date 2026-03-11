@@ -15,8 +15,8 @@ const page = () => {
             большой меч.
           </div>
           <Link href={"/lights"}>Данная печать на этапе 21 века не снята.</Link>
-          <Link href={"/lights"}>Вернуться назад.</Link>
-          <Link href="/lights" className={styles.textTsar}>
+          <Link href={"/tsarstvie/1"}>Вернуться назад.</Link>
+          <Link href="/" className={styles.textTsar}>
             Вернуться на главную.
           </Link>
         </div>

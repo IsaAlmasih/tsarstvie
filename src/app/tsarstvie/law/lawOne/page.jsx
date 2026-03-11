@@ -102,11 +102,11 @@ export default function law() {
             </div>
           </div>
         </div>
-        <button type="submit" className={styles.buttonLaw}>
+        {/* <button type="submit" className={styles.buttonLaw}>
           Отправить
-        </button>
-        <button className={styles.buttonla}>
-          <a href="/tsarstvie">На главную. </a>
+        </button> */}
+        <button className={styles.buttonLaw}>
+          <a href="/tsarstvie/1">На главную. </a>
         </button>
       </div>
     </form>

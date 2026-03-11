@@ -76,7 +76,7 @@ const page = () => {
         </div>
       </div>
       <button className={styles.buttonla}>
-        <a href="/tsarstvie">Назад.</a>
+        <a href="/tsarstvie/1">Назад.</a>
       </button>
     </div>
   );

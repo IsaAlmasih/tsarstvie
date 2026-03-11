@@ -17,7 +17,7 @@ const page = () => {
             жертвенник, который перед престолом.
           </div>
           <Link href="/lights">Седьмая печать.</Link>
-          <Link href="/lights" className={styles.textTsar}>
+          <Link href="/tsarstvie/1" className={styles.textTsar}>
             Вернуться на главную.
           </Link>
         </div>

@@ -30,12 +30,12 @@ export default function Questions() {
     if (
       answers.q1 === "Нет" &&
       answers.q2 === "Нет" &&
-      answers.q3 === "Нет" &&
-      answers.q4 === "Нет" &&
-      answers.q5 === "Нет" &&
-      answers.q6 === "Нет" &&
-      answers.q7 === "Нет" &&
-      answers.q8 === "Нет" &&
+      answers.q3 === "Да" &&
+      answers.q4 === "Да" &&
+      answers.q5 === "Да" &&
+      answers.q6 === "Да" &&
+      answers.q7 === "Да" &&
+      answers.q8 === "Да" &&
       answers.q9 === "Нет" &&
       answers.q10 === "Нет"
     ) {
@@ -84,7 +84,8 @@ export default function Questions() {
             </div>
             <div className={styles.text}>
               <label>
-                Вопрос 2. Как вы считаете, можно курить сигареты или нет?
+                Вопрос 2. Как вы считаете, разведённые без вины прелюбодеяния,
+                имеют шанс обрести Христа?
               </label>
               <input
                 name="q2"
@@ -115,7 +116,8 @@ export default function Questions() {
             </div>
             <div className={styles.text}>
               <label>
-                Вопрос 3. Как вы считаете, можно курить сигареты или нет?
+                Вопрос 3. Как вы считаете, участь ваших детей, зависит от
+                тяжести ваших грехов?
               </label>
               <input
                 name="q3"
@@ -146,7 +148,8 @@ export default function Questions() {
             </div>
             <div className={styles.text}>
               <label>
-                Вопрос 4. Как вы считаете, можно курить сигареты или нет?
+                Вопрос 4. Согласны ли с утверждением, что, занимаясь рукоблудием
+                или мастурбацией идти против Христа?
               </label>
               <input
                 name="q4"
@@ -177,7 +180,8 @@ export default function Questions() {
             </div>
             <div className={styles.text}>
               <label>
-                Вопрос 5. Как вы считаете, можно курить сигареты или нет?
+                Вопрос 5. Согласны ли вы, что история Адама и Евы,
+                завуалированная история миллионов лет эволюции?
               </label>
               <input
                 name="q5"
@@ -208,7 +212,8 @@ export default function Questions() {
             </div>
             <div className={styles.text}>
               <label>
-                Вопрос 6. Как вы считаете, можно курить сигареты или нет?
+                Вопрос 6. Понимаете ли, вы, что кесарь = князь = царь =
+                президент = фараон = патриарх = дьявол?
               </label>
               <input
                 name="q6"
@@ -239,7 +244,7 @@ export default function Questions() {
             </div>
             <div className={styles.text}>
               <label>
-                Вопрос 7. Как вы считаете, можно курить сигареты или нет?
+                Вопрос 7. Согласны ли вы что Всевышний и Иисус Одно Лицо?
               </label>
               <input
                 name="q7"
@@ -270,7 +275,8 @@ export default function Questions() {
             </div>
             <div className={styles.text}>
               <label>
-                Вопрос 8. Как вы считаете, можно курить сигареты или нет?
+                Вопрос 8. Понимаете ли, вы, что на исповеди вино, не кровь, а
+                алкоголь?
               </label>
               <input
                 name="q8"

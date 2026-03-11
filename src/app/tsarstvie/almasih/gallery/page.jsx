@@ -27,9 +27,9 @@ const page = () => {
           </div>
           <div>Жилая часть</div>
           <div>Контакты</div>
-          <div>7</div>
+          <div>Ковчег</div>
           <div>Вакансии</div>
-          <div>9</div>
+          <div>Законы</div>
           <div>Сады</div>
           <div>Предложения</div>
           <div>12</div>
