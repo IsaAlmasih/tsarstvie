@@ -46,41 +46,47 @@ const page = async({params}) => {
     <div className={styles.wrapper}>
       <div className={styles.blok}>
         <div className={styles.wrapp}>
-          <div className={styles.wrappBlokRu}>
-            <Link href="/commandments/1">{content[id].rstwz}</Link>
-            <Link href="/tsarstvie/law">{content[id].qsuvz}</Link>
-            <Link href="/tsarstvie/almasih">{content[id].qtvxy}</Link>
-            <Link href="/tsarstvie/churches">{content[id].qtvxz}</Link>
-            <Link href="https://www.supremesanhedrin.ru/">
-              {content[id].qtvyz}
-            </Link>
-            <Link href="/lights">{content[id].qtwxy}</Link>
-            <Link href="/tribesisrael">{content[id].qtwxz}</Link>
-            <Link href="/verdict">{content[id].qtwyz}</Link>
+          <div className={styles.wrappBlokRossia}>
+            <div className={styles.wrappBlokRu}>
+              <Link href="/commandments/1">{content[id].rstwz}</Link>
+              <Link href="/tsarstvie/law">{content[id].qsuvz}</Link>
+              <Link href="/tsarstvie/almasih">{content[id].qtvxy}</Link>
+              <Link href="/tsarstvie/churches">{content[id].qtvxz}</Link>
+              <Link href="https://www.supremesanhedrin.ru/">
+                {content[id].qtvyz}
+              </Link>
+              <Link href="/lights">{content[id].qtwxy}</Link>
+              <Link href="/tribesisrael">{content[id].qtwxz}</Link>
+              <Link href="/verdict">{content[id].qtwyz}</Link>
+            </div>
           </div>
-          <div className={styles.wrappBlokSha}>
-            <Link href="/commandments/3">{content[id].rsvxy}</Link>
-            <Link href="/tsarstvie/law">{content[id].qvwxy}</Link>
-            <Link href="/tsarstvie/almasih">{content[id].qvwxz}</Link>
-            <Link href="/tsarstvie/churches">{content[id].qvwyz}</Link>
-            <Link href="https://www.supremesanhedrin.ru/">
-              {content[id].qvxyz}
-            </Link>
-            <Link href="/lights">{content[id].qwxyz}</Link>
-            <Link href="/tribesisrael">{content[id].rstuv}</Link>
-            <Link href="/verdict">{content[id].rstuw}</Link>
+          <div className={styles.wrappBlokAmeri}>
+            <div className={styles.wrappBlokSha}>
+              <Link href="/commandments/2">{content[id].rsvxy}</Link>
+              <Link href="/tsarstvie/lawArab">{content[id].qvwxy}</Link>
+              <Link href="/tsarstvie/almasih">{content[id].qvwxz}</Link>
+              <Link href="/tsarstvie/churches">{content[id].qvwyz}</Link>
+              <Link href="https://www.supremesanhedrin.ru/">
+                {content[id].qvxyz}
+              </Link>
+              <Link href="/lights">{content[id].qwxyz}</Link>
+              <Link href="/tribesisrael">{content[id].rstuv}</Link>
+              <Link href="/verdict">{content[id].rstuw}</Link>
+            </div>
           </div>
-          <div className={styles.wrappBlokArab}>
-            <Link href="/commandments/2">{content[id].rvwxy}</Link>
-            <Link href="/tsarstvie/law">{content[id].rsvxz}</Link>
-            <Link href="/tsarstvie/almasih">{content[id].rsvyz}</Link>
-            <Link href="/tsarstvie/churches">{content[id].rswxy}</Link>
-            <Link href="https://www.supremesanhedrin.ru/">
-              {content[id].rswxz}
-            </Link>
-            <Link href="/lights">{content[id].rswyz}</Link>
-            <Link href="/tribesisrael">{content[id].rsxyz}</Link>
-            <Link href="/verdict">{content[id].rtuvw}</Link>
+          <div className={styles.wrappBlokArabic}>
+            <div className={styles.wrappBlokArab}>
+              <Link href="/commandments/3">{content[id].rvwxy}</Link>
+              <Link href="/tsarstvie/lawArab">{content[id].rsvxz}</Link>
+              <Link href="/tsarstvie/almasih">{content[id].rsvyz}</Link>
+              <Link href="/tsarstvie/churches">{content[id].rswxy}</Link>
+              <Link href="https://www.supremesanhedrin.ru/">
+                {content[id].rswxz}
+              </Link>
+              <Link href="/lights">{content[id].rswyz}</Link>
+              <Link href="/tribesisrael">{content[id].rsxyz}</Link>
+              <Link href="/verdict">{content[id].rtuvw}</Link>
+            </div>
           </div>
         </div>
       </div>

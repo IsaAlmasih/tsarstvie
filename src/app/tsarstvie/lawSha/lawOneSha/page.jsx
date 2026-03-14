@@ -2,7 +2,7 @@
 import { useState } from "react";
 import { useRouter } from "next/navigation";
 
-import styles from "../../../tsarstvie/law/lawOne/styles.module.css";
+import styles from "../../../tsarstvie/lawSha/lawOneSha/styles.module.css";
 import Link from "next/link";
 
 export default function law() {

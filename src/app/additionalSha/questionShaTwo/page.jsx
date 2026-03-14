@@ -3,7 +3,7 @@
 import { useState } from "react";
 import { useRouter } from "next/navigation";
 
-import styles from "../questions/styles.module.css";
+import styles from "../../additionalSha/questionShaTwo/styles.module.css";
 
 export default function Questions() {
   const router = useRouter();
@@ -36,8 +36,8 @@ export default function Questions() {
       answers.q6 === "Да" &&
       answers.q7 === "Да" &&
       answers.q8 === "Да" &&
-      answers.q9 === "Нет" &&
-      answers.q10 === "Нет"
+      answers.q9 === "Да" &&
+      answers.q10 === "Да"
     ) {
       // Правильный ответ - переходим на страницу
       router.push("/additional");
@@ -53,7 +53,7 @@ export default function Questions() {
           <div className={styles.blo}>
             <div className={styles.text}>
               <label>
-                Вопрос 1. Как вы считаете, можно курить сигареты или нет?
+                Вопрос 1. Вопросы второй заповеди заполни!
               </label>
               <input
                 name="q1"
@@ -307,7 +307,7 @@ export default function Questions() {
             </div>
             <div className={styles.text}>
               <label>
-                Вопрос 9. Как вы считаете, можно курить сигареты или нет?
+                Вопрос 9. Есть ли нормы употребления алкоголя Христовым?
               </label>
               <input
                 name="q9"
@@ -338,7 +338,7 @@ export default function Questions() {
             </div>
             <div className={styles.text}>
               <label>
-                Вопрос 10. Как вы считаете, можно курить сигареты или нет?
+                Вопрос 10. Понимаете ли, вы, что ваш мир итог вашего поведения?
               </label>
               <input
                 name="q10"

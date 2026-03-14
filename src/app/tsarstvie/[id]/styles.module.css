@@ -35,19 +35,24 @@
   }
 
 
+
+.wrappBlokRossia {
+    margin-top: 60px;
+    z-index: 10;
+}
+
+
+
 .wrappBlokRu {
     color: #01ff38;
     font-size: 33px;
     display: flex;
     flex-direction: column;
-    gap: 19px;
-    margin-top: 100px;
+    gap: 10px;
+    margin-top: -100px !important;
+    z-index: 10;
 }
 
-.rstwz {
-    display: flex;   
-    color: #ffffff;
-}
 .qsuvz {
     color: #ffffff;
 }
@@ -70,13 +75,22 @@
     color: #ffffff;
 }
 
+
+
+
+.wrappBlokAmeri {
+    gap: 19px;
+    margin-top: -70px;
+    z-index: 20;
+}
+
+
+
 .wrappBlokSha {
     color: #01ff38;
     font-size: 33px;
     display: flex;
     flex-direction: column;
-    gap: 19px;
-    margin-top: -250px;
 }
 
 .rsvxy {
@@ -104,13 +118,23 @@
     color: #ffffff;
 }
 
+
+
+.wrappBlokArabic {
+    gap: 12px;
+    margin-top: 100px;
+    z-index: 30; 
+}
+
+
 .wrappBlokArab {
     color: #01ff38;
     font-size: 39px;
     display: flex;
     flex-direction: column;
     gap: 12px;
-    margin-top: 140px !important;
+    margin-top: -140px;
+    z-index: 30;
 }
 
 .rvwxy {
@@ -142,7 +166,7 @@
     font-size: 25px;
     color: rgb(0, 255, 4);
     background-color: transparent;
-    border: 30;
+    border: none;
 }
 
 

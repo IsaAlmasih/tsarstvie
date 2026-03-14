@@ -1,7 +1,7 @@
 "use client";
 import React from "react";
 
-import styles from "../../tsarstvie/law/styles.module.css";
+import styles from "../lawSha/styles.module.css";
 
 import Link from "next/link";
 
@@ -76,7 +76,7 @@ const page = () => {
         </div>
       </div>
       <button className={styles.buttonla}>
-        <a href="/tsarstvie/1">Назад.</a>
+        <a href="/tsarstvie/2">Назад.</a>
       </button>
     </div>
   );

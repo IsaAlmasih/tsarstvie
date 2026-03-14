@@ -1,0 +1,95 @@
+.wrapper {
+    background-color: rgb(3, 3, 66);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+    color: #26ff00;
+    gap: 20px;
+}
+
+
+.blok {
+  background-color: rgb(12, 0, 59);
+  color: #ffffff;
+  text-align: center;
+  width: 70%;
+  height: 80%;
+  justify-content: center;
+  -webkit-box-shadow: 0px 0px 59px 9px rgba(255, 0, 0, 0.56);
+  -moz-box-shadow: 0px 0px 59px 9px rgba(255, 0, 0, 0.56);
+  box-shadow: 0px 0px 59px 9px rgba(255, 0, 0, 0.56);
+}
+
+
+
+
+.blo {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 70px;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 20px;
+    gap: 20px;
+}
+
+.text   {
+    display: flex;
+    font-size: 15px;
+    flex-direction: column;
+    border: 3px solid #ff0000;
+    border-radius: 8px;
+    padding-top: 10px;
+    color: #e6ff04;
+    gap: 10px;
+    width: 300px;
+    height: 150px;
+    margin-top: 40px;
+}
+
+
+
+.textQuestion {
+    background-color: transparent;
+    margin-top: 20px;
+    font-size: 15px;
+    color: #e6ff04;
+    text-align: center;
+    border-radius: 8px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+}
+
+
+.textQues {
+    font-size: 25px;
+    color: rgb(0, 255, 4);
+    background-color: transparent;
+    display: flex;
+    justify-content: center;
+    margin: 30px;
+}
+
+
+
+.optuv {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
+
+
+
+.buttonLaw {
+    font-size: 25px;
+    color: rgb(0, 255, 4);
+    background-color: transparent;
+    border: 30;
+    gap: 30px;
+    padding-inline: 70px;
+}
