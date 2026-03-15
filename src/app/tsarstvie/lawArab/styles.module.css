@@ -37,7 +37,7 @@
 }
 
 .tex {
-    font-size: 34px;
+    font-size: 24px;
     color: #15ff00;
     text-align: center;
     gap: 30px;
@@ -51,23 +51,89 @@
     display: flex;
     flex-direction: column;
     gap: 20px;
-    margin-top: 70px;
-    font-size: 21px;
+    font-size: 19px;
     padding-left: 40px;
     padding-right: 40px;
 }
 
 
 .optuw {
-    color: rgb(155, 255, 127);
-    font-size: 28px;
+    color: aquamarine;
 }
 
 
-.buttonlaAra {
-    font-size: 30px;
+.buttonla {
+    font-size: 25px;
     color: rgb(0, 255, 4);
     background-color: transparent;
     border: 30;
 }
 
+
+
+@media (max-width: 360px) {
+    .wrapper {
+        background-color: rgb(3, 3, 66);
+        width: 100%;
+        height: auto;
+}
+
+    .blok {
+        background-color: rgb(12, 0, 59);
+        text-align: center;
+        width: 90%;
+        height: auto;
+        -webkit-box-shadow: 0px 0px 59px 9px rgba(255, 0, 0, 0.56);
+        -moz-box-shadow: 0px 0px 59px 9px rgba(255, 0, 0, 0.56);
+        box-shadow: 0px 0px 59px 9px rgba(255, 0, 0, 0.56);
+    }
+
+    .textTsar {
+        color: #7e7676;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        font-size: 11px;
+        padding: 10px;
+        margin-top: 10px;
+    }
+
+    .tex {
+        font-size: 11px;
+        color: #15ff00;
+        text-align: center;
+        padding: 10px;
+    }
+
+    .text {
+        color: #ffffff;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        font-size: 10px;
+        padding: 10px;
+    }
+
+    .optuw {
+        color: aquamarine;
+    }
+
+    .buttonla {
+        font-size: 20px;
+        color: rgb(0, 255, 4);
+        background-color: transparent;
+        border: 30;
+    }
+}
+
+
+
+@media (max-width: 480px) {
+}
+
+
+
+@media (max-width: 600px) {
+
+}
