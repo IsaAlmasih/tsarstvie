@@ -62,9 +62,9 @@ const page = async({params}) => {
           </div>
           <div className={styles.wrappBlokAmeri}>
             <div className={styles.wrappBlokSha}>
-              <Link href="/commandments/2">{content[id].rsvxy}</Link>
+              <Link href="/commandments/3">{content[id].rsvxy}</Link>
               <Link href="/tsarstvie/lawArab">{content[id].qvwxy}</Link>
-              <Link href="/tsarstvie/almasih">{content[id].qvwxz}</Link>
+              <Link href="/tsarstvie/jesusChrist">{content[id].qvwxz}</Link>
               <Link href="/tsarstvie/churches">{content[id].qvwyz}</Link>
               <Link href="https://www.supremesanhedrin.ru/">
                 {content[id].qvxyz}
@@ -76,9 +76,9 @@ const page = async({params}) => {
           </div>
           <div className={styles.wrappBlokArabic}>
             <div className={styles.wrappBlokArab}>
-              <Link href="/commandments/3">{content[id].rvwxy}</Link>
+              <Link href="/commandments/2">{content[id].rvwxy}</Link>
               <Link href="/tsarstvie/lawArab">{content[id].rsvxz}</Link>
-              <Link href="/tsarstvie/almasih">{content[id].rsvyz}</Link>
+              <Link href="/tsarstvie/isaAlmasih">{content[id].rsvyz}</Link>
               <Link href="/tsarstvie/churches">{content[id].rswxy}</Link>
               <Link href="https://www.supremesanhedrin.ru/">
                 {content[id].rswxz}
