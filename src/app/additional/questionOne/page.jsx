@@ -36,7 +36,7 @@ export default function Questions() {
       answers.q6 === "Да" &&
       answers.q7 === "Да" &&
       answers.q8 === "Да" &&
-      answers.q9 === "Да" &&
+      answers.q9 === "Нет" &&
       answers.q10 === "Да"
     ) {
       // Правильный ответ - переходим на страницу
@@ -52,10 +52,8 @@ export default function Questions() {
         <div className={styles.blok}>
           <div className={styles.blo}>
             <div className={styles.text}>
-              <label>
-                Вопрос 1. Первой
-              </label>
-              <input 
+              <label>Вопрос 1. Можно ли курить сигореты?</label>
+              <input
                 name="q1"
                 value={answers.q1}
                 onChange={handleChange}
@@ -307,7 +305,7 @@ export default function Questions() {
             </div>
             <div className={styles.text}>
               <label>
-                Вопрос 9. Есть ли нормы употребления алкоголя Христовым?
+                Вопрос 9. Можно ли употреблять алкоголь Христовым?
               </label>
               <input
                 name="q9"

@@ -10,7 +10,7 @@ import logo from "./assets/kingdom.png";
 const page = () => {
   return (
     <div className={styles.apffgp}>
-      <Clouds></Clouds>
+      {/* <Clouds></Clouds> */}
       <img src={logo.src} className={styles.Applogo} alt="logo" />
       <div className={styles.subtitle}>
         <Link href="/tsarstvie/3" className={styles.afgp}>
