@@ -53,7 +53,7 @@ export default function Questions() {
           <div className={styles.blo}>
             <div className={styles.text}>
               <label>
-                Вопрос 1. Вопросы девятой!
+                Вопрос 1. Вопросы девятой! Можно ли курить сигареты?
               </label>
               <input
                 name="q1"

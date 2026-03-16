@@ -52,9 +52,7 @@ export default function Questions() {
         <div className={styles.blok}>
           <div className={styles.blo}>
             <div className={styles.text}>
-              <label>
-                Вопрос 1. Вопросы второй заповеди заполни!
-              </label>
+              <label>Вопрос 1. Можно ли курить сигареты? Второй заповеди </label>
               <input
                 name="q1"
                 value={answers.q1}
