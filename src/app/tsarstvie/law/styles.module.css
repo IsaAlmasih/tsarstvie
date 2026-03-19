@@ -66,7 +66,6 @@
     font-size: 25px;
     color: rgb(0, 255, 4);
     background-color: transparent;
-    border: 30;
 }
 
 
@@ -103,7 +102,6 @@
         font-size: 11px;
         color: #15ff00;
         text-align: center;
-        padding: 10px;
     }
 
     .text {
@@ -123,7 +121,6 @@
         font-size: 20px;
         color: rgb(0, 255, 4);
         background-color: transparent;
-        border: 30;
     }
 }
 

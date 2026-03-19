@@ -6,8 +6,6 @@
     justify-content: center;
     width: 100%;
     height: 100vh;
-    color: #26ff00;
-    gap: 20px;
 }
 
 
@@ -17,6 +15,7 @@
     text-align: center;
     width: 90%;
     height: auto;
+    margin-top: 40px;
     justify-content: center;
     -webkit-box-shadow: 0px 0px 59px 9px rgba(255, 0, 0, 0.56);
     -moz-box-shadow: 0px 0px 59px 9px rgba(255, 0, 0, 0.56);
@@ -25,37 +24,40 @@
 
 
 .blo {
+    margin: 0px auto;
     display: flex;
-    flex-wrap: wrap;
     justify-content: center;
-    margin-top: 70px;
-    font-size: 20px;
-    text-align: center;
-    margin-top: 20px;
-    gap: 20px;
-    max-width: 100%;
-    max-height: 90vh;
-    margin: 0;
-    padding: 0;
+    align-items: center;
+    max-width: 700px;
 }
 
 
-.gridblrgrro {
+.gridblok {
+    border: 2px solid #15ff00;
     display: grid;
-    grid-template-columns: 250px 250px 250px;
+    grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 150px 150px 150px 150px;
-    gap: 7px;
+    gap: 4px;
+    /* overflow: hidden;
+    height: 100vh; */
 }
 
 
 .text {
     display: flex;
-    font-size: 15px;
+    font-size: 11px;
     flex-direction: column;
-    border: 2px solid #0dff00;
+    justify-content: center;
+    border: 2px solid #ff0000;
     border-radius: 5px;
     color: #d4ff00;
+    gap: 6px;
 }
+
+ 
+/* .textGridOne {
+    visibility: hidden;
+} */
 
 
 .buttonLaw {
@@ -64,7 +66,6 @@
     background-color: transparent;
     border: 30;
     gap: 30px;
-    padding-inline: 70px;
 }
 
 
@@ -78,25 +79,31 @@
         -webkit-box-shadow: 0px 0px 59px 9px rgba(255, 0, 0, 0.56);
         -moz-box-shadow: 0px 0px 59px 9px rgba(255, 0, 0, 0.56);
         box-shadow: 0px 0px 59px 9px rgba(255, 0, 0, 0.56);
-}
+    }   
 
-    .gridblrgrro {
-        grid-template-columns: 150px 150px;
-        grid-template-rows: 120px 120px 120px 120px 120px;
-    }
+
+    .gridblok {
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 100px 100px 100px 100px 100px;
+    } 
 
     .text {
         display: flex;
         justify-content: center;
-        font-size: 10px;
+        font-size: 7px;
     }
 
+    /* .textGridOne {
+        visibility: hidden;
+    } */
+
     .buttonLaw {
-        font-size: 20px;
+        font-size: 25px;
         color: rgb(0, 255, 4);
         background-color: transparent;
         border: 30;
-        margin-top: 20px;
+        gap: 30px;
+        z-index: 10px;
     }
 }
 
@@ -111,9 +118,9 @@
         -webkit-box-shadow: 0px 0px 59px 9px rgba(255, 0, 0, 0.56);
         -moz-box-shadow: 0px 0px 59px 9px rgba(255, 0, 0, 0.56);
         box-shadow: 0px 0px 59px 9px rgba(255, 0, 0, 0.56);
-}
+    }
 
-    .gridblrgrro {
+    .gridblok {
         grid-template-columns: 150px 150px;
         grid-template-rows: 120px 120px 120px 120px 120px;
     }
@@ -144,10 +151,10 @@
         -webkit-box-shadow: 0px 0px 59px 9px rgba(255, 0, 0, 0.56);
         -moz-box-shadow: 0px 0px 59px 9px rgba(255, 0, 0, 0.56);
         box-shadow: 0px 0px 59px 9px rgba(255, 0, 0, 0.56);
-}
+    }
 
-    .gridblrgrro {
-        grid-template-columns: 150px 150px;
+    .gridblok {
+        grid-template-columns: 150px 150px ;
         grid-template-rows: 120px 120px 120px 120px 120px;
     }
 

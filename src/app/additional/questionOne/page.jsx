@@ -51,7 +51,7 @@ export default function Questions() {
       <div className={styles.wrapper}>
         <div className={styles.blok}>
           <div className={styles.blo}>
-            <div className={styles.gridblrgrro}>
+            <div className={styles.gridblok}>
               <div className={styles.text}>
                 <label>Вопрос 1. Можно ли курить сигареты?</label>
                 <input
@@ -335,6 +335,7 @@ export default function Questions() {
                   Нет
                 </label>
               </div>
+              {/* <div className={styles.textGridOne}>Савва</div> */}
               <div className={styles.text}>
                 <label>
                   Вопрос 10. Понимаете ли, вы, что ваш мир итог вашего
