@@ -4,7 +4,6 @@ import styles from "../[id]/styles.module.css";
 import { title } from "process";
 import Link from "next/link";
 
-// import Link from "next/link";
 
 const content = {
   1: {
