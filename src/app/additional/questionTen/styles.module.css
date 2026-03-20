@@ -6,48 +6,57 @@
     justify-content: center;
     width: 100%;
     height: 100vh;
-    color: #26ff00;
-    gap: 20px;
 }
 
 
 .blok {
-  background-color: rgb(12, 0, 59);
-  color: #ffffff;
-  text-align: center;
-  width: 70%;
-  height: 80%;
-  justify-content: center;
-  -webkit-box-shadow: 0px 0px 59px 9px rgba(255, 0, 0, 0.56);
-  -moz-box-shadow: 0px 0px 59px 9px rgba(255, 0, 0, 0.56);
-  box-shadow: 0px 0px 59px 9px rgba(255, 0, 0, 0.56);
+    background-color: rgb(12, 0, 59);
+    color: #ffffff;
+    text-align: center;
+    width: 90%;
+    height: auto;
+    margin-top: 40px;
+    justify-content: center;
+    -webkit-box-shadow: 0px 0px 59px 9px rgba(255, 0, 0, 0.56);
+    -moz-box-shadow: 0px 0px 59px 9px rgba(255, 0, 0, 0.56);
+    box-shadow: 0px 0px 59px 9px rgba(255, 0, 0, 0.56);
 }
 
 
 .blo {
+    margin: 0px auto;
     display: flex;
-    flex-wrap: wrap;
     justify-content: center;
-    margin-top: 70px;
-    font-size: 20px;
-    text-align: center;
-    margin-top: 20px;
-    gap: 20px;
+    align-items: center;
+    max-width: 700px;
 }
 
-.text   {
-    display: flex;
-    font-size: 15px;
-    flex-direction: column;
-    border: 3px solid #ff0000;
-    border-radius: 8px;
-    padding-top: 10px;
-    color: #e6ff04;
-    gap: 10px;
-    width: 300px;
-    height: 150px;
-    margin-top: 40px;
+
+.gridblok {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 150px 150px 150px 150px;
+    gap: 4px;
+    /* overflow: hidden;
+    height: 100vh; */
 }
+
+
+.text {
+    display: flex;
+    font-size: 11px;
+    flex-direction: column;
+    justify-content: center;
+    border: 2px solid #ff0000;
+    border-radius: 5px;
+    color: #d4ff00;
+    gap: 6px;
+}
+
+ 
+/* .textGridOne {
+    visibility: hidden;
+} */
 
 
 .buttonLaw {
@@ -56,72 +65,45 @@
     background-color: transparent;
     border: 30;
     gap: 30px;
-    padding-inline: 70px;
 }
-
-
 
 
 @media (max-width: 360px) {
-    .wrapper {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        width: 100%;
+   .blok {
+        background-color: rgb(12, 0, 59);
+        text-align: center;
+        width: 95%;
         height: auto;
-    }
-
-    .blok {
-    background-color: rgb(12, 0, 59);
-    color: #ffffff;
-    text-align: center;
-    width: 90%;
-    height: auto;
-    justify-content: center;
-    -webkit-box-shadow: 0px 0px 59px 9px rgba(255, 0, 0, 0.56);
-    -moz-box-shadow: 0px 0px 59px 9px rgba(255, 0, 0, 0.56);
-    box-shadow: 0px 0px 59px 9px rgba(255, 0, 0, 0.56);
-    }
-
-    .blo {
-        display: grid;
-        flex-wrap: wrap;
+        padding: -70px;
         justify-content: center;
-    }
+        -webkit-box-shadow: 0px 0px 59px 9px rgba(255, 0, 0, 0.56);
+        -moz-box-shadow: 0px 0px 59px 9px rgba(255, 0, 0, 0.56);
+        box-shadow: 0px 0px 59px 9px rgba(255, 0, 0, 0.56);
+    }   
+
+    .gridblok {
+        grid-template-columns: 150px 150px;
+        grid-template-rows: 120px 120px 120px 120px 120px;
+    } 
 
     .text {
+        display: flex;
+        justify-content: center;
         font-size: 8px;
-        border: 1px solid #ff0000;
-        border-radius: 2px;
-        color: #e6ff04;
-        width: 150px;
-        height: auto;
-        margin-top: 5px;
-        gap: 3px;
     }
 
     .buttonLaw {
-        font-size: 12px;
+        font-size: 20px;
         color: rgb(0, 255, 4);
         background-color: transparent;
+        z-index: 10;
+        padding: 30px;
     }
 }
 
 
-
-@media (max-width: 480px) {
-    .wrapper {
-        background-color: rgb(3, 3, 66);
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        width: 100%;
-        height: auto;
-    }
-
-    .blok {
+@media (max-width: 500px) {
+   .blok {
         background-color: rgb(12, 0, 59);
         text-align: center;
         width: 90%;
@@ -132,135 +114,55 @@
         box-shadow: 0px 0px 59px 9px rgba(255, 0, 0, 0.56);
     }
 
-    .blo {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
+    .gridblok {
+        grid-template-columns: 150px 150px;
+        grid-template-rows: 120px 120px 120px 120px 120px;
     }
 
     .text {
         display: flex;
+        justify-content: center;
         font-size: 10px;
-        flex-direction: column;
-        border: 3px solid #ff0000;
-        border-radius: 4px;
-        padding-top: 10px;
-        width: 150px;
-        height: auto;
-        margin-top: 10px;
     }
 
     .buttonLaw {
-        font-size: 15px;
+        font-size: 20px;
         color: rgb(0, 255, 4);
         background-color: transparent;
         border: 30;
-        gap: 30px;
-        padding-inline: 70px;
+        margin-top: 20px;
     }
 }
 
 
-@media (max-width: 600px) {
-        .wrapper {
-        background-color: rgb(3, 3, 66);
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        width: 100%;
+@media (max-width: 700px) {
+   .blok {
+        background-color: rgb(12, 0, 59);
+        text-align: center;
+        width: 90%;
         height: auto;
-
-    }
-
-    .blok {
-    background-color: rgb(12, 0, 59);
-    text-align: center;
-    width: 90%;
-    height: auto;
-    justify-content: center;
-    -webkit-box-shadow: 0px 0px 59px 9px rgba(255, 0, 0, 0.56);
-    -moz-box-shadow: 0px 0px 59px 9px rgba(255, 0, 0, 0.56);
-    box-shadow: 0px 0px 59px 9px rgba(255, 0, 0, 0.56);
-    }
-
-    .blo {
-        display: flex;
-        flex-wrap: wrap;
         justify-content: center;
+        -webkit-box-shadow: 0px 0px 59px 9px rgba(255, 0, 0, 0.56);
+        -moz-box-shadow: 0px 0px 59px 9px rgba(255, 0, 0, 0.56);
+        box-shadow: 0px 0px 59px 9px rgba(255, 0, 0, 0.56);
+    }
+
+    .gridblok {
+        grid-template-columns: 150px 150px ;
+        grid-template-rows: 120px 120px 120px 120px 120px;
     }
 
     .text {
         display: flex;
-        font-size: 15px;
-        flex-direction: column;
-        border: 3px solid #ff0000;
-        border-radius: 4px;
-        padding-top: 10px;
-        color: #e6ff04;
-        width: 150px;
-        height: auto;
-        margin-top: 10px;
+        justify-content: center;
+        font-size: 10px;
     }
 
     .buttonLaw {
-        font-size: 15px;
+        font-size: 20px;
         color: rgb(0, 255, 4);
         background-color: transparent;
         border: 30;
-        gap: 30px;
-        padding-inline: 70px;
-    }
-}
-
-@media (max-width: 800px) {
-        .wrapper {
-        background-color: rgb(3, 3, 66);
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        width: 100%;
-        height: auto;
-
-    }
-
-    .blok {
-    background-color: rgb(12, 0, 59);
-    text-align: center;
-    width: 90%;
-    height: auto;
-    justify-content: center;
-    -webkit-box-shadow: 0px 0px 59px 9px rgba(255, 0, 0, 0.56);
-    -moz-box-shadow: 0px 0px 59px 9px rgba(255, 0, 0, 0.56);
-    box-shadow: 0px 0px 59px 9px rgba(255, 0, 0, 0.56);
-    }
-
-    .blo {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
-    }
-
-    .text {
-        display: flex;
-        font-size: 15px;
-        flex-direction: column;
-        border: 3px solid #ff0000;
-        border-radius: 4px;
-        padding-top: 10px;
-        color: #e6ff04;
-        width: 150px;
-        height: auto;
-        margin-top: 10px;
-    }
-
-    .buttonLaw {
-        font-size: 15px;
-        color: rgb(0, 255, 4);
-        background-color: transparent;
-        border: 30;
-        gap: 30px;
-        padding-inline: 70px;
+        margin-top: 20px;
     }
 }
