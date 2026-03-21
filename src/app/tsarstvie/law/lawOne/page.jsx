@@ -96,12 +96,12 @@ export default function law() {
                   Тама с вопросами девятой Заповеди.
                 </Link>
               </div>
-              <div className={styles.textGridTen}>
+              {/* <div className={styles.textGridTen}>
                 <Link href="/additional/questionTen">
                   Тама с вопросами десятой Заповеди.
                 </Link>
-              </div>
-              <div className={styles.textGridEleven}>
+              </div> */}
+              <div className={styles.textGridTen}>
                 <Link href="/additional/questionTen">
                   Тама с вопросами десятой Заповеди.
                 </Link>

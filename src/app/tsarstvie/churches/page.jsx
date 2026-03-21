@@ -19,7 +19,7 @@ const page = () => {
           <Link href="/tsarstvie/churches/laodicean">
             Лаодикийская церковь.
           </Link>
-          <Link href="/tsarstvie" className={styles.textTsar}>
+          <Link href="/tsarstvie/1" className={styles.textTsar}>
             Вернуться на главную.
           </Link>
         </div>

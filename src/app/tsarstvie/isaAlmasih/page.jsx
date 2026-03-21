@@ -19,9 +19,9 @@ const Header = () => {
   });
   return (
     <div className={styles.wrapper}>
-      <header className={headerClasses}>
+      <header>
         <Link className={styles.logo} href={"/tsarstvie/3"}>
-          <Image src={logo} width={450} height={440} alt="logo" />
+          <Image src={logo} width={350} height={340} alt="logo" />
         </Link>
       </header>
       <div></div>

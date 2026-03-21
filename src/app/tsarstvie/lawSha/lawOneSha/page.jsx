@@ -50,63 +50,62 @@ export default function law() {
       <div className={styles.wrapper}>
         <div className={styles.blok}>
           <div className={styles.blo}>
-            <div className={styles.text}>
-              <Link href="/additional/questionOne">
-                Тама с вопросами первой Заповеди.
-              </Link>
-            </div>
-            <div className={styles.text}>
-              <Link href="/additional/questionTwo">
-                Тама с вопросами второй Заповеди.
-              </Link>
-            </div>
-            <div className={styles.text}>
-              <Link href="/additional/questionThree">
-                Тама с вопросами третей Заповеди.
-              </Link>
-            </div>
-            <div className={styles.text}>
-              <Link href="/additional/questionFour">
-                Тама с вопросами четвётрой Заповеди.
-              </Link>
-            </div>
-            <div className={styles.text}>
-              <Link href="/additional/questionFive">
-                Тама с вопросами пятой Заповеди.
-              </Link>
-            </div>
-            <div className={styles.text}>
-              <Link href="/additional/questionSix">
-                Тама с вопросами шестой Заповеди.
-              </Link>
-            </div>
-            <div className={styles.text}>
-              <Link href="/additional/questionSeven">
-                Тама с вопросами седьмой Заповеди.
-              </Link>
-            </div>
-            <div className={styles.text}>
-              <Link href="/additional/questionEight">
-                Тама с вопросами восьмой Заповеди.
-              </Link>
-            </div>
-            <div className={styles.text}>
-              <Link href="/additional/questionNine">
-                Тама с вопросами девятой Заповеди.
-              </Link>
-            </div>
-            <div className={styles.text}>
-              <Link href="/additional/questionTen">
-                Тама с вопросами десятой Заповеди.
-              </Link>
+            <div className={styles.textGrid}>
+              <div className={styles.textGridOne}>
+                <Link href="/additional/questionOne">
+                  Tama asks questions about the first commandment.
+                </Link>
+              </div>
+              <div className={styles.textGridTwo}>
+                <Link href="/additional/questionTwo">
+                  Tama asks questions about the second commandment.
+                </Link>
+              </div>
+              <div className={styles.textGridThree}>
+                <Link href="/additional/questionThree">
+                  Tama asks questions about the third commandment.
+                </Link>
+              </div>
+              <div className={styles.textGridFour}>
+                <Link href="/additional/questionFour">
+                  Tama asks questions about the fourth commandment.
+                </Link>
+              </div>
+              <div className={styles.textGridFive}>
+                <Link href="/additional/questionFive">
+                  Tama asks questions about the fifth commandment.
+                </Link>
+              </div>
+              <div className={styles.textGridSix}>
+                <Link href="/additional/questionSix">
+                  Tama asks questions about the sixth commandment.
+                </Link>
+              </div>
+              <div className={styles.textGridSeven}>
+                <Link href="/additional/questionSeven">
+                  Tama asks questions about the seventh commandment.
+                </Link>
+              </div>
+              <div className={styles.textGridEight}>
+                <Link href="/additional/questionEight">
+                  Tama asks questions about the eighth commandment.
+                </Link>
+              </div>
+              <div className={styles.textGridNine}>
+                <Link href="/additional/questionNine">
+                  Tama asks questions about the ninth commandment.
+                </Link>
+              </div>
+              <div className={styles.textGridTen}>
+                <Link href="/additional/questionTen">
+                  Tama asks questions about the tenth commandment.
+                </Link>
+              </div>
             </div>
           </div>
         </div>
-        {/* <button type="submit" className={styles.buttonLaw}>
-          Отправить
-        </button> */}
         <button className={styles.buttonLaw}>
-          <a href="/tsarstvie/1">На главную. </a>
+          <a href="/tsarstvie/2">To the main page.</a>
         </button>
       </div>
     </form>

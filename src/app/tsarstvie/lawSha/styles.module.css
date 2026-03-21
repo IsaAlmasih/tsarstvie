@@ -14,13 +14,30 @@
   color: #ffffff;
   text-align: center;
   margin-top: 20px;
-  width: 70%;
-  height: 80%;
+  width: 80%;
+  height: 90%;
   padding-block: 20px;
   justify-content: center;
   -webkit-box-shadow: 0px 0px 59px 9px rgba(255, 0, 0, 0.56);
   -moz-box-shadow: 0px 0px 59px 9px rgba(255, 0, 0, 0.56);
   box-shadow: 0px 0px 59px 9px rgba(255, 0, 0, 0.56);
+}
+
+
+.text {
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    font-size: 18px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+
+.text h4 {
+    font-size: 30px;
+    padding: 30px;
 }
 
 
@@ -31,29 +48,9 @@
     align-items: center;
     flex-direction: column;
     font-size: 23px;
-    padding-left: 40px;
-    padding-right: 40px;
-    margin-top: 120px;
-}
-
-.tex {
-    font-size: 24px;
-    color: #15ff00;
-    text-align: center;
-    gap: 30px;
-    margin-top: 30px;
-}
-
-
-
-.text {
-    color: #ffffff;
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
-    font-size: 19px;
-    padding-left: 40px;
-    padding-right: 40px;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-top: 150px;
 }
 
 
@@ -63,29 +60,36 @@
 
 
 .buttonla {
-    font-size: 25px;
+    font-size: 20px;
     color: rgb(0, 255, 4);
     background-color: transparent;
-    border: 30;
+    margin-bottom: 50px;
 }
 
 
 
 @media (max-width: 360px) {
-    .wrapper {
-        background-color: rgb(3, 3, 66);
-        width: 100%;
-        height: auto;
-}
 
     .blok {
-        background-color: rgb(12, 0, 59);
-        text-align: center;
         width: 90%;
         height: auto;
-        -webkit-box-shadow: 0px 0px 59px 9px rgba(255, 0, 0, 0.56);
-        -moz-box-shadow: 0px 0px 59px 9px rgba(255, 0, 0, 0.56);
-        box-shadow: 0px 0px 59px 9px rgba(255, 0, 0, 0.56);
+        padding: 0;
+        margin: 0;
+    }
+
+    .text h4 {
+        font-size: 13px;
+        padding: 0;
+        margin: 10px;
+    }
+
+    .text {
+        color: #ffffff;
+        font-size: 9px;
+        padding-left: 5px;
+        padding-right: 5px;
+        margin-top: 20px;
+        gap: 10px;
     }
 
     .textTsar {
@@ -96,44 +100,14 @@
         flex-direction: column;
         font-size: 11px;
         padding: 10px;
-        margin-top: 10px;
-    }
-
-    .tex {
-        font-size: 11px;
-        color: #15ff00;
-        text-align: center;
-        padding: 10px;
-    }
-
-    .text {
-        color: #ffffff;
-        display: flex;
-        flex-direction: column;
-        gap: 10px;
-        font-size: 10px;
-        padding: 10px;
-    }
-
-    .optuw {
-        color: aquamarine;
+        margin-top: 60px;
     }
 
     .buttonla {
-        font-size: 20px;
+        font-size: 25px;
         color: rgb(0, 255, 4);
         background-color: transparent;
-        border: 30;
+        margin-top: 20px;
     }
-}
-
-
-
-@media (max-width: 480px) {
-}
-
-
-
-@media (max-width: 600px) {
 
 }

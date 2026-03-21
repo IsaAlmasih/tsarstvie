@@ -8,3 +8,14 @@
     gap: 40px;
     color: #fc0000;
 }
+
+
+@media (max-width: 360px) {
+    .wrapper {
+        background-color: rgb(255, 255, 255);
+    }
+    .logo img {
+        width: 200px;
+        height: 200px;
+    }
+}

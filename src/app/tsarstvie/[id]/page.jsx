@@ -55,21 +55,21 @@ const page = async({params}) => {
                 {content[id].qtvyz}
               </Link>
               <Link href="/lights">{content[id].qtwxy}</Link>
-              <Link href="/tribesisrael">{content[id].qtwxz}</Link>
+              <Link href="/tribesisrael/1">{content[id].qtwxz}</Link>
               <Link href="/verdict">{content[id].qtwyz}</Link>
             </div>
           </div>
           <div className={styles.wrappBlokAmeri}>
             <div className={styles.wrappBlokSha}>
               <Link href="/commandments/3">{content[id].rsvxy}</Link>
-              <Link href="/tsarstvie/lawArab">{content[id].qvwxy}</Link>
+              <Link href="/tsarstvie/lawSha">{content[id].qvwxy}</Link>
               <Link href="/tsarstvie/jesusChrist">{content[id].qvwxz}</Link>
               <Link href="/tsarstvie/churches">{content[id].qvwyz}</Link>
               <Link href="https://www.supremesanhedrin.ru/">
                 {content[id].qvxyz}
               </Link>
               <Link href="/lights">{content[id].qwxyz}</Link>
-              <Link href="/tribesisrael">{content[id].rstuv}</Link>
+              <Link href="/tribesisrael/2">{content[id].rstuv}</Link>
               <Link href="/verdict">{content[id].rstuw}</Link>
             </div>
           </div>
@@ -83,7 +83,7 @@ const page = async({params}) => {
                 {content[id].rswxz}
               </Link>
               <Link href="/lights">{content[id].rswyz}</Link>
-              <Link href="/tribesisrael">{content[id].rsxyz}</Link>
+              <Link href="/tribesisrael/3">{content[id].rsxyz}</Link>
               <Link href="/verdict">{content[id].rtuvw}</Link>
             </div>
           </div>
