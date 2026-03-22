@@ -54,6 +54,11 @@
 }
 
  
+.text input[type='text'] {
+    width: 90%;
+    margin: 0 auto;
+}
+
 /* .textGridOne {
     visibility: hidden;
 } */

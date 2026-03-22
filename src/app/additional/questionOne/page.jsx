@@ -55,6 +55,7 @@ export default function Questions() {
               <div className={styles.text}>
                 <label>Вопрос 1. Можно ли курить сигареты?</label>
                 <input
+                  type="text"
                   name="q1"
                   value={answers.q1}
                   onChange={handleChange}
@@ -87,6 +88,7 @@ export default function Questions() {
                   имеют шанс обрести Христа?
                 </label>
                 <input
+                  type="text"
                   name="q2"
                   value={answers.q2}
                   onChange={handleChange}

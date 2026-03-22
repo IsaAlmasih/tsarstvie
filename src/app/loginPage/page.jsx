@@ -10,8 +10,6 @@ import styles from "./styles.module.css";
 import { useRouter } from "next/navigation";
 import Link from "next/link";
 
-
-function loginPage() {
   
   const page = () => {
     const router = useRouter();
@@ -108,6 +106,5 @@ function loginPage() {
       </>
     );
   };
-}
 
-export default loginPage;
+export default page;

@@ -53,59 +53,59 @@ export default function law() {
             <div className={styles.textGrid}>
               <div className={styles.textGridOne}>
                 <Link href="/additional/questionOne">
-                  Тама с вопросами первой Заповеди.
+                  موضوع مع أسئلة حول الوصية الأولى.
                 </Link>
               </div>
               <div className={styles.textGridTwo}>
                 <Link href="/additional/questionTwo">
-                  Тама с вопросами второй Заповеди.
+                  موضوع مع أسئلة حول الوصية الثانية.
                 </Link>
               </div>
               <div className={styles.textGridThree}>
                 <Link href="/additional/questionThree">
-                  Тама с вопросами третей Заповеди.
+                  موضوع مع أسئلة حول الوصية الثالثة.
                 </Link>
               </div>
               <div className={styles.textGridFour}>
                 <Link href="/additional/questionFour">
-                  Тама с вопросами четвётрой Заповеди.
+                  موضوع مع أسئلة حول الوصية الرابعة.
                 </Link>
               </div>
               <div className={styles.textGridFive}>
                 <Link href="/additional/questionFive">
-                  Тама с вопросами пятой Заповеди.
+                  موضوع مع أسئلة حول الوصية الخامسة.
                 </Link>
               </div>
               <div className={styles.textGridSix}>
                 <Link href="/additional/questionSix">
-                  Тама с вопросами шестой Заповеди.
+                  موضوع مع أسئلة حول الوصية السادسة.
                 </Link>
               </div>
               <div className={styles.textGridSeven}>
                 <Link href="/additional/questionSeven">
-                  Тама с вопросами седьмой Заповеди.
+                  موضوع مع أسئلة حول الوصية السابعة.
                 </Link>
               </div>
               <div className={styles.textGridEight}>
                 <Link href="/additional/questionEight">
-                  Тама с вопросами восьмой Заповеди.
+                  موضوع مع أسئلة حول الوصية الثامنة.
                 </Link>
               </div>
               <div className={styles.textGridNine}>
                 <Link href="/additional/questionNine">
-                  Тама с вопросами девятой Заповеди.
+                  موضوع مع أسئلة حول الوصية التاسعة.
                 </Link>
               </div>
               <div className={styles.textGridTen}>
                 <Link href="/additional/questionTen">
-                  Тама с вопросами десятой Заповеди.
+                  موضوع مع أسئلة الوصية العاشرة.
                 </Link>
               </div>
-              <div className={styles.textGridEleven}>
+              {/* <div className={styles.textGridEleven}>
                 <Link href="/additional/questionTen">
                   Тама с вопросами десятой Заповеди.
                 </Link>
-              </div>
+              </div> */}
             </div>
           </div>
         </div>

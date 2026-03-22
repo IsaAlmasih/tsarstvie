@@ -28,23 +28,6 @@ position:relative,position:absolute,position:fixed и position:sticky (толь�
 
 
 
-
-      {/* <div className={styles.buttonLaw}>
-        <button className={styles.buttonLaw}>
-          <a href="/tsarstvie/law">Назад.</a>
-        </button>
-        <button className={styles.buttonLaw}>
-          <a href="/tsarstvie/law/lawTwo">Следующая.</a>
-        </button>
-        <button className={styles.buttonLaw}>
-          <a href="/tsarstvie">На главную.</a>
-        </button>
-      </div> */}
-    </div>
-
-
-
-
 const page = () => {
   return (
     <div className={styles.wrapper}>
@@ -117,6 +100,8 @@ const page = () => {
 
 
 
+max-width: 360  Стили применяются, когда ширина окна меньше 360 пх
+min-width: 360  Стили применяются, когда ширина окна больше 360 пх
 
 
 
@@ -128,7 +113,7 @@ const page = () => {
 
 Почему не работает мин или макс. Как ими пользоваться?
 
-Вранер нужен в написании стилей или нет? Какой нибуть есть регламент?
+Врапер нужен в написании стилей или нет? Какой нибуть есть регламент?
 
  логотип не уменьшается. 
 
