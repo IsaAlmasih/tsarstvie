@@ -51,14 +51,12 @@
 }
 
 
-
 .tabernacle {
     background-image: url('../../../assets/tabernacle/000.jpg');
     background-size: cover; /* Заполняет весь блок, [1, 8] */
     background-position: center; /* Центрирует картинку */
     background-repeat: no-repeat; /* Убирает дублирование */
 }
-
 
 
 .tabernacleLmpuy {
@@ -69,14 +67,12 @@
 }
 
 
-
 .cityCmorw {
     background-image: url('../../../assets/city/222.png');
     background-size: cover; /* Заполняет весь блок, [1, 8] */
     background-position: center; /* Центрирует картинку */
     background-repeat: no-repeat; /* Убирает дублирование */
 }
-
 
 
 .cityLmpuy {
@@ -87,85 +83,28 @@
 }
 
 
-@media (min-width: 360px) {
-  .suxyzGrid {
-    display: grid;
-    margin: 0;
-    padding: 0;
-    justify-content: center;
-    grid-template-columns: 70px 70px 70px;
-    grid-template-rows: 70px 70px 70px 70px;
-    grid-gap: 10px;
-}
-}
 
 @media (min-width: 480px) {
-  .suxyzGrid {
-    display: grid;
-    justify-content: center;
-    grid-template-columns: 100px 100px 100px;
-    grid-template-rows: 100px 100px 100px 100px;
-    grid-gap: 10px;
-}
-}
-
-@media (min-width: 540px) {
-  .suxyzGrid {
-    display: grid;
-    justify-content: center;
-    grid-template-columns: 70px 70px 70px;
-    grid-template-rows: 70px 70px 70px 70px;
-    grid-gap: 10px;
-}
-}
-
-
-@media (min-width: 768px) {
-  .suxyzGrid {
-    display: grid;
-    justify-content: center;
-    grid-template-columns: 90px 90px 90px;
-    grid-template-rows: 90px 90px 90px 90px;
-    grid-gap: 10px;
-} 
-}
-
-@media (min-width: 902px) {
-  .suxyzGrid {
+  .gridSuxyz {
     display: grid;
     margin: 0;
     padding: 0;
     justify-content: center;
-    grid-template-columns: 120px 120px 120px;
-    grid-template-rows: 120px 120px 120px 120px;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 100px 100px 100px 100px 100px 100px;
     grid-gap: 10px;
-} 
+}
 }
 
-@media (min-width: 1024px) {
-  .suxyzGrid {
+
+@media (min-width: 360px) {
+  .gridSuxyz {
     display: grid;
+    margin: 0;
+    padding: 0;
     justify-content: center;
-    grid-template-columns: 170px 170px 170px;
-    grid-template-rows: 170px 170px 170px 170px;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 100px 100px 100px 100px 100px 100px;
     grid-gap: 10px;
-} 
 }
-
-/* @media (min-width: 1280px) {
-    .blok {
-    font-size: 66px;
-    } 
-} */
-
-/* @media (min-width: 1536px) {
-    .blok {
-    font-size: 76px;
-    } 
-} */
-
-/* @media (min-width: 1920px) {
-    .blok {
-    font-size: 108px;
-    } 
-} */
+}

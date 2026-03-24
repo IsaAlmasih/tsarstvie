@@ -53,7 +53,6 @@
     align-items: center;
 }
 
-
 .textGridTwo {
     background-color: transparent;
     border: 2px solid #ff0000;
@@ -63,7 +62,6 @@
     justify-content: center;
     align-items: center;
 }
-
 
 .textGridThree {
     background-color: transparent;
@@ -75,7 +73,6 @@
     align-items: center;
 }
 
-
 .textGridFour {
     background-color: transparent;
     border: 2px solid #ff0000;
@@ -85,7 +82,6 @@
     justify-content: center;
     align-items: center;
 }
-
 
 .textGridFive {
     background-color: transparent;
@@ -97,7 +93,6 @@
     align-items: center;
 }
 
-
 .textGridSix {
     background-color: transparent;
     border: 2px solid #ff0000;
@@ -107,7 +102,6 @@
     justify-content: center;
     align-items: center;
 }
-
 
 .textGridSeven {
     background-color: transparent;
@@ -119,7 +113,6 @@
     align-items: center;
 }
 
-
 .textGridEight {
     background-color: transparent;
     border: 2px solid #ff0000;
@@ -130,7 +123,6 @@
     justify-content: center;
     align-items: center;
 }
-
 
 .textGridNine {
     background-color: transparent;
@@ -166,10 +158,9 @@
 }
 
 
-@media (max-width: 360px) {
+@media (max-width: 1200px) {
     .blok {
         background-color: rgb(12, 0, 59);
-        color: #ffffff;
         text-align: center;
         width: 90%;
         height: 90%;
@@ -182,9 +173,9 @@
     .textGrid{
         border-radius: 2px;
         display: grid;
-        grid-template-columns: 120px 120px;
-        grid-template-rows: 100px 100px 100px 100px 100px;
-        gap: 3px;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 150px 150px 150px 150px 150px;
+        gap: 6px;
     }
 
     .buttonLaw {
@@ -196,12 +187,13 @@
 }
 
 
-@media (max-width: 480px) {
+
+@media (max-width: 900px) {
     .blok {
         background-color: rgb(12, 0, 59);
         text-align: center;
         width: 90%;
-        height: auto;
+        height: 90%;
         justify-content: center;
         -webkit-box-shadow: 0px 0px 59px 9px rgba(255, 0, 0, 0.56);
         -moz-box-shadow: 0px 0px 59px 9px rgba(255, 0, 0, 0.56);
@@ -254,12 +246,12 @@
 }
 
 
-@media (max-width: 900px) {
+@media (max-width: 480px) {
     .blok {
         background-color: rgb(12, 0, 59);
         text-align: center;
         width: 90%;
-        height: 90%;
+        height: auto;
         justify-content: center;
         -webkit-box-shadow: 0px 0px 59px 9px rgba(255, 0, 0, 0.56);
         -moz-box-shadow: 0px 0px 59px 9px rgba(255, 0, 0, 0.56);
@@ -282,9 +274,11 @@
     }
 }
 
-@media (max-width: 1200px) {
+
+@media (max-width: 360px) {
     .blok {
         background-color: rgb(12, 0, 59);
+        color: #ffffff;
         text-align: center;
         width: 90%;
         height: 90%;
@@ -297,9 +291,9 @@
     .textGrid{
         border-radius: 2px;
         display: grid;
-        grid-template-columns: 1fr 1fr;
-        grid-template-rows: 150px 150px 150px 150px 150px;
-        gap: 6px;
+        grid-template-columns: 120px 120px;
+        grid-template-rows: 100px 100px 100px 100px 100px;
+        gap: 3px;
     }
 
     .buttonLaw {

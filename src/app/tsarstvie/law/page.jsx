@@ -58,10 +58,6 @@ const page = () => {
             президенты, фараоны, князья. Убийца, как и прелюбодеи не могут
             пожертвовать собой за друзей своих, это привилегия праведников.
           </p>
-        </div>
-      </div>
-      <div className={styles.textTsar}>
-        <div className={styles.butto}>
           <p>
             Вы сами виноваты в том, что не хотите слушать тех кого нужно. Идите,
             задавайте вопросы тем, кто вас так научил. Всех тех, кто разделяет
@@ -72,10 +68,10 @@ const page = () => {
               Ответить.
             </a>
           </p>
-          <button className={styles.buttonla}>
-            <a href="/tsarstvie/1">Назад.</a>
-          </button>
         </div>
+        <button className={styles.buttonla}>
+          <a href="/tsarstvie/1">Назад.</a>
+        </button>
       </div>
     </div>
   );
