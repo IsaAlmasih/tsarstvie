@@ -58,7 +58,7 @@ const Header = () => {
                 </button>
               </div>
               <div className={styles.navigation}>
-                <Link href={"/tsarstvie"}>Главная страница</Link>
+                <Link href={"/tsarstvie/1"}>Главная страница</Link>
                 <Link href={"/"}>О нас</Link>
                 <Link href={"/"}>Контакты</Link>
               </div>
@@ -69,7 +69,7 @@ const Header = () => {
       <div className={styles.blok}>
         <div className={styles.svwxy}>
           <div className={styles.suxyzGrid}>
-            <Link href="/lights" className={styles.svwxz}>
+            <Link href="/blagosds/funds" className={styles.svwxz}>
               Проекты
             </Link>
             <div>2</div>
