@@ -121,6 +121,7 @@ export default function Questions() {
                   тяжести ваших грехов?
                 </label>
                 <input
+                  type="text"
                   name="q3"
                   value={answers.q3}
                   onChange={handleChange}
@@ -153,6 +154,7 @@ export default function Questions() {
                   рукоблудием или мастурбацией идти против Христа?
                 </label>
                 <input
+                  type="text"
                   name="q4"
                   value={answers.q4}
                   onChange={handleChange}
@@ -185,6 +187,7 @@ export default function Questions() {
                   завуалированная история миллионов лет эволюции?
                 </label>
                 <input
+                  type="text"
                   name="q5"
                   value={answers.q5}
                   onChange={handleChange}
@@ -217,6 +220,7 @@ export default function Questions() {
                   президент = фараон = патриарх = дьявол?
                 </label>
                 <input
+                  type="text"
                   name="q6"
                   value={answers.q6}
                   onChange={handleChange}
@@ -248,6 +252,7 @@ export default function Questions() {
                   Вопрос 7. Согласны ли вы что Всевышний и Иисус Одно Лицо?
                 </label>
                 <input
+                  type="text"
                   name="q7"
                   value={answers.q7}
                   onChange={handleChange}
@@ -280,6 +285,7 @@ export default function Questions() {
                   алкоголь?
                 </label>
                 <input
+                  type="text"
                   name="q8"
                   value={answers.q8}
                   onChange={handleChange}
@@ -311,6 +317,7 @@ export default function Questions() {
                   Вопрос 9. Можно ли употреблять алкоголь Христовым?
                 </label>
                 <input
+                  type="text"
                   name="q9"
                   value={answers.q9}
                   onChange={handleChange}
@@ -344,6 +351,7 @@ export default function Questions() {
                   поведения?
                 </label>
                 <input
+                  type="text"
                   name="q10"
                   value={answers.q10}
                   onChange={handleChange}

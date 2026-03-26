@@ -2,7 +2,7 @@
 
 import React from "react";
 
-import styles from "./styles.module.css";
+import styles from "../verdict/styles.module.css";
 import Link from "next/link";
 
 const page = () => {

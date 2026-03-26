@@ -69,10 +69,10 @@ const page = () => {
             </a>
           </p>
         </div>
-        <button className={styles.buttonla}>
-          <a href="/tsarstvie/1">Назад.</a>
-        </button>
       </div>
+      <button className={styles.buttonla}>
+        <a href="/tsarstvie/1">Назад.</a>
+      </button>
     </div>
   );
 };
