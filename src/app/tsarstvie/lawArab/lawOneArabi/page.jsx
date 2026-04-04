@@ -52,52 +52,52 @@ export default function law() {
           <div className={styles.blo}>
             <div className={styles.textGrid}>
               <div className={styles.textGridOne}>
-                <Link href="/additional/questionOne">
+                <Link href="/additionalArabi/questionArabiOne">
                   موضوع مع أسئلة حول الوصية الأولى.
                 </Link>
               </div>
               <div className={styles.textGridTwo}>
-                <Link href="/additional/questionTwo">
+                <Link href="/additionalArabi/questionArabiTwo">
                   موضوع مع أسئلة حول الوصية الثانية.
                 </Link>
               </div>
               <div className={styles.textGridThree}>
-                <Link href="/additional/questionThree">
+                <Link href="/additionalArabi/questionArabiThree">
                   موضوع مع أسئلة حول الوصية الثالثة.
                 </Link>
               </div>
               <div className={styles.textGridFour}>
-                <Link href="/additional/questionFour">
+                <Link href="/additionalArabi/questionArabiFour">
                   موضوع مع أسئلة حول الوصية الرابعة.
                 </Link>
               </div>
               <div className={styles.textGridFive}>
-                <Link href="/additional/questionFive">
+                <Link href="/additionalArabi/questionArabiFive">
                   موضوع مع أسئلة حول الوصية الخامسة.
                 </Link>
               </div>
               <div className={styles.textGridSix}>
-                <Link href="/additional/questionSix">
+                <Link href="/additionalArabi/questionArabiSix">
                   موضوع مع أسئلة حول الوصية السادسة.
                 </Link>
               </div>
               <div className={styles.textGridSeven}>
-                <Link href="/additional/questionSeven">
+                <Link href="/additionalArabi/questionArabiSeven">
                   موضوع مع أسئلة حول الوصية السابعة.
                 </Link>
               </div>
               <div className={styles.textGridEight}>
-                <Link href="/additional/questionEight">
+                <Link href="/additionalArabi/questionArabiEight">
                   موضوع مع أسئلة حول الوصية الثامنة.
                 </Link>
               </div>
               <div className={styles.textGridNine}>
-                <Link href="/additional/questionNine">
+                <Link href="/additionalArabi/questionArabiNine">
                   موضوع مع أسئلة حول الوصية التاسعة.
                 </Link>
               </div>
               <div className={styles.textGridTen}>
-                <Link href="/additional/questionTen">
+                <Link href="/additionalArabi/questionArabiTen">
                   موضوع مع أسئلة الوصية العاشرة.
                 </Link>
               </div>

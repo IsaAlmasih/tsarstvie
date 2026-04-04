@@ -105,7 +105,7 @@ const page = () => {
                   </tbody>
                 </table>
               </div>
-              {/* <div className={styles.secondPage}>
+              <div className={styles.secondPage}>
                 <h4 className={styles.Xemnz}>
                   Видите, как бывает в жизни. Или вы хотите сказать, что не
                   ждали подобного? Думаю, ждали и понимаете, что ваши дела не
@@ -169,7 +169,7 @@ const page = () => {
                     <td></td>
                   </tr>
                 </table>
-              </div> */}
+              </div>
               <div className={styles.thirdPage}></div>
               <div className={styles.secondPage}>
                 <h4>"Привет привет привет привет"</h4>

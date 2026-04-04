@@ -9,16 +9,16 @@ export default function Questions() {
   const router = useRouter();
 
   const [answers, setAnswers] = useState({
-    q1: "Нет", // или "Нет", чтобы по умолчанию было выбрано что-то
-    q2: "Нет",
-    q3: "Нет",
-    q4: "Нет",
-    q5: "Нет",
-    q6: "Нет",
-    q7: "Нет",
-    q8: "Нет",
-    q9: "Нет",
-    q10: "Нет",
+    q1: "لا", // или "لا", чтобы по умолчанию было выбрано что-то
+    q2: "لا",
+    q3: "لا",
+    q4: "لا",
+    q5: "لا",
+    q6: "لا",
+    q7: "لا",
+    q8: "لا",
+    q9: "لا",
+    q10: "لا",
   });
 
   const handleChange = (e) => {
@@ -28,21 +28,21 @@ export default function Questions() {
   const handleSubmit = (e) => {
     e.preventDefault();
     if (
-      answers.q1 === "Нет" &&
-      answers.q2 === "Нет" &&
-      answers.q3 === "Да" &&
-      answers.q4 === "Да" &&
-      answers.q5 === "Да" &&
-      answers.q6 === "Да" &&
-      answers.q7 === "Да" &&
-      answers.q8 === "Да" &&
-      answers.q9 === "Да" &&
-      answers.q10 === "Да"
+      answers.q1 === "لا" &&
+      answers.q2 === "لا" &&
+      answers.q3 === "نعم" &&
+      answers.q4 === "نعم" &&
+      answers.q5 === "نعم" &&
+      answers.q6 === "نعم" &&
+      answers.q7 === "نعم" &&
+      answers.q8 === "نعم" &&
+      answers.q9 === "نعم" &&
+      answers.q10 === "نعم"
     ) {
       // Правильный ответ - переходим на страницу
       router.push("/additional");
     } else {
-      alert("Некорректные ответы, попробуйте снова!");
+      alert("إجابات خاطئة، حاول مرة أخرى!");
     }
   };
 
@@ -51,326 +51,324 @@ export default function Questions() {
       <div className={styles.wrapper}>
         <div className={styles.blok}>
           <div className={styles.blo}>
-            <div className={styles.text}>
-              <label>
-                Вопрос 1. Первой
-              </label>
-              <input 
-                name="q1"
-                value={answers.q1}
-                onChange={handleChange}
-                placeholder="Ответьте на вопрос 1"
-              />
-              <label>
+            <div className={styles.gridblok}>
+              <div className={styles.text}>
+                <label>Вопрос 1. Первой</label>
                 <input
-                  type="radio"
                   name="q1"
-                  value="Да"
-                  checked={answers.q1 === "Да"}
+                  value={answers.q1}
                   onChange={handleChange}
+                  placeholder="أجب عن السؤال"
                 />
-                Да
-              </label>
-              <label>
+                <label>
+                  <input
+                    type="radio"
+                    name="q1"
+                    value="نعم"
+                    checked={answers.q1 === "نعم"}
+                    onChange={handleChange}
+                  />
+                  نعم
+                </label>
+                <label>
+                  <input
+                    type="radio"
+                    name="q1"
+                    value="لا"
+                    checked={answers.q1 === "لا"}
+                    onChange={handleChange}
+                  />
+                  لا
+                </label>
+              </div>
+              <div className={styles.text}>
+                <label>
+                  Вопрос 2. Как вы считаете, разведённые без вины прелюбодеяния,
+                  имеют шанс обрести Христа?
+                </label>
                 <input
-                  type="radio"
-                  name="q1"
-                  value="Нет"
-                  checked={answers.q1 === "Нет"}
-                  onChange={handleChange}
-                />
-                Нет
-              </label>
-            </div>
-            <div className={styles.text}>
-              <label>
-                Вопрос 2. Как вы считаете, разведённые без вины прелюбодеяния,
-                имеют шанс обрести Христа?
-              </label>
-              <input
-                name="q2"
-                value={answers.q2}
-                onChange={handleChange}
-                placeholder="Ответьте на вопрос 2"
-              />
-              <label>
-                <input
-                  type="radio"
                   name="q2"
-                  value="Да"
-                  checked={answers.q2 === "Да"}
+                  value={answers.q2}
                   onChange={handleChange}
+                  placeholder="أجب عن السؤال"
                 />
-                Да
-              </label>
-              <label>
+                <label>
+                  <input
+                    type="radio"
+                    name="q2"
+                    value="نعم"
+                    checked={answers.q2 === "نعم"}
+                    onChange={handleChange}
+                  />
+                  نعم
+                </label>
+                <label>
+                  <input
+                    type="radio"
+                    name="q2"
+                    value="لا"
+                    checked={answers.q2 === "لا"}
+                    onChange={handleChange}
+                  />
+                  لا
+                </label>
+              </div>
+              <div className={styles.text}>
+                <label>
+                  السؤال الثالث: هل تعتقد أن مصير أطفالك يعتمد على مدى خطورة
+                  ذنوبك؟
+                </label>
                 <input
-                  type="radio"
-                  name="q2"
-                  value="Нет"
-                  checked={answers.q2 === "Нет"}
-                  onChange={handleChange}
-                />
-                Нет
-              </label>
-            </div>
-            <div className={styles.text}>
-              <label>
-                Вопрос 3. Как вы считаете, участь ваших детей, зависит от
-                тяжести ваших грехов?
-              </label>
-              <input
-                name="q3"
-                value={answers.q3}
-                onChange={handleChange}
-                placeholder="Ответьте на вопрос 3"
-              />
-              <label>
-                <input
-                  type="radio"
                   name="q3"
-                  value="Да"
-                  checked={answers.q3 === "Да"}
+                  value={answers.q3}
                   onChange={handleChange}
+                  placeholder="الجواب على السؤال ٣"
                 />
-                Да
-              </label>
-              <label>
+                <label>
+                  <input
+                    type="radio"
+                    name="q3"
+                    value="نعم"
+                    checked={answers.q3 === "نعم"}
+                    onChange={handleChange}
+                  />
+                  نعم
+                </label>
+                <label>
+                  <input
+                    type="radio"
+                    name="q3"
+                    value="لا"
+                    checked={answers.q3 === "لا"}
+                    onChange={handleChange}
+                  />
+                  لا
+                </label>
+              </div>
+              <div className={styles.text}>
+                <label>
+                  السؤال الرابع: هل توافق على القول بأن الإفراط في الملذات أو
+                  الاستمناء يتعارض مع تعاليم المسيح؟
+                </label>
                 <input
-                  type="radio"
-                  name="q3"
-                  value="Нет"
-                  checked={answers.q3 === "Нет"}
-                  onChange={handleChange}
-                />
-                Нет
-              </label>
-            </div>
-            <div className={styles.text}>
-              <label>
-                Вопрос 4. Согласны ли с утверждением, что, занимаясь рукоблудием
-                или мастурбацией идти против Христа?
-              </label>
-              <input
-                name="q4"
-                value={answers.q4}
-                onChange={handleChange}
-                placeholder="Ответьте на вопрос 4"
-              />
-              <label>
-                <input
-                  type="radio"
                   name="q4"
-                  value="Да"
-                  checked={answers.q4 === "Да"}
+                  value={answers.q4}
                   onChange={handleChange}
+                  placeholder="أجب عن السؤال"
                 />
-                Да
-              </label>
-              <label>
+                <label>
+                  <input
+                    type="radio"
+                    name="q4"
+                    value="نعم"
+                    checked={answers.q4 === "نعم"}
+                    onChange={handleChange}
+                  />
+                  نعم
+                </label>
+                <label>
+                  <input
+                    type="radio"
+                    name="q4"
+                    value="لا"
+                    checked={answers.q4 === "لا"}
+                    onChange={handleChange}
+                  />
+                  لا
+                </label>
+              </div>
+              <div className={styles.text}>
+                <label>
+                  هل توافق على أن قصة آدم وحواء هي التاريخ الخفي لملايين السنين
+                  من التطور؟
+                </label>
                 <input
-                  type="radio"
-                  name="q4"
-                  value="Нет"
-                  checked={answers.q4 === "Нет"}
-                  onChange={handleChange}
-                />
-                Нет
-              </label>
-            </div>
-            <div className={styles.text}>
-              <label>
-                Вопрос 5. Согласны ли вы, что история Адама и Евы,
-                завуалированная история миллионов лет эволюции?
-              </label>
-              <input
-                name="q5"
-                value={answers.q5}
-                onChange={handleChange}
-                placeholder="Ответьте на вопрос 5"
-              />
-              <label>
-                <input
-                  type="radio"
                   name="q5"
-                  value="Да"
-                  checked={answers.q5 === "Да"}
+                  value={answers.q5}
                   onChange={handleChange}
+                  placeholder="أجب عن السؤال"
                 />
-                Да
-              </label>
-              <label>
+                <label>
+                  <input
+                    type="radio"
+                    name="q5"
+                    value="نعم"
+                    checked={answers.q5 === "نعم"}
+                    onChange={handleChange}
+                  />
+                  نعم
+                </label>
+                <label>
+                  <input
+                    type="radio"
+                    name="q5"
+                    value="لا"
+                    checked={answers.q5 === "لا"}
+                    onChange={handleChange}
+                  />
+                  لا
+                </label>
+              </div>
+              <div className={styles.text}>
+                <label>
+                  السؤال السادس: هل تفهم أن قيصر = أمير = قيصر = رئيس = فرعون =
+                  بطريرك = شيطان؟
+                </label>
                 <input
-                  type="radio"
-                  name="q5"
-                  value="Нет"
-                  checked={answers.q5 === "Нет"}
-                  onChange={handleChange}
-                />
-                Нет
-              </label>
-            </div>
-            <div className={styles.text}>
-              <label>
-                Вопрос 6. Понимаете ли, вы, что кесарь = князь = царь =
-                президент = фараон = патриарх = дьявол?
-              </label>
-              <input
-                name="q6"
-                value={answers.q6}
-                onChange={handleChange}
-                placeholder="Ответьте на вопрос 6"
-              />
-              <label>
-                <input
-                  type="radio"
                   name="q6"
-                  value="Да"
-                  checked={answers.q6 === "Да"}
+                  value={answers.q6}
                   onChange={handleChange}
+                  placeholder="أجب عن السؤال"
                 />
-                Да
-              </label>
-              <label>
+                <label>
+                  <input
+                    type="radio"
+                    name="q6"
+                    value="نعم"
+                    checked={answers.q6 === "نعم"}
+                    onChange={handleChange}
+                  />
+                  نعم
+                </label>
+                <label>
+                  <input
+                    type="radio"
+                    name="q6"
+                    value="لا"
+                    checked={answers.q6 === "لا"}
+                    onChange={handleChange}
+                  />
+                  لا
+                </label>
+              </div>
+              <div className={styles.text}>
+                <label>
+                  السؤال السابع: هل توافق على أن الله القدير والمسيح شخص واحد؟
+                </label>
                 <input
-                  type="radio"
-                  name="q6"
-                  value="Нет"
-                  checked={answers.q6 === "Нет"}
-                  onChange={handleChange}
-                />
-                Нет
-              </label>
-            </div>
-            <div className={styles.text}>
-              <label>
-                Вопрос 7. Согласны ли вы что Всевышний и Иисус Одно Лицо?
-              </label>
-              <input
-                name="q7"
-                value={answers.q7}
-                onChange={handleChange}
-                placeholder="Ответьте на вопрос 7"
-              />
-              <label>
-                <input
-                  type="radio"
                   name="q7"
-                  value="Да"
-                  checked={answers.q7 === "Да"}
+                  value={answers.q7}
                   onChange={handleChange}
+                  placeholder="أجب عن السؤال"
                 />
-                Да
-              </label>
-              <label>
+                <label>
+                  <input
+                    type="radio"
+                    name="q7"
+                    value="نعم"
+                    checked={answers.q7 === "نعم"}
+                    onChange={handleChange}
+                  />
+                  نعم
+                </label>
+                <label>
+                  <input
+                    type="radio"
+                    name="q7"
+                    value="لا"
+                    checked={answers.q7 === "لا"}
+                    onChange={handleChange}
+                  />
+                  لا
+                </label>
+              </div>
+              <div className={styles.text}>
+                <label>
+                  السؤال الثامن: هل تفهم أن الخمر في الاعتراف ليس دماً، بل كحول؟
+                </label>
                 <input
-                  type="radio"
-                  name="q7"
-                  value="Нет"
-                  checked={answers.q7 === "Нет"}
-                  onChange={handleChange}
-                />
-                Нет
-              </label>
-            </div>
-            <div className={styles.text}>
-              <label>
-                Вопрос 8. Понимаете ли, вы, что на исповеди вино, не кровь, а
-                алкоголь?
-              </label>
-              <input
-                name="q8"
-                value={answers.q8}
-                onChange={handleChange}
-                placeholder="Ответьте на вопрос 8"
-              />
-              <label>
-                <input
-                  type="radio"
                   name="q8"
-                  value="Да"
-                  checked={answers.q8 === "Да"}
+                  value={answers.q8}
                   onChange={handleChange}
+                  placeholder="أجب عن السؤال"
                 />
-                Да
-              </label>
-              <label>
+                <label>
+                  <input
+                    type="radio"
+                    name="q8"
+                    value="نعم"
+                    checked={answers.q8 === "نعم"}
+                    onChange={handleChange}
+                  />
+                  نعم
+                </label>
+                <label>
+                  <input
+                    type="radio"
+                    name="q8"
+                    value="لا"
+                    checked={answers.q8 === "لا"}
+                    onChange={handleChange}
+                  />
+                  لا
+                </label>
+              </div>
+              <div className={styles.text}>
+                <label>
+                  السؤال التاسع: هل توجد أي معايير لاستهلاك الكحول بالنسبة
+                  لأتباع المسيح؟
+                </label>
                 <input
-                  type="radio"
-                  name="q8"
-                  value="Нет"
-                  checked={answers.q8 === "Нет"}
-                  onChange={handleChange}
-                />
-                Нет
-              </label>
-            </div>
-            <div className={styles.text}>
-              <label>
-                Вопрос 9. Есть ли нормы употребления алкоголя Христовым?
-              </label>
-              <input
-                name="q9"
-                value={answers.q9}
-                onChange={handleChange}
-                placeholder="Ответьте на вопрос 9"
-              />
-              <label>
-                <input
-                  type="radio"
                   name="q9"
-                  value="Да"
-                  checked={answers.q9 === "Да"}
+                  value={answers.q9}
                   onChange={handleChange}
+                  placeholder="أجب عن السؤال"
                 />
-                Да
-              </label>
-              <label>
+                <label>
+                  <input
+                    type="radio"
+                    name="q9"
+                    value="نعم"
+                    checked={answers.q9 === "نعم"}
+                    onChange={handleChange}
+                  />
+                  نعم
+                </label>
+                <label>
+                  <input
+                    type="radio"
+                    name="q9"
+                    value="لا"
+                    checked={answers.q9 === "لا"}
+                    onChange={handleChange}
+                  />
+                  لا
+                </label>
+              </div>
+              <div className={styles.text}>
+                <label>السؤال العاشر: هل تدرك أن عالمك هو نتيجة لسلوكك؟</label>
                 <input
-                  type="radio"
-                  name="q9"
-                  value="Нет"
-                  checked={answers.q9 === "Нет"}
-                  onChange={handleChange}
-                />
-                Нет
-              </label>
-            </div>
-            <div className={styles.text}>
-              <label>
-                Вопрос 10. Понимаете ли, вы, что ваш мир итог вашего поведения?
-              </label>
-              <input
-                name="q10"
-                value={answers.q10}
-                onChange={handleChange}
-                placeholder="Ответьте на вопрос 10"
-              />
-              <label>
-                <input
-                  type="radio"
                   name="q10"
-                  value="Да"
-                  checked={answers.q10 === "Да"}
+                  value={answers.q10}
                   onChange={handleChange}
+                  placeholder="أجب عن السؤال"
                 />
-                Да
-              </label>
-              <label>
-                <input
-                  type="radio"
-                  name="q10"
-                  value="Нет"
-                  checked={answers.q10 === "Нет"}
-                  onChange={handleChange}
-                />
-                Нет
-              </label>
+                <label>
+                  <input
+                    type="radio"
+                    name="q10"
+                    value="نعم"
+                    checked={answers.q10 === "نعم"}
+                    onChange={handleChange}
+                  />
+                  نعم
+                </label>
+                <label>
+                  <input
+                    type="radio"
+                    name="q10"
+                    value="لا"
+                    checked={answers.q10 === "لا"}
+                    onChange={handleChange}
+                  />
+                  لا
+                </label>
+              </div>
             </div>
           </div>
         </div>
         <button type="submit" className={styles.buttonLaw}>
-          Отправить
+          أجيب
         </button>
       </div>
     </form>
