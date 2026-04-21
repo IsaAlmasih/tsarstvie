@@ -28,7 +28,7 @@ export default function Questions() {
   const handleSubmit = (e) => {
     e.preventDefault();
     if (
-      answers.q1 === "Нет" &&
+      answers.q1 === "Да" &&
       answers.q2 === "Нет" &&
       answers.q3 === "Да" &&
       answers.q4 === "Да" &&
@@ -36,7 +36,7 @@ export default function Questions() {
       answers.q6 === "Да" &&
       answers.q7 === "Да" &&
       answers.q8 === "Да" &&
-      answers.q9 === "Да" &&
+      answers.q9 === "Нет" &&
       answers.q10 === "Да"
     ) {
       // Правильный ответ - переходим на страницу
@@ -53,7 +53,7 @@ export default function Questions() {
           <div className={styles.blo}>
             <div className={styles.gridblok}>
               <div className={styles.text}>
-                <label>Вопрос 1. Можно ли курить сигареты?</label>
+                <label>Как вы считаете? Не виновная сторона при разводе по вине прелюбодеяния, может обрести Христа?</label>
                 <input
                   name="q1"
                   value={answers.q1}

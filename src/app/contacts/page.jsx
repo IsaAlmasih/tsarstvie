@@ -10,7 +10,7 @@ const page = () => {
         <div className={styles.text}>
           <p2 className={styles.textTsar}>
             Для дальнейшего прохода необходимо пройти тест. Мы хотим понимать
-            излечима ли ваша болезнь или вы раб своих иллюзий{" "}
+            излечима ли ваша болезнь или вы раб своих кумиров и иллюзий{" "}
             <a href={"tsarstvie/law/lawOne"} className={styles.textTsa}>
               Ответить.
             </a>
