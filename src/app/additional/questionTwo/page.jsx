@@ -9,7 +9,7 @@ export default function Questions() {
   const router = useRouter();
 
   const [answers, setAnswers] = useState({
-    q1: "Нет", // или "Нет", чтобы по умолчанию было выбрано что-то
+    q1: "Да", // или "Нет", чтобы по умолчанию было выбрано что-то
     q2: "Нет",
     q3: "Нет",
     q4: "Нет",
@@ -29,7 +29,7 @@ export default function Questions() {
     e.preventDefault();
     if (
       answers.q1 === "Да" &&
-      answers.q2 === "Нет" &&
+      answers.q2 === "Да" &&
       answers.q3 === "Да" &&
       answers.q4 === "Да" &&
       answers.q5 === "Да" &&
@@ -53,7 +53,10 @@ export default function Questions() {
           <div className={styles.blo}>
             <div className={styles.gridblok}>
               <div className={styles.text}>
-                <label>Как вы считаете? Не виновная сторона при разводе по вине прелюбодеяния, может обрести Христа?</label>
+                <label>
+                  Понимаете ли, вы, что просмотр и употребление духовной
+                  литературы в туалете запрещено?
+                </label>
                 <input
                   name="q1"
                   value={answers.q1}
@@ -83,8 +86,8 @@ export default function Questions() {
               </div>
               <div className={styles.text}>
                 <label>
-                  Вопрос 2. Как вы считаете, разведённые без вины прелюбодеяния,
-                  имеют шанс обрести Христа?
+                  Понимаете ли, вы, что на слова священнослужителей нельзя
+                  опираться полностью, они не больше вас?
                 </label>
                 <input
                   name="q2"
@@ -368,12 +371,13 @@ export default function Questions() {
                   Нет
                 </label>
               </div>
-            </div>
+            </div>        
+                <button type="submit" className={styles.buttonLaw}>
+              Отправить
+                </button>
           </div>
         </div>
-        <button type="submit" className={styles.buttonLaw}>
-          Отправить
-        </button>
+
       </div>
     </form>
   );
