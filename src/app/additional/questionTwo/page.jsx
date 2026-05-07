@@ -371,13 +371,12 @@ export default function Questions() {
                   Нет
                 </label>
               </div>
-            </div>        
-                <button type="submit" className={styles.buttonLaw}>
-              Отправить
-                </button>
+            </div>
           </div>
         </div>
-
+        <button type="submit" className={styles.buttonLaw}>
+          Отправить
+        </button>
       </div>
     </form>
   );
