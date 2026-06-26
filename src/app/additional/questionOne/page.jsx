@@ -217,7 +217,7 @@ export default function Questions() {
               <div className={styles.text}>
                 <label>
                   Вопрос 6. Понимаете ли, вы, что кесарь = князь = царь =
-                  президент = фараон = патриарх = дьявол?
+                  президент = фараон = дьявол?
                 </label>
                 <input
                   type="text"
