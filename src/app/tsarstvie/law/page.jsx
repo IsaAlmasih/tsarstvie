@@ -69,7 +69,7 @@ const page = () => {
               Ответить.
             </a>
             Ознакомиться с темой.
-            <a href="/tsarstvie/tsarstvie/intero" className={styles.optuw}>
+            <a href="/tsarstvie/intero" className={styles.optuw}>
               Учение.
             </a>
           </p>

@@ -52,37 +52,35 @@ export default function intero() {
           <div className={styles.blo}>
             <div className={styles.textGrid}>
               <div className={styles.textGridOne}>
-                <Link href="/tsarstvie/tsarstvie/educat/id">
+                <Link href="/tsarstvie/educat/id">
                   Тама о тысячилетнем царстве.
                 </Link>
               </div>
               <div className={styles.textGridTwo}>
-                <Link href="/additional/questionTwo">
-                  Тама о книгах Христа.
-                </Link>
+                <Link href="/tsarstvie/educat/id">Тама о книгах Христа.</Link>
               </div>
               <div className={styles.textGridThree}>
-                <Link href="/additional/questionThree">
+                <Link href="/tsarstvie/educat/id">
                   Тама о принятии реальности к духовному.
                 </Link>
               </div>
               <div className={styles.textGridFour}>
-                <Link href="/additional/questionFour">Тама о питании.</Link>
+                <Link href="/tsarstvie/educat/id">Тама о питании.</Link>
               </div>
               <div className={styles.textGridFive}>
-                <Link href="/additional/questionFive">Тама с.</Link>
+                <Link href="/tsarstvie/educat/id">Тама с.</Link>
               </div>
               <div className={styles.textGridSix}>
-                <Link href="/additional/questionSix">Тама с .</Link>
+                <Link href="/tsarstvie/educat/id">Тама с .</Link>
               </div>
               <div className={styles.textGridSeven}>
-                <Link href="/additional/questionSeven">Тама с .</Link>
+                <Link href="/tsarstvie/educat/id">Тама с .</Link>
               </div>
               <div className={styles.textGridEight}>
-                <Link href="/additional/questionEight">Тама с .</Link>
+                <Link href="/tsarstvie/educat/id">Тама с .</Link>
               </div>
               <div className={styles.textGridNine}>
-                <Link href="/additional/questionNine">Тама с .</Link>
+                <Link href="/tsarstvie/educat/id">Тама с .</Link>
               </div>
               {/* <div className={styles.textGridTen}>
                 <Link href="/additional/questionTen">
@@ -90,7 +88,7 @@ export default function intero() {
                 </Link>
               </div> */}
               <div className={styles.textGridTen}>
-                <Link href="/additional/questionTen">Тама с итд.</Link>
+                <Link href="/tsarstvie/educat/id">Тама с итд.</Link>
               </div>
             </div>
           </div>
