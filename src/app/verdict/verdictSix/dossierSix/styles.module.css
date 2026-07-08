@@ -9,13 +9,14 @@
 }
 
 .wrappe {
-    font-size: 40px;
+    font-size: 20px;
+    color: #ffffff;
     justify-content: center;
     align-items: center;
     display: flex;
     flex-direction: column;
-    width: 300px;
-    height: 300px;
+    width: 600px;
+    height: 600px;
 }
 
 
@@ -30,38 +31,3 @@
     z-index: 100;
 }
 
-.firstPage {
-    background-color: blueviolet;
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center;
-}
-
-.secondPage {
-    background-color: aqua;
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center;
-}
-
-.thirdPage {
-    background-color: blue;
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center; 
-}
-
-@media screen and (max-width: 576px) {
-    .firstPage,
-    .secondPage,
-    .thirdPage {
-        left: 15px !important;
-        right: 15px !important;
-        min-width: calc(100% - 30px) !important;
-        width: calc(100% - 30px) !important;
-    }
-
-    .book {
-        min-width: 100% !important;
-    }
-}

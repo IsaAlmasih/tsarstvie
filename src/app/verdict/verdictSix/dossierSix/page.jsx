@@ -7,27 +7,22 @@ import Link from "next/link";
 const page = () => {
   return (
     <div className={styles.wrapper}>
-      <HTMLFlipBook width={430} height={600} className={styles.book}>
-        <div className={styles.firstPage}>
-          <h4>"Привет привет привет привет"</h4>
-        </div>
-        <div className={styles.secondPage}>
-          <h4>"Сам Привет Сам привет Сам привет Сам привет"</h4>
-        </div>
-        <div className={styles.thirdPage}>
-          <h4>"Это это. И это. привет"</h4>
-        </div>
-        <div className={styles.secondPage}>
-          <h4>"Привет привет привет привет"</h4>
-        </div>
-        <div className={styles.firstPage}></div>
-        <div className={styles.secondPage}></div>
-        <div className={styles.firstPage}>Page 7</div>
-        <div className={styles.secondPage}>Page 8</div>
-      </HTMLFlipBook>
-      <button className={styles.button}>
-        <a href="/verdict">Назад</a>
-      </button>
+      <div className={styles.wrappe}>
+        000000000010 = """Протоиерей Феодор Бородин. Год рождения: 08.04.1968
+        Образование: Московская духовная семинария Подробнее 29 марта
+        1992рукоположен в сан диакона. Летом 1993назначен настоятелем в храм
+        свв. бессребреников Космы и Дамиана. 14 октября 1993рукоположен в
+        священный сан. 2002 годвозведен в сан протоиерея. Награды: 2012 годКрест
+        с украшениями 2020 годПраво служения Божественной Литургии с отверстыми
+        Царскими вратами по Иже Херувимы... 2025 годПраво служения Божественной
+        Литургии с отверстыми Царскими вратами по Отче наш. Контакты 101000,
+        Москва, ул. Маросейка, дом 14/2, стр. 3 mail@hram-kosmadamian.ru +7
+        (495) 622-39-78 Протоиерей БОРОДИН Феодор Александрович, настоятель.
+        Родился 8 апреля 1968 года."""
+        <button className={styles.button}>
+          <a href="/verdict">Назад</a>
+        </button>
+      </div>
     </div>
   );
 };

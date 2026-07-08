@@ -121,10 +121,14 @@ const page = () => {
                     <td>Досье</td>
                   </tr>
                   <tr>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
+                    <td>Бородин</td>
+                    <td>Феодор</td>
+                    <td>
+                      <a href="http://tsarstvie/verdict/verdictSix/dossierSix">
+                        Досье
+                      </a>
+                    </td>
+                    <td>Александрович</td>
                   </tr>
                   <tr>
                     <td></td>

@@ -103,7 +103,7 @@ const page = () => {
 max-width: 360  Стили применяются, когда ширина окна меньше 360 пх
 min-width: 360  Стили применяются, когда ширина окна больше 360 пх
 
-
+import styles from "../../../tsarstvie/law/lawOne/styles.module.css"; обязательно такую колбасу делать?
 
 
 
