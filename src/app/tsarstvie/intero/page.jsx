@@ -2,7 +2,7 @@
 import { useState } from "react";
 import { useRouter } from "next/navigation";
 
-import styles from "../intero/stules.module.css";
+import styles from "../intero/styles.module.css";
 import Link from "next/link";
 
 export default function intero() {
@@ -52,7 +52,7 @@ export default function intero() {
           <div className={styles.blo}>
             <div className={styles.textGrid}>
               <div className={styles.textGridOne}>
-                <Link href="/additional/questionOne">
+                <Link href="/tsarstvie/tsarstvie/educat/id">
                   Тама о тысячилетнем царстве.
                 </Link>
               </div>
@@ -67,34 +67,22 @@ export default function intero() {
                 </Link>
               </div>
               <div className={styles.textGridFour}>
-                <Link href="/additional/questionFour">
-                  Тама о питании.
-                </Link>
+                <Link href="/additional/questionFour">Тама о питании.</Link>
               </div>
               <div className={styles.textGridFive}>
-                <Link href="/additional/questionFive">
-                  Тама с.
-                </Link>
+                <Link href="/additional/questionFive">Тама с.</Link>
               </div>
               <div className={styles.textGridSix}>
-                <Link href="/additional/questionSix">
-                  Тама с .
-                </Link>
+                <Link href="/additional/questionSix">Тама с .</Link>
               </div>
               <div className={styles.textGridSeven}>
-                <Link href="/additional/questionSeven">
-                  Тама с .
-                </Link>
+                <Link href="/additional/questionSeven">Тама с .</Link>
               </div>
               <div className={styles.textGridEight}>
-                <Link href="/additional/questionEight">
-                  Тама с .
-                </Link>
+                <Link href="/additional/questionEight">Тама с .</Link>
               </div>
               <div className={styles.textGridNine}>
-                <Link href="/additional/questionNine">
-                  Тама с .
-                </Link>
+                <Link href="/additional/questionNine">Тама с .</Link>
               </div>
               {/* <div className={styles.textGridTen}>
                 <Link href="/additional/questionTen">
@@ -102,9 +90,7 @@ export default function intero() {
                 </Link>
               </div> */}
               <div className={styles.textGridTen}>
-                <Link href="/additional/questionTen">
-                  Тама с итд.
-                </Link>
+                <Link href="/additional/questionTen">Тама с итд.</Link>
               </div>
             </div>
           </div>
