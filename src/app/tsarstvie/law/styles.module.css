@@ -35,7 +35,7 @@
     display: flex;
     flex-direction: column;
     gap: 10px;
-    font-size: 22px;
+    font-size: 17px;
     padding-left: 130px;
     padding-right: 130px;
 }
@@ -79,7 +79,7 @@
 }
 
 
-@media (max-width: 1700px) {
+/* @media (max-width: 1700px) {
     .blok {
         width: 100%;
         height: 900px;
@@ -119,7 +119,7 @@
         background-color: transparent;
         margin-top: 47px;
     }
-}
+} */
 
 
 @media (max-width: 1200px) {
@@ -163,9 +163,11 @@
         margin-top: 47px;
     }
 
+}
 
 
-@media (max-width: 900px) {
+
+/* @media (max-width: 900px) {
     .blok {
         width: 100%;
         height: 900px;
@@ -206,21 +208,18 @@
         margin-top: 47px;
     }
 
-}
+} */
 
 
-/* Стили для планшетов (экран от 768px до 1023px) */
-@media (max-width: 1366px) and (min-height: 768px) {
+/* @media (max-width: 1366px) and (min-height: 768px) {
   .container {
-    width: 720px; /* Уменьшаем ширину блока */
+    width: 720px;
   }
-}
+} */
 
 
 
-
-
-@media (max-width: 600px) {
+/* @media (max-width: 600px) {
     .blok {
         width: 100%;
         height: 900px;
@@ -261,13 +260,10 @@
         margin-top: 47px;
     }
 
-}
+} */
 
 
-
-
-
-@media (max-width: 480px) {
+/* @media (max-width: 480px) {
 
     .blok {
         width: 90%;
@@ -309,10 +305,10 @@
         margin-top: 47px;
     }
 
-}
+} */
 
 
-@media (max-width: 360px) {
+/* @media (max-width: 360px) {
 
     .blok {
         width: 90%;
@@ -354,8 +350,4 @@
         margin-top: 47px;
     }
 
-}
-
-
-
-}
+} */

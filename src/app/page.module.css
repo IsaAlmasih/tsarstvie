@@ -9,7 +9,7 @@
 
 
 .Applogo {
-    height: 200px;
+    height: 170px;
     z-index: 10;
 }
 
@@ -26,11 +26,11 @@
 
 
 .afgp {
-    font-size: 28px;
+    font-size: 20px;
 }
 
 
-@media (min-width: 370px) {
+/* @media (min-width: 370px) {
     .Applogo {
     height: 100px;
     }
@@ -139,4 +139,4 @@
     .subtitle {
     font-size: 75px;
     } 
-}
+} */
