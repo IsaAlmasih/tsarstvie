@@ -1,36 +1,36 @@
+
+
 .wrapper {
-    background-color: rgb(0, 0, 0);
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    width: 100%;
-    height: 100vh;
+    padding: 0;
+    background-color: aqua;
+    display: grid;
+    grid-template-rows: 1fr auto; /* Первая строка занимает всё свободное место, вторая — размер контента */
+    min-height: 100vh;
+    padding: 20px;
+    font-size: 19px;
+    text-align: center;
 }
 
 
-.wrappe {
-  display: flex;
-  color: #00ff40;
-  font-size: 25px;
-  flex-direction: column;
-  justify-content: center; /* Горизонтальное центрирование */
-  align-items: center;     /* Вертикальное центрирование */
-  margin: 0 auto;   /* При такой комбинации родитель становится по центру. */
-  font-family: Arial, Helvetica, sans-serif; /* Разные интересные шрифты*/
-  gap: 15px;
-  }
+.educatwrah2 {
+    gap: 10px;
+}
 
 
+.wrapH3 {
+    text-align: center;
+    padding: 0;
+    padding: 10px;
+}
 
-.wrarrrp {
-    background-color: transparent;
-    color: #01ff38;
-    font-size: 23px;
-    padding: 20px;
-    /* min-width: 200px;
-    max-width: 700px; */
 
+.educatwrapph2{
+    text-align: left;
+}
+
+
+.educatwrapph4 {
+    font-style: italic;
 }
 
 
