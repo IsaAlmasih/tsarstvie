@@ -233,8 +233,8 @@
     .textGrid{
         border-radius: 2px;
         display: grid;
-        grid-template-columns: 1fr 1fr 1fr;
-        grid-template-rows: 150px 150px 150px 150px;
+        grid-template-columns: 100px 100px 100px 100px;
+        grid-template-rows: 100px 100px 100px 100px;
         gap: 6px;
     }
 
@@ -263,8 +263,8 @@
     .textGrid{
         border-radius: 2px;
         display: grid;
-        grid-template-columns: 1fr 1fr 1fr;
-        grid-template-rows: 150px 150px 150px 150px;
+        grid-template-columns: 100px 100px 100px 100px;
+        grid-template-rows: 100px 100px 100px 100px;
         gap: 6px;
     }
 
@@ -293,8 +293,8 @@
     .textGrid{
         border-radius: 2px;
         display: grid;
-        grid-template-columns: 1fr 1fr 1fr;
-        grid-template-rows: 150px 150px 150px 150px;
+        grid-template-columns: 100px 100px 100px 100px;
+        grid-template-rows: 100px 100px 100px 100px;
         gap: 6px;
     }
 

@@ -33,19 +33,19 @@ export default function Home() {
   return (
     <div className={styles.wrapper}>
       <div className={styles.wrappe}>
-        <h1>
+        <h3>
           С данной страницы вы можете узнать совпадает ваш образ жизни с образом
           жизни, который нам нужен в Царствии.{" "}
-        </h1>
-        <h1>Выберите кем вы себя считаете, введите имя из списка ниже.</h1>
-        <h2>1) Человек.</h2>
-        <h2>2) Монах.</h2>
-        <h2>3) Десятник.</h2>
-        <h2>4) Пятидесятник.</h2>
-        <h2>5) Сотник.</h2>
-        <h2>6) Тысячник.</h2>
-        <h2>7) Десятитысячник.</h2>
-        <h2>8) Стотысячник.</h2>
+        </h3>
+        <h3>Выберите кем вы себя считаете, введите имя из списка ниже.</h3>
+        <h3>1) Человек.</h3>
+        <h3>2) Монах.</h3>
+        <h3>3) Десятник.</h3>
+        <h3>4) Пятидесятник.</h3>
+        <h3>5) Сотник.</h3>
+        <h3>6) Тысячник.</h3>
+        <h3>7) Десятитысячник.</h3>
+        <h3>8) Стотысячник.</h3>
         <div className={styles.wrapperInput}>
           <input
             type="text"
@@ -55,7 +55,7 @@ export default function Home() {
           />
           <button onClick={handleCheck}>Проверить</button>
           {characteristic && (
-            <div style={{ marginTop: "20px" }}>
+            <div style={{ marginTop: "20px", fontSize: "10px" }}>
               <strong>Ранг:</strong> {input.trim()}
               <br />
               <strong>Характеристика:</strong> {characteristic}

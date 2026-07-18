@@ -7,15 +7,15 @@
 
 
 .wrappe {
-  font-size: 15px;
-  color: #6c2020;
+  /* font-size: 14px; */
+  color: #a84a4a;
   text-align: center;
   align-items: center;
   padding: 200px;
 }
 
 .wrapperInput {
-  margin-right: 20px;
+  margin-right: 10px;
   color: #e8e0e0;
 }
 
