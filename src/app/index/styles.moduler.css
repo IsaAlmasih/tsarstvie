@@ -1,0 +1,10 @@
+.wrapper {
+    padding: 0;
+    background-color: aqua;
+    display: grid;
+    grid-template-rows: 1fr auto; /* Первая строка занимает всё свободное место, вторая — размер контента */
+    min-height: 100vh;
+    padding: 20px;
+    font-size: 19px;
+    text-align: center;
+}

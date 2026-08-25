@@ -43,7 +43,7 @@ const page = async({params}) => {
   const id = (await params).id
   return (
     <div className={styles.wrapper}>
-      <div className={styles.blok}>
+      {/* <div className={styles.blok}>
         <div className={styles.wrapp}>
           <div className={styles.wrappBlokRossia}>
             <div className={styles.wrappBlokRu}>
@@ -51,14 +51,12 @@ const page = async({params}) => {
               <Link href="/tsarstvie/law">{content[id].qsuvz}</Link>
               <Link href="/tsarstvie/almasih">{content[id].qtvxy}</Link>
               <Link href="/tsarstvie/churches">{content[id].qtvxz}</Link>
-              <Link href="https://www.supremesanhedrin.ru/">
-                {content[id].qtvyz}
-              </Link>
+              <Link href="https://www.supremesanhedrin.ru/"></Link>
               <Link href="/lights">{content[id].qtwxy}</Link>
               <Link href="/tribesisrael/1">{content[id].qtwxz}</Link>
               <Link href="/verdict">{content[id].qtwyz}</Link>
             </div>
-          </div>
+          <div>
           <div className={styles.wrappBlokAmeri}>
             <div className={styles.wrappBlokSha}>
               <Link href="/commandments/3">{content[id].rsvxy}</Link>
@@ -71,7 +69,7 @@ const page = async({params}) => {
               <Link href="/lights">{content[id].qwxyz}</Link>
               <Link href="/tribesisrael/2">{content[id].rstuv}</Link>
               <Link href="/verdict">{content[id].rstuw}</Link>
-            </div>
+              </div>
           </div>
           <div className={styles.wrappBlokArabic}>
             <div className={styles.wrappBlokArab}>
@@ -88,10 +86,12 @@ const page = async({params}) => {
             </div>
           </div>
         </div>
-      </div>
+          </div>
       <button className={styles.buttonComma}>
         <a href="/">На страницу назад.</a>
       </button>
+        </div>
+      </div> */}
     </div>
   );
 };

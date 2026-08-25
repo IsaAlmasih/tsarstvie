@@ -21,7 +21,7 @@ const page = () => {
           </div>
           <div>Документы</div>
           <div className={styles.cityCmorw}>
-            <Link href="/">
+            <Link href="/houseJesus">
               <h1 className={styles.cityLmpuy}>Город.</h1>
             </Link>
           </div>
