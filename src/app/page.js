@@ -16,7 +16,7 @@ const page = () => {
         <Link href="/tsarstvie/3" className={styles.afgp}>
           مملكة عيسو.
         </Link>
-        <Link href="/tsarstvie/1">Царство Исава.</Link>
+        <Link href="/gates">Царство Исава.</Link>
         <Link href="/tsarstvie/2">The Kingdom of Esau.</Link>
       </div>
     </div>
