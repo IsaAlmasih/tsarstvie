@@ -24,6 +24,20 @@
 }
 
 
+.wrapp {
+  display: flex;
+  font-size: 25px;
+  color: #00ff15;
+  flex-direction: column;
+  justify-content: center; /* Горизонтальное центрирование */
+  align-items: center;     /* Вертикальное центрирование */
+  margin: 0 auto;   /* При такой комбинации родитель становится по центру. */
+  font-family: Arial, Helvetica, sans-serif; /* Разные интересные шрифты*/
+  gap: 15px;
+  }
+
+
+
 .textTsar {
     display: flex;
     align-items: center;
