@@ -294,7 +294,7 @@
         border-radius: 2px;
         display: grid;
         grid-template-columns: 100px 100px 100px;
-        grid-template-rows: 120px 120px 120px;
+        grid-template-rows: 120px 120px 120px 120px;
         gap: 6px;
         margin-block: auto;
     }
@@ -308,7 +308,7 @@
 }
 
 
-@media (max-width: 360px) {
+@media (max-width: 340px) {
     .blok {
         background-color: rgb(12, 0, 59);
         color: #ffffff;
