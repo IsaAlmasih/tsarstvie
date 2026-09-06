@@ -293,9 +293,10 @@
     .textGrid{
         border-radius: 2px;
         display: grid;
-        grid-template-columns: 100px 100px 100px 100px;
-        grid-template-rows: 100px 100px 100px 100px;
+        grid-template-columns: 100px 100px 100px;
+        grid-template-rows: 120px 120px 120px;
         gap: 6px;
+        margin-block: auto;
     }
 
     .buttonLaw {
@@ -323,9 +324,10 @@
     .textGrid{
         border-radius: 2px;
         display: grid;
-        grid-template-columns: 120px 120px;
-        grid-template-rows: 100px 100px 100px 100px 100px;
+        grid-template-columns: 120px 120px 120px;
+        grid-template-rows: 100px 100px 100px;
         gap: 3px;
+        margin-block: auto;
     }
 
     .buttonLaw {
