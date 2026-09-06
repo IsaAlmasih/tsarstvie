@@ -30,9 +30,9 @@
 }
 
 
-/* @media (min-width: 370px) {
+@media (max-width: 360px) {
     .Applogo {
-    height: 100px;
+    height: 170px;
     }
 
     .subtitle {
@@ -41,9 +41,9 @@
 }
 
 
-@media (min-width: 380px) {
+@media (max-width: 460px) {
     .Applogo {
-    height: 150px;
+    height: 270px;
     }
 
     .subtitle {
@@ -51,92 +51,3 @@
     }
 }
 
-
-@media (min-width: 480px) {
-    .Applogo {
-    height: 200px;
-    }
-
-    .subtitle {
-    font-size: 35px;
-    }
-}
-
-
-@media (min-width: 768px) {
-    .Applogo {
-    height: 250px;
-    }
-
-    .subtitle {
-    font-size: 55px;
-    }
-
-    .afgp {
-        font-size: 55px;
-    }
-}
-
-
-@media (min-width: 962px) {
-    .Applogo {
-    height: 250px;
-    }
-
-    .subtitle {
-    font-size: 65px;
-    }
-
-    .afgp {
-    font-size: 65px;
-    }
-}
-
-
-@media (min-width: 1024px) {
-    .Applogo {
-    height: 250px;
-    }
-
-    .subtitle {
-    font-size: 65px;
-    }
-
-    .afgp {
-    font-size: 75px;
-    }
-}
-
-@media (min-width: 1280px) {
-    .Applogo {
-    height: 300px;
-    }
-
-    .subtitle {
-    font-size: 75px;
-    }
-
-    .afgp {
-    font-size: 85px;
-    }
-}
-
-@media (min-width: 1536px) {
-    .Applogo {
-    height: 300px;
-    }
-
-    .subtitle {
-    font-size: 75px;
-    }
-}
-
-@media (min-width: 1920px) {
-    .Applogo {
-    height: 300px;
-    }
-
-    .subtitle {
-    font-size: 75px;
-    } 
-} */
