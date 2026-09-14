@@ -11,6 +11,10 @@
 
 .blok {
     background-color: rgb(13, 13, 83);
+    font-size: 35px;
+    color: #ffffff;
+    gap: 60px;
+    padding: 50px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -28,12 +32,26 @@
 }
 
 .text {
-    color: #7b2f2f;
+    color: #00ff66;
     display: flex;
     flex-direction: column;
     gap: 10px;
     font-size: 20px;
 }
+
+
+.button {
+    font-size: 22px;
+    display: flex;
+  justify-content: center; /* Горизонтальное центрирование */
+  align-items: center;     /* Вертикальное центрирование */
+  margin: 0 auto;   /* При такой комбинации родитель становится по центру. */
+  font-family: Arial, Helvetica, sans-serif; /* Разные интересные шрифты*/
+    color: rgb(0, 0, 0);
+    background-color: transparent;
+    border-bottom: 20;
+}
+
 
 
 @media (min-width: 360px) {
