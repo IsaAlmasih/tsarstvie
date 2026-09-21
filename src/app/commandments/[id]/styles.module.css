@@ -8,7 +8,7 @@
   border: 5px solid rgb(255, 255, 255);
   max-width: 100%; /* Задаём максимальную ширину родителя */
   margin: 0 auto;   /* При такой комбинации родитель становится по центру. */
-  height: 100vh;  /* Высота. родительского wrapper */
+  height: 90vh;  /* Высота. родительского wrapper */
   font-family: Arial, Helvetica, sans-serif; /* Разные интересные шрифты*/
   }
 
@@ -43,29 +43,15 @@
 
 .wraprrrp {
   color: #84ff00;
-  font-size: 26px;
+  font-size: 25px;
   padding-left: 100px;
   padding-right: 100px;
-  margin-top: 100px;
-}
-
-
-@media (max-width: 1366px) and (max-height: 768px) {
-  .wrae {
-    margin-top: 30px;
-}
-  .wraprrrp {
-  color: #84ff00;
-  font-size: 16px;
-  padding-left: 20px;
-  padding-right: 20px;
-  margin-top: 50px;
-}
+  margin-top: 70px;
 }
 
 
 
-@media (min-width: 1300px) {
+@media (max-width: 1300px) {
     .wrae {
     margin-top: 30px;
 }
@@ -80,13 +66,13 @@
 
 
 
-@media (min-width: 1200px) {
+@media (max-width: 1200px) {
     .wrae {
     margin-top: 30px;
 }
   .wraprrrp {
   color: #84ff00;
-  font-size: 18px;
+  font-size: 25px;
   padding-left: 20px;
   padding-right: 20px;
   margin-top: 50px;
@@ -98,14 +84,14 @@
 
 @media (max-width: 900px) {
   .wrae {
-    margin-top: 30px;
+    margin-top: 10px;
 }
   .wraprrrp {
   color: #84ff00;
-  font-size: 18px;
+  font-size: 17px;
   padding-left: 20px;
   padding-right: 20px;
-  margin-top: 50px;
+  margin-top: 30px;
 }
 }
 

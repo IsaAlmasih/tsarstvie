@@ -79,7 +79,7 @@ const page = async({params}) => {
         </div>
       </div>
       <button className={styles.buttonComma}>
-        <a href="/">На страницу назад.</a>
+        <a href="/additional">На страницу назад.</a>
       </button>
     </div>
   );

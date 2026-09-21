@@ -6,6 +6,7 @@ import Link from "next/link";
 const page = () => {
   return (
     <div className={styles.wrapper}>
+      <Link href={"/additional"}>Рук</Link>
       <div className={styles.blok}>
         <div className={styles.text}>
           <div className={styles.textTsar}>
