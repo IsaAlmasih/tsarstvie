@@ -1,11 +1,9 @@
 .wrapper {
-  background-color: rgb(0, 0, 0);
   display: flex;
   flex-direction: column;
   justify-content: center; /* Горизонтальное центрирование */
   align-items: center;     /* Вертикальное центрирование */
   padding: 30px;  /* Отступ с четырёх сторон */
-  border: 5px solid rgb(255, 255, 255);
   max-width: 100%; /* Задаём максимальную ширину родителя */
   margin: 0 auto;   /* При такой комбинации родитель становится по центру. */
   height: 90vh;  /* Высота. родительского wrapper */
@@ -27,19 +25,9 @@
 }
 
 
-
-.buttonComma {
-  background-color: rgb(0, 0, 0);
-  height: 20px;
-  border: 2px solid #ffffff;
-   
-}
-
-
 .wrae {
   margin-top: 70px;
 }
-
 
 .wraprrrp {
   color: #84ff00;
@@ -49,6 +37,13 @@
   margin-top: 70px;
 }
 
+
+.buttonComma {
+  background-color: rgb(0, 0, 0);
+  height: 25px;
+  border: 2px solid #b90303;
+  margin-bottom: 30px;
+}
 
 
 @media (max-width: 1300px) {
@@ -65,7 +60,6 @@
 }
 
 
-
 @media (max-width: 1200px) {
     .wrae {
     margin-top: 30px;
@@ -78,8 +72,6 @@
   margin-top: 50px;
 }
 }
-
-
 
 
 @media (max-width: 900px) {
@@ -115,14 +107,14 @@
 
 @media (max-width: 480px) {
   .wrae {
-    margin-top: 30px;
+    margin-top: 20px;
 }
   .wraprrrp {
   color: #84ff00;
-  font-size: 15px;
+  font-size: 10.5px;
   padding-left: 20px;
   padding-right: 20px;
-  margin-top: 50px;
+  margin-top: 40px;
 }
 }
 
@@ -134,7 +126,7 @@
 }
   .wraprrrp {
   color: #84ff00;
-  font-size: 12px;
+  font-size: 10px;
   padding-left: 20px;
   padding-right: 20px;
   margin-top: 50px;

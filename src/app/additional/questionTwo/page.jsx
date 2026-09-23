@@ -40,7 +40,7 @@ export default function Questions() {
       answers.q10 === "Да"
     ) {
       // Правильный ответ - переходим на страницу
-      router.push("/additional");
+      router.push("/houseJesus");
     } else {
       alert("Некорректные ответы, попробуйте снова!");
     }
@@ -54,8 +54,7 @@ export default function Questions() {
             <div className={styles.gridblok}>
               <div className={styles.text}>
                 <label>
-                  Понимаете ли, вы, что просмотр и употребление духовной
-                  литературы в туалете запрещено?
+                  Понимаете ли, вы, что на исповеди вино, не кровь, а алкоголь?
                 </label>
                 <input
                   name="q1"
@@ -118,8 +117,8 @@ export default function Questions() {
               </div>
               <div className={styles.text}>
                 <label>
-                  Вопрос 3. Как вы считаете, участь ваших детей, зависит от
-                  тяжести ваших грехов?
+                  Вопрос 3. Согласны ли вы, что забота о сосуде своём часть Воли
+                  Иисуса?
                 </label>
                 <input
                   name="q3"
@@ -182,8 +181,7 @@ export default function Questions() {
               </div>
               <div className={styles.text}>
                 <label>
-                  Вопрос 5. Согласны ли вы, что история Адама и Евы,
-                  завуалированная история миллионов лет эволюции?
+                  Вопрос 5. Согласны ли вы, что уборка вокруг, залог успеха?
                 </label>
                 <input
                   name="q5"
@@ -246,7 +244,8 @@ export default function Questions() {
               </div>
               <div className={styles.text}>
                 <label>
-                  Вопрос 7. Согласны ли вы что Всевышний и Иисус Одно Лицо?
+                  Вопрос 7. Согласны ли вы, чтение, просмотр и или обсуждение
+                  духовного, в бане или туалете, запрещено?
                 </label>
                 <input
                   name="q7"
