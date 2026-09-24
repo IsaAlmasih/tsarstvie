@@ -2,12 +2,12 @@
 import styles from "./styles.module.css";
 import ImageViewer from "react-simple-image-viewer";
 
-import logo from "../assets/houseJesus/Pho.png";
+import logo from "../assets/houseJesus/101101110011.jpg";
 
 import img1 from "../assets/houseJesus/100011000.jpg";
 import img2 from "../assets/houseJesus/100111101001.jpg";
 import img3 from "../assets/houseJesus/1000101101.jpg";
-import img5 from "../assets/houseJesus/011101100011.jpg";
+import img5 from "../assets/houseJesus/101100110100.jpg";
 import img6 from "../assets/houseJesus/1000101101.jpg";
 import img7 from "../assets/houseJesus/1001111110.jpg";
 import img8 from "../assets/houseJesus/011101100011.jpg";
@@ -103,8 +103,13 @@ export default function Home() {
           </div>
         </div>
         <div className={styles.about}>
-          <Link href="/">Перейти в галерею товаров.</Link>
-          <Link href="/">Перейти в видео галерею.</Link>
+          <Link href="/tsarstvie/intero">Перейти в товаров.</Link>
+          <Link href="/sialed">Должности и пояснение кто есть кто</Link>
+          <Link href="/index">Вопросник грешен ли я.</Link>
+          <Link href="/results">Ответы на вопросы</Link>
+          <Link href="/tsarstvie/educat">progrsПослания</Link>
+          <Link href="/tsarstvie/progrs">Программирование</Link>
+          <Link href="/additional">Вернуться назад.</Link>
         </div>
         <div className={styles.photos}>
           {images.map((src, index) => (

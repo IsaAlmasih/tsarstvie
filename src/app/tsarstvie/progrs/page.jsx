@@ -10,7 +10,7 @@ export default function Home() {
 
   const handlePasswordSubmit = (e) => {
     e.preventDefault();
-    const correctPassword = "12261980"; // замените на свой пароль
+    const correctPassword = "1226"; // замените на свой пароль
 
     if (password === correctPassword) {
       setAccessGranted(true);

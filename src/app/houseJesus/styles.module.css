@@ -45,12 +45,13 @@
 
 .about {
   font-size: 25px;
+  color: #058423;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   border-radius: 5px;
-  gap: 40px;
+  gap: 15px;
 }
 
 .video iframe {

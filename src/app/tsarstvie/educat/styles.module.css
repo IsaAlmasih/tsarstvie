@@ -1,0 +1,97 @@
+.wrapper {
+    padding: 0;
+    background-color: rgb(7, 2, 75);
+    display: grid;
+    grid-template-rows: 1fr auto;
+    min-height: 100vh;
+    padding-top: 50px;
+    padding-left: 80px;
+    padding-right: 80px;
+    font-size: 19px;
+    text-align: center;
+    color: #59ff00;
+}
+
+
+
+
+.educatwrapph2{
+    text-align: left;
+}
+
+
+.educatwrapph4 {
+    font-style: italic;
+}
+
+
+.buttLaw {
+    margin-top: 40px;
+    margin-bottom: 60px;
+}
+
+
+.buttonLaw {
+    font-size: 25px;
+    color: rgb(0, 255, 4);
+    background-color: transparent;
+    border: 30;
+}
+
+
+@media (max-width: 360px) {
+    .wrapper {
+    padding: 0;
+    font-size: 11px;
+    padding: 10px;
+    }
+    
+    .wrapH3 {
+        font-size: 14px;
+        padding: 0;
+    }
+}
+
+
+
+@media (max-width: 480px) {
+    
+}
+
+
+/* @media (max-width: 600px) {
+
+} */
+
+/* @media (max-width: 768px) {
+} */
+
+/* @media (min-width: 962px) {
+    .text {
+    font-size: 38px;
+    } 
+} */
+
+/* @media (min-width: 1024px) {
+    .text {
+    font-size: 38px;
+    } 
+} */
+
+/* @media (min-width: 1280px) {
+    .blok {
+    font-size: 66px;
+    } 
+} */
+
+/* @media (min-width: 1536px) {
+    .blok {
+    font-size: 76px;
+    } 
+} */
+
+/* @media (min-width: 1920px) {
+    .blok {
+    font-size: 108px;
+    } 
+} */

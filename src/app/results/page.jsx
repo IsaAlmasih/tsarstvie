@@ -1,4 +1,5 @@
 "use client";
+import Link from "next/link";
 
 // pages/results.js
 import { useEffect, useMemo, useRef, useState } from "react";
@@ -266,13 +267,15 @@ export default function Results() {
 
       <Container maxWidth="md" sx={{ py: 2 }}>
         <Stack direction="row" spacing={1} className="no-print" sx={{ mb: 2 }}>
-          <Button
-            startIcon={<ArrowBackIcon />}
-            variant="outlined"
-            onClick={() => router.push("/")}
-          >
-            К опросу
-          </Button>
+          <Link href="/index">
+            <Button
+              startIcon={<ArrowBackIcon />}
+              variant="outlined"
+              onClick={() => router.push("/")}
+            >
+              К опросу
+            </Button>
+          </Link>
           <Button
             startIcon={<DownloadIcon />}
             variant="contained"

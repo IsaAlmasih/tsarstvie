@@ -52,35 +52,47 @@ export default function law() {
           <div className={styles.blo}>
             <div className={styles.textGrid}>
               <div className={styles.textGridOne}>
-                <Link href="/tsarstvie/educat/id">
-                  Тама о тысячилетнем царстве.
-                </Link>
+                <Link href="/additional/questionOne">тысяча.</Link>
               </div>
               <div className={styles.textGridTwo}>
-                <Link href="/tsarstvie/educat/id">Тама о книгах Христа.</Link>
+                <Link href="/additional/questionTwo">
+                  Тама с вопросами второй Заповеди.
+                </Link>
               </div>
               <div className={styles.textGridThree}>
-                <Link href="/tsarstvie/educat/id">
-                  Тама о принятии реальности к духовному.
+                <Link href="/additional/questionThree">
+                  Тама с вопросами третей Заповеди.
                 </Link>
               </div>
               <div className={styles.textGridFour}>
-                <Link href="/tsarstvie/educat/id">Тама о питании.</Link>
+                <Link href="/additional/questionFour">
+                  Тама с вопросами четвётрой Заповеди.
+                </Link>
               </div>
               <div className={styles.textGridFive}>
-                <Link href="/tsarstvie/educat/id">Тама с.</Link>
+                <Link href="/additional/questionFive">
+                  Тама с вопросами пятой Заповеди.
+                </Link>
               </div>
               <div className={styles.textGridSix}>
-                <Link href="/tsarstvie/educat/id">Тама с .</Link>
+                <Link href="/additional/questionSix">
+                  Тама с вопросами шестой Заповеди.
+                </Link>
               </div>
               <div className={styles.textGridSeven}>
-                <Link href="/tsarstvie/educat/id">Тама с .</Link>
+                <Link href="/additional/questionSeven">
+                  Тама с вопросами седьмой Заповеди.
+                </Link>
               </div>
               <div className={styles.textGridEight}>
-                <Link href="/tsarstvie/educat/id">Тама с .</Link>
+                <Link href="/additional/questionEight">
+                  Тама с вопросами восьмой Заповеди.
+                </Link>
               </div>
               <div className={styles.textGridNine}>
-                <Link href="/tsarstvie/educat/id">Тама с.</Link>
+                <Link href="/additional/questionNine">
+                  Тама с вопросами девятой Заповеди.
+                </Link>
               </div>
               {/* <div className={styles.textGridTen}>
                 <Link href="/additional/questionTen">
@@ -88,13 +100,15 @@ export default function law() {
                 </Link>
               </div> */}
               <div className={styles.textGridTen}>
-                <Link href="//tsarstvie/progrs">Тама программирование.</Link>
+                <Link href="/additional/questionTen">
+                  Тама с вопросами десятой Заповеди.
+                </Link>
               </div>
             </div>
           </div>
         </div>
         <button className={styles.buttonLaw}>
-          <a href="/">На главную. </a>
+          <a href="/houseJesus">На главную. </a>
         </button>
       </div>
     </form>

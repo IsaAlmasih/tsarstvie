@@ -41,13 +41,14 @@ const page = () => {
         </div>
         <div className={styles.wrappTen}>
           <a href="/verdict/verdictTen">
-            <h2>Книга десятого вердикта Книга Жизни. 
-            Кига первого Воскрешения</h2>
+            <h2>
+              Книга десятого вердикта Книга Жизни. Кига первого Воскрешения
+            </h2>
           </a>
         </div>
       </div>
       <button className={styles.button}>
-        <a href="/tsarstvie/1">Назад.</a>
+        <a href="/additional">Назад.</a>
       </button>
     </div>
   );
