@@ -28,6 +28,7 @@ export default function additional() {
             Неффалимова народа
           </h1>
           <div className={styles.wrapp}>
+            <Link href="/powers">Грамата разбойника</Link>
             <Link href="/commandments/1">Заповеди</Link>
             <Link href="/tsarstvie/law">Послания</Link>
             <Link href="/tsarstvie/almasih">Престол Давида</Link>
