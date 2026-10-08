@@ -33,10 +33,10 @@ export default function Home() {
   return (
     <div className={styles.wrapper}>
       <div className={styles.wrappe}>
-        <h3>
+        <h1>
           С данной страницы вы можете узнать совпадает ваш образ жизни с образом
           жизни, который нам нужен в Царствии.{" "}
-        </h3>
+        </h1>
         <h3>Выберите кем вы себя считаете, введите имя из списка ниже.</h3>
         <h3>1) Человек.</h3>
         <h3>2) Монах.</h3>
@@ -55,7 +55,7 @@ export default function Home() {
           />
           <button onClick={handleCheck}>Проверить</button>
           {characteristic && (
-            <div style={{ marginTop: "20px", fontSize: "10px" }}>
+            <div className={styles.wrapperRang}>
               <strong>Ранг:</strong> {input.trim()}
               <br />
               <strong>Характеристика:</strong> {characteristic}
