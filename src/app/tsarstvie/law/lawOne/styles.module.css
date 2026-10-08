@@ -174,10 +174,50 @@
     .textGrid{
         border-radius: 2px;
         display: grid;
-        grid-template-columns: 1fr 1fr 1fr;
-        grid-template-rows: 150px 150px 150px 150px 150px;
+        grid-template-columns: 200px 200px 200px;
+        grid-template-rows: 150px 150px 150px 100px;
         gap: 6px;
-        margin-top: 250px;
+        margin-top: 150px;
+    }
+
+    .textGridTen {
+        font-size: 20px;
+    }
+
+    .textGridNine {
+        font-size: 20px;
+    }
+
+    .textGridEight {
+        font-size: 20px;
+    }
+
+    .textGridSeven {
+        font-size: 20px;
+    }
+
+    .textGridSix {
+        font-size: 20px;
+    }
+
+    .textGridFive {
+        font-size: 20px;
+    }
+
+    .textGridFour {
+        font-size: 20px;
+    }
+
+    .textGridThree {
+        font-size: 20px;
+    }
+
+    .textGridTwo {
+        font-size: 20px;
+    }
+
+    .textGridOne {
+        font-size: 20px;
     }
 
     .buttonLaw {
@@ -202,11 +242,60 @@
     }
 
     .textGrid{
-        border-radius: 2px;
         display: grid;
-        grid-template-columns: 1fr 1fr;
-        grid-template-rows: 150px 150px 150px 150px 150px;
-        gap: 6px;
+        grid-template-columns: 220px 220px 220px;
+        grid-template-rows: 150px 150px 150px 150px;
+        margin-top: 100px;
+    }
+
+    .textGridTen {
+        font-size: 20px;
+        padding: 20px;
+    }
+
+    .textGridNine {
+        font-size: 20px;
+        padding: 20px;
+    }
+
+    .textGridEight {
+        font-size: 20px;
+        padding: 20px;
+    }
+
+    .textGridSeven {
+        font-size: 20px;
+        padding: 20px;
+    }
+
+    .textGridSix {
+        font-size: 20px;
+        padding: 20px;
+    }
+
+    .textGridFive {
+        font-size: 20px;
+        padding: 20px;
+    }
+
+    .textGridFour {
+        font-size: 20px;
+        padding: 20px;
+    }
+
+    .textGridThree {
+        font-size: 20px;
+        padding: 20px;
+    }
+
+    .textGridTwo {
+        font-size: 20px;
+        padding: 20px;
+    }
+    
+    .textGridOne {
+        font-size: 20px;
+        padding: 20px;
     }
 
     .buttonLaw {
@@ -231,13 +320,61 @@
     }
 
     .textGrid{
-        border-radius: 2px;
         display: grid;
-        grid-template-columns: 100px 100px 100px 100px;
+        grid-template-columns: 120px 120px 120px;
         grid-template-rows: 100px 100px 100px 100px;
-        gap: 6px;
+        margin-top: 100px;
     }
 
+    .textGridTen {
+        font-size: 12px;
+        padding: 4px;
+    }
+
+    .textGridNine {
+        font-size: 12px;
+        padding: 4px;
+    }
+
+    .textGridEight {
+        font-size: 12px;
+        padding: 4px;
+    }
+
+    .textGridSeven {
+        font-size: 12px;
+        padding: 4px;
+    }
+
+    .textGridSix {
+        font-size: 12px;
+        padding: 4px;
+    }
+
+    .textGridFive {
+        font-size: 12px;
+        padding: 4px;
+    }
+
+    .textGridFour {
+        font-size: 12px;
+        padding: 4px;
+    }
+
+    .textGridThree {
+        font-size: 12px;
+        padding: 4px;
+    }
+
+    .textGridTwo {
+        font-size: 12px;
+        padding: 4px;
+    }
+    
+    .textGridOne {
+        font-size: 12px;
+        padding: 4px;
+    }
     .buttonLaw {
         font-size: 20px;
         color: rgb(43, 255, 0);
@@ -261,11 +398,60 @@
     }
 
     .textGrid{
-        border-radius: 2px;
         display: grid;
-        grid-template-columns: 100px 100px 100px 100px;
+        grid-template-columns: 120px 120px 120px;
         grid-template-rows: 100px 100px 100px 100px;
-        gap: 6px;
+        margin-top: 100px;
+    }
+
+    .textGridTen {
+        font-size: 12px;
+        padding: 4px;
+    }
+
+    .textGridNine {
+        font-size: 12px;
+        padding: 4px;
+    }
+
+    .textGridEight {
+        font-size: 12px;
+        padding: 4px;
+    }
+
+    .textGridSeven {
+        font-size: 12px;
+        padding: 4px;
+    }
+
+    .textGridSix {
+        font-size: 12px;
+        padding: 4px;
+    }
+
+    .textGridFive {
+        font-size: 12px;
+        padding: 4px;
+    }
+
+    .textGridFour {
+        font-size: 12px;
+        padding: 4px;
+    }
+
+    .textGridThree {
+        font-size: 12px;
+        padding: 4px;
+    }
+
+    .textGridTwo {
+        font-size: 12px;
+        padding: 4px;
+    }
+    
+    .textGridOne {
+        font-size: 12px;
+        padding: 4px;
     }
 
     .buttonLaw {
@@ -291,12 +477,60 @@
     }
 
     .textGrid{
-        border-radius: 2px;
         display: grid;
-        grid-template-columns: 100px 100px 100px;
-        grid-template-rows: 120px 120px 120px 120px;
-        gap: 6px;
-        margin-block: auto;
+        grid-template-columns: 90px 90px 90px;
+        grid-template-rows: 100px 100px 100px 100px;
+        margin-top: 10px;
+    }
+
+    .textGridTen {
+        font-size: 12px;
+        padding: 4px;
+    }
+
+    .textGridNine {
+        font-size: 12px;
+        padding: 4px;
+    }
+
+    .textGridEight {
+        font-size: 12px;
+        padding: 4px;
+    }
+
+    .textGridSeven {
+        font-size: 12px;
+        padding: 4px;
+    }
+
+    .textGridSix {
+        font-size: 12px;
+        padding: 4px;
+    }
+
+    .textGridFive {
+        font-size: 12px;
+        padding: 4px;
+    }
+
+    .textGridFour {
+        font-size: 12px;
+        padding: 4px;
+    }
+
+    .textGridThree {
+        font-size: 12px;
+        padding: 4px;
+    }
+
+    .textGridTwo {
+        font-size: 12px;
+        padding: 4px;
+    }
+    
+    .textGridOne {
+        font-size: 12px;
+        padding: 4px;
     }
 
     .buttonLaw {
@@ -324,10 +558,60 @@
     .textGrid{
         border-radius: 2px;
         display: grid;
-        grid-template-columns: 120px 120px 120px;
-        grid-template-rows: 100px 100px 100px;
-        gap: 3px;
-        margin-block: auto;
+        grid-template-columns: 90px 90px 90px;
+        grid-template-rows: 100px 100px 100px 100px;
+        gap: 6px;
+        margin-top: 150px;
+    }
+
+    .textGridTen {
+        font-size: 12px;
+        padding: 4px;
+    }
+
+    .textGridNine {
+        font-size: 12px;
+        padding: 4px;
+    }
+
+    .textGridEight {
+        font-size: 12px;
+        padding: 4px;
+    }
+
+    .textGridSeven {
+        font-size: 12px;
+        padding: 4px;
+    }
+
+    .textGridSix {
+        font-size: 12px;
+        padding: 4px;
+    }
+
+    .textGridFive {
+        font-size: 12px;
+        padding: 4px;
+    }
+
+    .textGridFour {
+        font-size: 12px;
+        padding: 4px;
+    }
+
+    .textGridThree {
+        font-size: 12px;
+        padding: 4px;
+    }
+
+    .textGridTwo {
+        font-size: 12px;
+        padding: 4px;
+    }
+    
+    .textGridOne {
+        font-size: 12px;
+        padding: 4px;
     }
 
     .buttonLaw {

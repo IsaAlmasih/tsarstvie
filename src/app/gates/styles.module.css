@@ -23,7 +23,7 @@
 
 
 .textTsar {
-    color: #263bdb;
+    color: chartreuse;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -86,7 +86,8 @@
 
 @media (max-width: 360px) {
     .text {
-        font-size: 12px;
+        font-size: 14px;
+        color: chartreuse;
         padding: 10px;
     }
 }
