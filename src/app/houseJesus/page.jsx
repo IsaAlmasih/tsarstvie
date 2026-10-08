@@ -105,7 +105,7 @@ export default function Home() {
         <div className={styles.about}>
           <Link href="/tsarstvie/intero">Перейти в товаров.</Link>
           <Link href="/sialed">Должности и пояснение кто есть кто</Link>
-          <Link href="/index">Вопросник грешен ли я.</Link>
+          <Link href="/houseJesus/index">Вопросник грешен ли я.</Link>
           <Link href="/results">Ответы на вопросы</Link>
           <Link href="/tsarstvie/educat">Послания</Link>
           <Link href="/tsarstvie/progrs">Программирование</Link>

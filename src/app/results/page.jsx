@@ -267,7 +267,7 @@ export default function Results() {
 
       <Container maxWidth="md" sx={{ py: 2 }}>
         <Stack direction="row" spacing={1} className="no-print" sx={{ mb: 2 }}>
-          <Link href="/index">
+          <Link href="/houseJesus/index">
             <Button
               startIcon={<ArrowBackIcon />}
               variant="outlined"
