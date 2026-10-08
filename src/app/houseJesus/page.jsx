@@ -107,7 +107,7 @@ export default function Home() {
           <Link href="/sialed">Должности и пояснение кто есть кто</Link>
           <Link href="/index">Вопросник грешен ли я.</Link>
           <Link href="/results">Ответы на вопросы</Link>
-          <Link href="/tsarstvie/educat">progrsПослания</Link>
+          <Link href="/tsarstvie/educat">Послания</Link>
           <Link href="/tsarstvie/progrs">Программирование</Link>
           <Link href="/additional">Вернуться назад.</Link>
         </div>
