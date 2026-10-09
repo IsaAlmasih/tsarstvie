@@ -30,7 +30,7 @@ export default function additional() {
           <div className={styles.wrapp}>
             <Link href="/powers">Грамата разбойника</Link>
             <Link href="/commandments/1">Заповеди</Link>
-            <Link href="/tsarstvie/law">Послания</Link>
+            <Link href="/tsarstvie/law">Сотрудничество</Link>
             <Link href="/tsarstvie/almasih">Престол Давида</Link>
             <Link href="/tsarstvie/churches">Семь церквей</Link>
             {/* <Link href="https://www.supremesanhedrin.ru/">Пятая</Link> */}

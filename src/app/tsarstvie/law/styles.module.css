@@ -10,14 +10,8 @@
     box-sizing: border-box;
 }
 
-.proba {
-    
-}
-
 
 .blok {
-  background-color: rgb(12, 0, 59);
-  color: #ffffff;
   text-align: center;
   max-width: 1900px;
   height: 900px;
@@ -30,44 +24,36 @@
 }
 
 
-.text {
-    color: #ffffff;
+.text h4{
+    color: #00ff2f;
     display: flex;
     flex-direction: column;
     gap: 10px;
-    font-size: 17px;
+    font-size: 27px;
     padding-left: 130px;
     padding-right: 130px;
+        margin-top: 50px;
 }
 
 
-.text h4 {
-    font-size: 30px;
+.text {
+    font-size: 26px;
     padding: 30px;
-}
-
-
-.textTsar {
-    color: #7e7676;
+    margin-top: 50px;
     display: flex;
-    justify-content: center;
-    align-items: center;
     flex-direction: column;
-    font-size: 23px;
-    padding-left: 230px;
-    padding-right: 230px;
-    margin-top: -180px;
+    gap: 30px;
 }
 
 
 .optuw {
+    display: flex;
+    flex-direction: column;
     color: aquamarine;
+    gap: 10px;
+
 }
 
-
-.butto {
-    padding-bottom: 10px;
-}
 
 .buttonla {
     background-color: #000000;
@@ -79,111 +65,48 @@
 }
 
 
-/* @media (max-width: 1700px) {
-    .blok {
-        width: 100%;
-        height: 900px;
-        padding: 0;
-        margin: 0;
-    }
-
+@media (max-width: 1700px) {
     .text h4 {
         font-size: 20px;
-        padding: 0;
-        margin: 10px;
+        color: #f6eeee;
     }
-
     .text {
-        color: #ffffff;
-        font-size: 18px;
+        color: #3dff02;
+        font-size: 22px;
         padding-left: 5px;
         padding-right: 5px;
         margin-top: 20px;
-        gap: 10px;
     }
-
-    .textTsar {
-        color: #7e7676;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-direction: column;
-        font-size: 16px;
-        padding: 10px;
-        margin-top: 30px;
-    }
-
-    .buttonla {
-        font-size: 25;
-        color: rgb(0, 255, 4);
-        background-color: transparent;
-        margin-top: 47px;
-    }
-} */
+}
 
 
 @media (max-width: 1200px) {
-    .blok {
-        width: 100%;
-        height: 900px;
-        padding: 0;
-        margin: 0;
-    }
-
     .text h4 {
-        font-size: 20px;
-        padding: 0;
-        margin: 10px;
+        font-size: 15px;
+        color: #f6eeee;
     }
-
     .text {
-        color: #ffffff;
-        font-size: 18px;
+        color: #3dff02;
+        font-size: 19px;
         padding-left: 5px;
         padding-right: 5px;
         margin-top: 20px;
         gap: 10px;
     }
-
-    .textTsar {
-        color: #7e7676;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-direction: column;
-        font-size: 16px;
-        padding: 10px;
-        margin-top: 30px;
-    }
-
-    .buttonla {
-        font-size: 25;
-        color: rgb(0, 255, 4);
-        background-color: transparent;
-        margin-top: 47px;
-    }
-
 }
-
 
 
 @media (max-width: 900px) {
-    .blok {
-        width: 100%;
-        height: 900px;
-        padding: 0;
-        margin: 0;
-    }
 
     .text h4 {
-        font-size: 20px;
+        font-size: 16px;
         padding: 0;
-        margin: 10px;
+        margin-bottom: 20px;
     }
 
     .text {
         color: #ffffff;
-        font-size: 14px;
+        font-size: 17px;
         padding-left: 5px;
         padding-right: 5px;
         margin-top: 20px;
@@ -211,143 +134,49 @@
 }
 
 
-@media (max-width: 1366px) and (min-height: 768px) {
-  .container {
-    width: 720px;
-  }
-} 
-
-
-
 @media (max-width: 600px) {
-    .blok {
-        width: 100%;
-        height: 900px;
-        padding: 0;
-        margin: 0;
-    }
-
     .text h4 {
-        font-size: 10px;
-        padding: 0;
-        margin: 10px;
+        font-size: 13px;
+        color: #f6eeee;
     }
-
     .text {
-        color: #ffffff;
-        font-size: 8px;
+        color: #3dff02;
+        font-size: 16px;
         padding-left: 5px;
         padding-right: 5px;
         margin-top: 20px;
         gap: 10px;
     }
-
-    .textTsar {
-        color: #7e7676;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-direction: column;
-        font-size: 8px;
-        padding: 10px;
-        margin-top: 30px;
-    }
-
-    .buttonla {
-        font-size: 20px;
-        color: rgb(0, 255, 4);
-        background-color: transparent;
-        margin-top: 47px;
-    }
-
 }
 
 
 @media (max-width: 480px) {
-
-    .blok {
-        width: 90%;
-        height: auto;
-        padding: 0;
-        margin: 0;
-    }
-
     .text h4 {
-        font-size: 10px;
-        padding: 0;
-        margin: 10px;
+        font-size: 13px;
+        color: #f6eeee;
     }
-
     .text {
-        color: #ffffff;
-        font-size: 8px;
+        color: #3dff02;
+        font-size: 16px;
         padding-left: 5px;
         padding-right: 5px;
         margin-top: 20px;
         gap: 10px;
     }
-
-    .textTsar {
-        color: #7e7676;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-direction: column;
-        font-size: 8px;
-        padding: 10px;
-        margin-top: 30px;
-    }
-
-    .buttonla {
-        font-size: 20px;
-        color: rgb(0, 255, 4);
-        background-color: transparent;
-        margin-top: 47px;
-    }
-
 }
 
 
 @media (max-width: 360px) {
-
-    .blok {
-        width: 90%;
-        height: auto;
-        padding: 20px;
-        margin: 0;
-    }
-
     .text h4 {
         font-size: 10px;
-        padding: 0;
-        margin: 10px;
+        color: #f6eeee;
     }
-
     .text {
-        color: #ffffff;
-        font-size: 8px;
+        color: #3dff02;
+        font-size: 13px;
         padding-left: 5px;
         padding-right: 5px;
         margin-top: 20px;
         gap: 10px;
     }
-
-    .textTsar {
-        color: #7e7676;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-direction: column;
-        font-size: 8px;
-        padding: 10px;
-        margin-top: 30px;
-    }
-
-    .buttonla {
-        font-size: 20px;
-        color: rgb(0, 255, 4);
-        background-color: transparent;
-        margin-top: 47px;
-    }
-
 }

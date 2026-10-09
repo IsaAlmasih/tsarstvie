@@ -2,7 +2,7 @@
 import { useState } from "react";
 import { useRouter } from "next/navigation";
 
-import styles from "../educat/[id]/styles.module.css";
+import styles from "../intero/styles.module.css";
 import Link from "next/link";
 
 export default function law() {

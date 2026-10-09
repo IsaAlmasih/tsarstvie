@@ -1,6 +1,6 @@
 import React from "react";
 
-import styles from "./styles.module.css";
+import styles from "../contacts/styles.module.css";
 import Link from "next/link";
 
 const page = () => {
@@ -9,14 +9,21 @@ const page = () => {
       <div className={styles.blok}>
         <div className={styles.text}>
           <p2 className={styles.textTsar}>
-            Для дальнейшего прохода необходимо пройти тест. Мы хотим понимать
-            излечима ли ваша болезнь или вы раб своих кумиров и иллюзий{" "}
+            Благодарим за проявленный интерес. Для дальнейшего взаимопонимания
+            просим ознакомиться с нашими взглядами на христианство ответив на
+            подборку разных вопросов. Вопросы помогут вам понимать, вас мы ищем
+            или вам нужен другой Иисус Назарянин.
+            </p2>
             <a href={"tsarstvie/law/lawOne"} className={styles.textTsa}>
               Ответить.
             </a>
-          </p2>
-          <p className={styles.textTsar}>tsarstvie.ru@gmail.com</p>
-          <Link href="/tsarstvie" className={styles.textTsar}>
+          <p className={styles.textTsar}>
+            {" "}
+            В ином случае пишите пожалуйста на эту почту. Кто вы и как видите
+            свою лепту в строительство Царствия на земле.
+          </p>
+          <p className={styles.textTsa}> tsarstvie.ru@gmail.com</p>
+          <Link href="/tsarstvie/law" className={styles.textTsar}>
             Вернуться на главную.
           </Link>
         </div>
