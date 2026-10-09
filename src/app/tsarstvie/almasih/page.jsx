@@ -13,7 +13,7 @@ const Header = () => {
   return (
     <div className={styles.wrapper}>
       <header>
-        <Link className={styles.logo} href={"/gates"}>
+        <Link className={styles.logo} href={"/houseJesus"}>
           <Image src={logo} width={450} height={440} alt="logo" />
         </Link>
       </header>
