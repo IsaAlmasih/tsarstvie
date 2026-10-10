@@ -47,24 +47,24 @@ export default function Home() {
     img3.src,
     img5.src,
     img6.src,
-    img7.src,
-    img8.src,
-    img9.src,
+    // img7.src,
+    // img8.src,
+    // img9.src,
     // img10.src,
     // img11.src,
-    img12.src,
-    img13.src,
-    img14.src,
-    img15.src,
+    // img12.src,
+    // img13.src,
+    // img14.src,
+    // img15.src,
     // img16.src,
-    img17.src,
-    img18.src,
-    img19.src,
-    img20.src,
+    // img17.src,
+    // img18.src,
+    // img19.src,
+    // img20.src,
     // img21.src,
-    img22.src,
-    img23.src,
-    img23.src,
+    // img22.src,
+    // img23.src,
+    // img23.src,
   ];
 
   const openImageViewer = useCallback((index) => {
@@ -80,10 +80,10 @@ export default function Home() {
     <div className={styles.wrapper}>
       <div className={styles.intro}>
         {" "}
-        {/* Дешевле и быстрей наносить клей нашими машинами. */}
+        Дешевле и быстрей наносить клей нашими машинами.
       </div>
       <div className={styles.section}>
-        <div className={styles.contacts}>
+        {/* <div className={styles.contacts}>
           <div>
             <a
               href={
@@ -98,10 +98,10 @@ export default function Home() {
             Тел: <a href={"tel:+7(910)415"}>+7(910)415-98-76 (WhatsApp)</a>
           </div>
           <div>
-            {/* email: */}
-            {/* <a href={"mailto:info@sharov-tech.com"}> 23v@mail.ru</a> */}
+            email:
+            <a href={"mailto:info@sharov-tech.com"}> 23v@mail.ru</a>
           </div>
-        </div>
+        </div> */}
         <div className={styles.about}>
           <Link href="/tsarstvie/intero">Перейти в товаров.</Link>
           <Link href="/sialed">Должности и пояснение кто есть кто</Link>
@@ -157,22 +157,20 @@ export default function Home() {
               />
             </a>
             <h3 className={styles.footerHeading}>Реквизиты:</h3>
-            <div className={styles.footerGroup}>
-              <p className={styles.footerText}>ИНН 000000000</p>
-              <p className={styles.footerText}>КПП 000000000</p>
-              <p className={styles.footerText}>БИГ БАНКА 000000000</p>
-              <p className={styles.footerText}>
-                РАСЧЁТНЫЙ СЧЕТ 000000000000000000
-              </p>
-              <p className={styles.footerText}>КОР СЧЕТ 000000000000000000</p>
-              <p className={styles.footerText}>ТЕЛ: +7(910)415-98-76</p>
+            <div className={styles.footerText}>
+              <p>ИНН 000000000</p>
+              <p>КПП 000000000</p>
+              <p>БИГ БАНКА 000000000</p>
+              <p>РАСЧЁТНЫЙ СЧЕТ 000000000000000000</p>
+              <p>КОР СЧЕТ 000000000000000000</p>
+              <p>ТЕЛ: +7(910)415-98-76</p>
             </div>
           </div>
 
           {/* Правая колонка */}
-          <div className={styles.footerCol}>
+          {/* <div className={styles.footerCol}>
             <a href={"/"}>SEO Продвижение.</a>
-          </div>
+          </div> */}
         </footer>
       </div>
     </div>

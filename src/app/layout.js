@@ -14,7 +14,7 @@ const geistMono = Geist_Mono({
 export const metadata = {
   title: "Престол Давида Царство Иисуса Христа",
   description:
-    "Слово, которое видел Исаия, сын Амоса, о Иудее и Иерусалиме. И будет в последние дни, что гора дома Господня утвердится на вершине гор и возвысится над холмами; и все народы потекут к ней. И многие народы пойдут и скажут: идите, взойдем на гору Господню, в дом Бога Иакова; и научит нас путям Своим, и мы будем ходить по путям Его; ибо из Сиона выйдет закон, и слово Господне из Иерусалима.The word that Isaiah the son of Amoz saw concerning Judah and Jerusalem.And it shall come to pass in the last days, that the mountain of the LORD s house shall be established in the top of the mountains, and shall be exalted above the hills; and all nations shall flow unto it. And many people shall go and say, Come ye, and let us go up to the mountain of the LORD, to the house of the God of Jacob; and he will teach us of his ways, and we will walk in his paths: for out of Zion shall go forth the law, and the word of the LORD from Jerusalem.",
+    "Мы проектируем Царство Иисуса Христа. Мы формируем все его составляющие. Мы приглашаем людей с чистым сердцем принять участие в созидании Царства. Οικοδομούμε τη Βασιλεία του Ιησού Χριστού στη γη. Διαμορφώνουμε όλα τα συστατικά της. Προσκαλούμε ανθρώπους με αγνές καρδιές να συμμετάσχουν στην οικοδόμηση της Βασιλείας. We design. the Kingdom of Jesus Christ. We are shaping all its components. We invite people with pure hearts to participate in building the Kingdom.",
 };
 
 export default function RootLayout({ children }) {
