@@ -36,7 +36,7 @@ export default function Questions() {
       answers.q6 === "Да" &&
       answers.q7 === "Да" &&
       answers.q8 === "Да" &&
-      answers.q9 === "Да" &&
+      answers.q9 === "Нет" &&
       answers.q10 === "Да"
     ) {
       // Правильный ответ - переходим на страницу
@@ -243,7 +243,8 @@ export default function Questions() {
               </div>
               <div className={styles.text}>
                 <label>
-                  Вопрос 7. Согласны ли вы что Всевышний и Иисус Одно Лицо?
+                  7. Понимаете-ли вы, что объятые пороками не могут видеть, что
+                  видят те, кто пороками не объяты?
                 </label>
                 <input
                   name="q7"
